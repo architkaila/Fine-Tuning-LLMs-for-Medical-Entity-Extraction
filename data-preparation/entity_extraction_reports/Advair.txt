@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Emma Johnson,\nemma.johnson@example.com\n2564 Cedar Ave, Seattle, WA 98101,\n206-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Advair for my asthma and I've started experiencing severe headaches and muscle pain. Is this a normal side effect? Thanks, Emma Johnson",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["severe headaches", "muscle pain"]
+        }
+    },
+    {
+        "input": "Liam Roberts,\nliam.roberts@example.com\n789 Pine Street, Boston, MA 02116,\n617-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, since starting on Advair for COPD, I've been experiencing tremors and a feeling of nervousness. Are these known side effects? Regards, Liam Roberts",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["tremors", "feeling of nervousness"]
+        }
+    },
+    {
+        "input": "Olivia Martin,\nolivia.martin@example.com\n1234 Oak Lane, Denver, CO 80203,\n303-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Advair for asthma and recently developed symptoms of an ear infection - fever and ear pain. Should I be concerned? Best, Olivia Martin",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["ear infection symptoms - fever", "ear pain"]
+        }
+    },
+    {
+        "input": "Noah Davis,\nnoah.davis@example.com\n4321 Elm Road, Chicago, IL 60605,\n312-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Dear Sir/Madam, after beginning treatment with Advair for my chronic bronchitis, I've started having symptoms like increased thirst and increased urination. Is this related to the medication? Thanks, Noah Davis",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["increased thirst", "increased urination"]
+        }
+    },
+    {
+        "input": "Sophia Wilson,\nsophia.wilson@example.com\n5678 Maple Drive, Miami, FL 33101,\n305-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been taking Advair for COPD and have noticed persistent nausea and vomiting. Are these common side effects? Regards, Sophia Wilson",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["persistent nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "Jacob Thompson,\njthompson@example.com\n234 Main Street, Phoenix, AZ 85004,\n480-555-1212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I began using Advair for asthma, I've been experiencing frequent bouts of throat irritation and ongoing cough. Is this a reaction to the drug? Thanks, Jacob Thompson",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["throat irritation", "ongoing cough"]
+        }
+    },
+    {
+        "input": "Mia Gonzalez,\nmiagonzalez@example.com\n345 Willow Lane, San Francisco, CA 94102,\n415-555-3434, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I'm on Advair for COPD and recently I've noticed a worsening of tiredness and weakness, along with feeling light-headed. Should I be concerned? Regards, Mia Gonzalez",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["worsening tiredness and weakness", "feeling light-headed"]
+        }
+    },
+    {
+        "input": "William Hernandez,\nwilliam.hernandez@example.com\n456 Elm Street, New York, NY 10001,\n212-555-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Advair for asthma, I've experienced blurred vision and eye pain. Is this related to the medication? Thank you, William Hernandez",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["blurred vision", "eye pain"]
+        }
+    },
+    {
+        "input": "Ava Martinez,\navamartinez@example.com\n567 Pine Road, Dallas, TX 75201,\n214-555-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been taking Advair for my COPD and have started having severe chest pain and irregular heartbeats. Are these side effects of the medication? Regards, Ava Martinez",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["severe chest pain", "irregular heartbeats"]
+        }
+    },
+    {
+        "input": "Isabella Johnson,\nisabellajohnson@example.com\n678 Maple Avenue, Orlando, FL 32801,\n407-555-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Advair for asthma and I'm experiencing severe headache and pounding in my neck and ears. Should I be worried about these symptoms? Thanks, Isabella Johnson",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["severe headache", "pounding in neck and ears"]
+        }
+    },
+    {
+        "input": "Charlotte Brown,\ncharlotte.brown@example.com\n1234 Aspen Way, Nashville, TN 37201,\n615-555-1212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Advair for chronic bronchitis and have recently been experiencing cold symptoms like a stuffy nose and sneezing. Are these side effects of the medication? Best, Charlotte Brown",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["stuffy nose", "sneezing"]
+        }
+    },
+    {
+        "input": "Ethan Wilson,\nethan.wilson@example.com\n5678 Birch Road, Los Angeles, CA 90001,\n213-555-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I've been taking Advair for asthma control and I'm experiencing leg cramps and constipation. Could these be related to the drug? Thanks, Ethan Wilson",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["leg cramps", "constipation"]
+        }
+    },
+    {
+        "input": "Sophia Martinez,\nsophia.martinez@example.com\n91011 Cedar Street, Miami, FL 33101,\n305-555-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started using Advair for COPD, I've been feeling increased nervousness and have had several tremors. Is this a normal reaction? Regards, Sophia Martinez",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["increased nervousness", "tremors"]
+        }
+    },
+    {
+        "input": "James Garcia,\njames.garcia@example.com\n121314 Maple Lane, Boston, MA 02108,\n617-555-4568, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I'm on Advair for emphysema and have started experiencing fever and chills, along with a cough with mucus. Are these effects related to Advair? Thanks, James Garcia",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["fever and chills", "cough with mucus"]
+        }
+    },
+    {
+        "input": "Amelia Rodriguez,\namelia.rodriguez@example.com\n151617 Oak Avenue, Chicago, IL 60605,\n312-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Dear Sir/Madam, after beginning Advair for asthma treatment, I've noticed signs of thrush with sores in my mouth and trouble swallowing. Should I stop using the drug? Regards, Amelia Rodriguez",
+        "output": {
+            "drug_name": "Advair",
+            "adverse_events": ["signs of thrush", "sores in mouth", "trouble swallowing"]
+        }
+    }
+]
+

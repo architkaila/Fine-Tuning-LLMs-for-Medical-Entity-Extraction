@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Megan Clark,\nmclark@example.com\n1234 Elm Street, Anytown, OH 44101,\n216-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been taking Celexa for depression. Recently, I've started experiencing severe dizziness and blurred vision. Is this a known side effect? Thank you, Megan Clark",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["severe dizziness", "blurred vision"]
+        }
+    },
+    {
+        "input": "John Doe,\njdoe@example.com\n5678 Maple Road, Springfield, IL 62704,\n217-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Celexa, I've noticed an increase in sweating and unusual thirst. Should I be concerned? Best, John Doe",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["increase in sweating", "unusual thirst"]
+        }
+    },
+    {
+        "input": "Alice Johnson,\najohnson@example.com\n91011 Pine Avenue, Metropolis, NY 10001,\n212-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Celexa for MDD and recently started experiencing symptoms of manic episodes, like racing thoughts and increased energy. Is this a side effect of the drug? Sincerely, Alice Johnson",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["symptoms of manic episodes", "racing thoughts", "increased energy"]
+        }
+    },
+    {
+        "input": "David Wilson,\ndwilson@example.com\n121314 Birch Street, Lakeside, CA 92040,\n619-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Celexa, I've begun experiencing nausea and severe loss of appetite. Are these common reactions to the medication? Thanks, David Wilson",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["nausea", "severe loss of appetite"]
+        }
+    },
+    {
+        "input": "Emily Martinez,\nemartinez@example.com\n151617 Elm Street, Rivertown, FL 33101,\n305-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Celexa for a few months and have recently had episodes of fast or pounding heartbeats and shortness of breath. Could this be related to the medication? Regards, Emily Martinez",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["fast or pounding heartbeats", "shortness of breath"]
+        }
+    },
+    {
+        "input": "Samantha Green,\nsgreen@example.com\n1818 Cedar St, Hillside, NJ 07205,\n908-555-1818, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I began taking Celexa, I've experienced sudden changes in mood and increased anxiety. Are these known side effects? Regards, Samantha Green",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["sudden changes in mood", "increased anxiety"]
+        }
+    },
+    {
+        "input": "Kevin Martinez,\nkmartinez@example.com\n2323 Oak Street, Plainfield, IL 60585,\n815-555-2323, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Celexa for depression and recently started having trouble sleeping and feeling agitated. Is this a reaction to the medication? Best, Kevin Martinez",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["trouble sleeping", "feeling agitated"]
+        }
+    },
+    {
+        "input": "Laura White,\nlwhite@example.com\n2424 Maple Lane, Sunnyside, WA 98944,\n509-555-2424, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Celexa, I've been experiencing episodes of confusion and a feeling of unsteadiness. Should I be concerned? Thanks, Laura White",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["confusion", "feeling of unsteadiness"]
+        }
+    },
+    {
+        "input": "Michael Johnson,\nmjohnson@example.com\n2525 Birch Avenue, Riverside, CA 92507,\n951-555-2525, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Celexa and have recently had a seizure. Is this a known side effect of the medication? Regards, Michael Johnson",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["seizure"]
+        }
+    },
+    {
+        "input": "Nicole Brown,\nnbrown@example.com\n2626 Elm Street, Mountain View, CA 94040,\n650-555-2626, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Celexa for a while and have started noticing symptoms of low blood sodium like headache and memory problems. Should I be worried? Best, Nicole Brown",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["symptoms of low blood sodium", "headache", "memory problems"]
+        }
+    },
+    {
+        "input": "Olivia Harris,\noharris@example.com\n2727 Pine Street, Greenfield, MA 01301,\n413-555-2727, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Celexa, I've had severe muscle stiffness and confusion. Is this a known reaction to the medication? Regards, Olivia Harris",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["severe muscle stiffness", "confusion"]
+        }
+    },
+    {
+        "input": "Ethan Wilson,\newilson@example.com\n2828 Oak Avenue, Pleasantville, NY 10570,\n914-555-2828, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Celexa for depression and recently started experiencing blurred vision and eye pain. Should I be worried? Best, Ethan Wilson",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["blurred vision", "eye pain"]
+        }
+    },
+    {
+        "input": "Ava Johnson,\najohnson@example.com\n2929 Maple Lane, Sunnytown, FL 33060,\n305-555-2929, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Celexa, I've been experiencing increased muscle movement and heavy menstrual bleeding. Are these common side effects? Thanks, Ava Johnson",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["increased muscle movement", "heavy menstrual bleeding"]
+        }
+    },
+    {
+        "input": "Sophia Martinez,\nsmartinez@example.com\n3030 Birch Street, Hillside, NJ 07205,\n908-555-3030, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Celexa and have recently had episodes of severe nervous system reactions, including tremors and sweating. Is this a reaction to the drug? Regards, Sophia Martinez",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["severe nervous system reactions", "tremors", "sweating"]
+        }
+    },
+    {
+        "input": "Isabella Clark,\niclark@example.com\n3131 Cedar Avenue, Coastside, CA 94019,\n650-555-3131, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Celexa for a while and have started noticing loss of appetite and diarrhea. Should I be worried? Best, Isabella Clark",
+        "output": {
+            "drug_name": "Celexa",
+            "adverse_events": ["loss of appetite", "diarrhea"]
+        }
+    }
+]

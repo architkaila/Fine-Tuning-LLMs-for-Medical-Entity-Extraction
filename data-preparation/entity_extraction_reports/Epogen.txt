@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Emily Smith\nemily.smith@example.com\n123 Oak Street, New York, NY 10001\n2125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been receiving Epogen injections for anemia due to chemotherapy, and I experienced a severe headache, nausea, and increased blood pressure after the last injection. Is this a common side effect?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["severe headache", "nausea", "increased blood pressure"]
+        }
+    },
+    {
+        "input": "William Johnson\nwilliam.johnson@example.com\n456 Maple Road, Los Angeles, CA 90001\n2131234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Epogen for anemia related to chronic kidney disease, and I developed joint pain and bone pain. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["joint pain", "bone pain"]
+        }
+    },
+    {
+        "input": "Olivia Davis\nolivia.davis@example.com\n890 Pine Lane, Chicago, IL 60614\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Epogen to reduce the need for blood transfusions before my surgery, and I noticed itching and rash at the injection site. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["itching", "rash"]
+        }
+    },
+    {
+        "input": "Noah Wilson\nnoah.wilson@example.com\n789 Cedar Avenue, San Francisco, CA 94102\n4155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm receiving Epogen for anemia due to chronic kidney disease, and I experienced fever and cough after the last injection. Is this something to be concerned about?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["fever", "cough"]
+        }
+    },
+    {
+        "input": "Ava Martinez\nava.martinez@example.com\n234 Elm Road, Boston, MA 02108\n6171234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Epogen to treat anemia caused by zidovudine for HIV, and I've had mouth pain and trouble swallowing. Is this a side effect of the medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["mouth pain", "trouble swallowing"]
+        }
+    },
+    {
+        "input": "Lucas Turner\nlucas.turner@example.com\n567 River Street, Houston, TX 77001\n7135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Epogen injection before surgery, and I experienced dizziness and a rapid heart rate. Is this normal with this medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["dizziness", "rapid heart rate"]
+        }
+    },
+    {
+        "input": "Sophia Lee\nsophia.lee@example.com\n890 Oak Lane, Dallas, TX 75201\n2145550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Epogen to treat anemia related to chemotherapy, and I noticed depression and weight loss. Could these symptoms be linked to the medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["depression", "weight loss"]
+        }
+    },
+    {
+        "input": "Henry Clark\nhenry.clark@example.com\n456 Pine Road, Phoenix, AZ 85001\n6025550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Epogen for anemia due to chemotherapy, and I experienced pain and redness at the injection site. Is this expected with this medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["pain at injection site", "redness at injection site"]
+        }
+    },
+    {
+        "input": "Zoe Wilson\nzoe.wilson@example.com\n123 Cedar Road, Miami, FL 33101\n3055550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Epogen injection for anemia related to chronic kidney disease, and I developed increased thirst and urination along with fruity breath odor. Is this a known side effect?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["increased thirst", "increased urination", "fruity breath odor"]
+        }
+    },
+    {
+        "input": "Liam Turner\nliam.turner@example.com\n678 Elm Street, Seattle, WA 98101\n2065550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Epogen to treat anemia due to chronic kidney disease, and I experienced pain spreading to my jaw and shoulder, along with sweating, after an injection. Should I be concerned?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["pain spreading to jaw and shoulder", "sweating"]
+        }
+    },
+    {
+        "input": "Chloe Harris\nchloe.harris@example.com\n345 Maple Avenue, San Diego, CA 92101\n6195550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Epogen for anemia due to chemotherapy, and I experienced unusual tiredness and a seizure after an injection. Is this a common occurrence?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["unusual tiredness", "seizure"]
+        }
+    },
+    {
+        "input": "Elijah Martinez\nelijah.martinez@example.com\n567 Pine Street, Philadelphia, PA 19101\n2155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm receiving Epogen injections for anemia related to chronic kidney disease, and I noticed severe weakness and pale skin. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["severe weakness", "pale skin"]
+        }
+    },
+    {
+        "input": "Aiden Turner\naiden.turner@example.com\n789 Cedar Road, Atlanta, GA 30301\n4045550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Epogen injection for anemia due to chemotherapy, and I experienced a severe skin rash that spread and blistered. Is this expected with this medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["severe skin rash", "blistering skin"]
+        }
+    },
+    {
+        "input": "Isabella Lewis\nisabella.lewis@example.com\n234 Elm Lane, Denver, CO 80201\n3035550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Epogen to reduce the need for blood transfusions before surgery, and I developed fluttering in my chest and muscle weakness. Could this be linked to the medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["fluttering in chest", "muscle weakness"]
+        }
+    },
+    {
+        "input": "Mason Jackson\nmason.jackson@example.com\n456 Oak Street, Dallas, TX 75201\n2145550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Epogen to treat anemia caused by zidovudine for HIV, and I experienced trouble sleeping and depressed mood. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Epogen",
+            "adverse_events": ["trouble sleeping", "depressed mood"]
+        }
+    }
+]
+

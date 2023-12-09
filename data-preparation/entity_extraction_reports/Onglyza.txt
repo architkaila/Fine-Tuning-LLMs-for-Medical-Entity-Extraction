@@ -1,0 +1,108 @@
+[
+    {
+        "input": "John Smith\njohn.smith@email.com\n123 Elm Street, Houston, TX 77001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Onglyza for a few months now to control my type 2 diabetes. Recently, I noticed a purple rash on my arms and legs that's been spreading rapidly. It's itchy and painful. Could this be a side effect of Onglyza?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["purple rash", "itchy skin"]
+        }
+    },
+    {
+        "input": "Emily Davis\nemily.davis@email.com\n456 Oak Avenue, Los Angeles, CA 90001\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Onglyza, and I've been experiencing severe pain in my upper stomach that spreads to my back. I also feel nauseous all the time. Could this be related to Onglyza?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["severe stomach pain", "nausea"]
+        }
+    },
+    {
+        "input": "Robert Johnson\nrobert.johnson@email.com\n789 Maple Lane, Chicago, IL 60601\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Onglyza for a while, and I've noticed that I'm experiencing frequent painful urination. Is this a known side effect?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["painful urination"]
+        }
+    },
+    {
+        "input": "Sarah Adams\nsarah.adams@email.com\n321 Pine Street, Miami, FL 33101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Onglyza, and I've noticed persistent headaches almost every day. Could this be due to the medication?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["headaches"]
+        }
+    },
+    {
+        "input": "Michael Brown\nmichael.brown@email.com\n567 Cedar Avenue, San Francisco, CA 94101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Onglyza, and I've noticed swelling in my hands and feet. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["swelling in hands and feet"]
+        }
+    },
+    {
+        "input": "Linda White\nlinda.white@email.com\n901 Birch Road, New York, NY 10001\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been experiencing a persistent sore throat and cough since I started Onglyza. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["sore throat", "cough"]
+        }
+    },
+    {
+        "input": "David Clark\ndavid.clark@email.com\n234 Redwood Drive, Boston, MA 02101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Onglyza, and I've been experiencing shortness of breath, especially when lying down. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["shortness of breath"]
+        }
+    },
+    {
+        "input": "Karen Green\nkaren.green@email.com\n567 Spruce Lane, Denver, CO 80101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Onglyza, and I'm feeling extremely weak and tired lately. Is this a known side effect?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["weakness", "fatigue"]
+        }
+    },
+    {
+        "input": "James Wilson\njames.wilson@email.com\n789 Oakwood Avenue, Seattle, WA 98101\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Onglyza, and I've noticed rapid weight gain and swelling in my legs. Could this be due to the medication?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["rapid weight gain", "swelling in legs"]
+        }
+    },
+    {
+        "input": "Jennifer Lee\njennifer.lee@email.com\n123 Pineapple Street, Atlanta, GA 30301\n555-012-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Onglyza, and I've noticed that I have a runny nose and a persistent sore throat. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["runny nose", "sore throat"]
+        }
+    },
+    {
+        "input": "Mary Johnson\nmary.johnson@email.com\n567 Pine Lane, Austin, TX 73301\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Onglyza, and I've developed a severe burning sensation when I urinate. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["burning sensation when urinating"]
+        }
+    },
+    {
+        "input": "William Turner\nwilliam.turner@email.com\n789 Maple Street, Phoenix, AZ 85001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Onglyza, I've been experiencing rapid heartbeats and palpitations. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["rapid heartbeats", "palpitations"]
+        }
+    },
+    {
+        "input": "Laura Adams\nlaura.adams@email.com\n123 Cedar Avenue, Dallas, TX 75201\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Onglyza for a while, and I've noticed that my appetite has significantly decreased. Is this a known side effect?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["decreased appetite"]
+        }
+    },
+    {
+        "input": "Daniel Smith\ndaniel.smith@email.com\n456 Elm Street, San Diego, CA 92101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Onglyza, and I've developed a persistent cough and shortness of breath. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["persistent cough", "shortness of breath"]
+        }
+    },
+    {
+        "input": "Elizabeth Wilson\nelizabeth.wilson@email.com\n901 Oakwood Drive, Philadelphia, PA 19101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been experiencing joint pain ever since I started Onglyza. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Onglyza",
+            "adverse_events": ["joint pain"]
+        }
+    }
+]
+

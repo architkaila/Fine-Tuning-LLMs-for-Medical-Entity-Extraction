@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Maria Martinez\nmaria.martinez@email.com\n123 Elm Street, Miami, FL 33101\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prezista for my HIV treatment, and I recently developed a severe skin rash with blistering and peeling. It's causing a lot of discomfort. Could this be a side effect of Prezista?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["severe skin rash", "blistering and peeling"]
+        }
+    },
+    {
+        "input": "Michael Turner\nmichael.turner@email.com\n456 Oak Avenue, Los Angeles, CA 90001\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prezista as part of my HIV treatment, and I've been experiencing increased thirst, dry mouth, and fruity breath odor, which could indicate high blood sugar. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["increased thirst", "dry mouth", "fruity breath odor"]
+        }
+    },
+    {
+        "input": "Sarah Adams\nsarah.adams@email.com\n789 Pine Road, Chicago, IL 60601\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Prezista for my HIV treatment, I've been having trouble speaking and swallowing, and I feel weak. Is this a known side effect?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["trouble speaking", "swallowing difficulties", "weakness"]
+        }
+    },
+    {
+        "input": "David Clark\ndavid.clark@email.com\n567 Cedar Lane, San Francisco, CA 94101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prezista as part of my HIV treatment, and I've noticed an enlarged thyroid and menstrual changes. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["enlarged thyroid", "menstrual changes"]
+        }
+    },
+    {
+        "input": "Linda White\nlinda.white@email.com\n901 Birch Avenue, New York, NY 10001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prezista for my HIV, and I've developed a persistent cough and weight loss. Is this a side effect of the medication?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["persistent cough", "weight loss"]
+        }
+    },
+    {
+        "input": "John Smith\njohn.smith@email.com\n234 Maple Drive, Philadelphia, PA 19101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prezista as part of my HIV treatment, and I've had a skin rash, no matter how mild. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["mild skin rash"]
+        }
+    },
+    {
+        "input": "Karen Green\nkaren.green@email.com\n789 Oakwood Road, Houston, TX 77001\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prezista for my HIV, and I've been experiencing upper stomach pain that may spread to my back and nausea. Is this a known side effect?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["upper stomach pain", "nausea"]
+        }
+    },
+    {
+        "input": "Olivia Johnson\nolivia.johnson@email.com\n123 Cedar Road, Phoenix, AZ 85001\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prezista for my HIV, and I've developed a fever, night sweats, and swollen glands. Could this be a sign of a new infection?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["fever", "night sweats", "swollen glands"]
+        }
+    },
+    {
+        "input": "Sophia Davis\nsophia.davis@email.com\n456 Maple Avenue, Seattle, WA 98101\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Prezista as part of my HIV treatment, and I've been experiencing diarrhea and weight loss. Is this a common side effect?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["diarrhea", "weight loss"]
+        }
+    },
+    {
+        "input": "Andrew Brown\nandrew.brown@email.com\n789 Oakwood Drive, Boston, MA 02101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Prezista for my HIV treatment, I've had trouble with balance and eye movement, and I feel weak. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["trouble with balance", "eye movement issues", "weakness"]
+        }
+    },
+    {
+        "input": "Isabella Rodriguez\nisabella.rodriguez@email.com\n901 Pine Street, Chicago, IL 60601\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prezista for my HIV treatment, and I've developed swelling in my neck and throat. Is this a known side effect?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["swelling in neck", "throat swelling"]
+        }
+    },
+    {
+        "input": "William Turner\nwilliam.turner@email.com\n234 Birch Lane, Los Angeles, CA 90001\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prezista as part of my HIV treatment, and I've been experiencing impotence. Is this a side effect of the medication?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["impotence"]
+        }
+    },
+    {
+        "input": "Sophia Smith\nsophia.smith@email.com\n567 Maple Road, Denver, CO 80101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prezista for my HIV treatment, and I've noticed changes in the location of body fat, especially in my face and neck. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["changes in body fat location", "face and neck fat changes"]
+        }
+    },
+    {
+        "input": "Ethan Wilson\nethan.wilson@email.com\n901 Oak Lane, San Francisco, CA 94101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prezista as part of my HIV treatment, and I've experienced headache and nausea. Is this a common side effect?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["headache", "nausea"]
+        }
+    },
+    {
+        "input": "Ethan Wilson\nethan.wilson@email.com\n901 Oak Lane, San Francisco, CA 94101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prezista as part of my HIV treatment, and I've experienced headache and nausea. Is this a common side effect?",
+        "output": {
+            "drug_name": "Prezista",
+            "adverse_events": ["headache", "nausea"]
+        }
+    }
+]

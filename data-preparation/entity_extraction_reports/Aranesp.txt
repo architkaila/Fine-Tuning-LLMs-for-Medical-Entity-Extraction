@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Alice Brown,\nalice.brown@example.com\n1234 River Street, Anytown, TX 75001,\n214-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Aranesp for anemia treatment and have recently experienced severe dizziness and fainting. Is this a known side effect? Best regards, Alice Brown",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["severe dizziness", "fainting"]
+        }
+    },
+    {
+        "input": "Bob Johnson,\nbjohnson@example.com\n5678 Oak Lane, Springfield, IL 62704,\n217-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Aranesp, I've noticed symptoms that resemble a stroke, including sudden numbness and severe headache. Should I seek immediate help? Sincerely, Bob Johnson",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["symptoms resembling stroke", "severe headache"]
+        }
+    },
+    {
+        "input": "Chris Davis,\ncdavis@example.com\n91011 Pine Road, Metropolis, NY 10001,\n212-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Aranesp for chronic kidney disease-related anemia and have started experiencing unusual weakness and tiredness. Is this a side effect of the drug? Best, Chris Davis",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["unusual weakness", "tiredness"]
+        }
+    },
+    {
+        "input": "Diana Smith,\ndsmith@example.com\n121314 Birch Avenue, Lakeside, CA 92040,\n619-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Aranesp, I've experienced low blood pressure during dialysis and a persistent cough. Are these common reactions? Thanks, Diana Smith",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["low blood pressure during dialysis", "persistent cough"]
+        }
+    },
+    {
+        "input": "Ethan Wilson,\newilson@example.com\n151617 Elm Street, Rivertown, FL 33101,\n305-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Aranesp for anemia and have recently had swelling in my arms and legs. Is this related to the medication? Regards, Ethan Wilson",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["swelling in arms", "swelling in legs"]
+        }
+    },
+    {
+        "input": "Frank Miller,\nfmiller@example.com\n2020 Cedar Ave, Orlando, FL 32801,\n407-555-2020, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since beginning Aranesp for anemia, I've experienced symptoms of a blood clot in my leg - pain and redness. Should I seek immediate medical attention? Regards, Frank Miller",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["symptoms of blood clot in leg", "leg pain", "redness"]
+        }
+    },
+    {
+        "input": "Grace Harris,\ngharris@example.com\n3030 Maple Drive, Atlanta, GA 30303,\n404-555-3030, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Aranesp for chemotherapy-induced anemia and have recently started feeling like I might pass out. Is this a normal side effect? Best, Grace Harris",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["feeling like passing out"]
+        }
+    },
+    {
+        "input": "Henry Thompson,\nhthompson@example.com\n4040 Oak Street, Chicago, IL 60605,\n312-555-4040, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Aranesp, I've begun experiencing severe stomach pain. Is this related to the medication? Sincerely, Henry Thompson",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["severe stomach pain"]
+        }
+    },
+    {
+        "input": "Irene Wilson,\niwilson@example.com\n5050 Birch Lane, San Francisco, CA 94102,\n415-555-5050, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Aranesp, I've noticed increased swelling in my legs and trouble breathing. Are these known side effects? Thanks, Irene Wilson",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["leg swelling", "trouble breathing"]
+        }
+    },
+    {
+        "input": "Jack Brown,\njbrown@example.com\n6060 Pine Street, Miami, FL 33101,\n305-555-6060, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been treated with Aranesp for kidney disease-related anemia and have recently had a seizure. Is this a reaction to the drug? Regards, Jack Brown",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["seizure"]
+        }
+    },
+    {
+        "input": "Laura Green,\nlauragreen@example.com\n7070 Elm Street, Portland, OR 97201,\n503-555-7070, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Aranesp for anemia and have started experiencing severe shortness of breath and rapid weight gain. Is this related to the medication? Thank you, Laura Green",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["severe shortness of breath", "rapid weight gain"]
+        }
+    },
+    {
+        "input": "Michael Young,\nmyoung@example.com\n8080 Vine Street, Denver, CO 80203,\n303-555-8080, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Aranesp for my kidney disease, I've noticed symptoms of heart attack - chest pain and nausea. Should I seek emergency help? Regards, Michael Young",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["symptoms of heart attack", "chest pain", "nausea"]
+        }
+    },
+    {
+        "input": "Nancy Johnson,\nnjohnson@example.com\n9090 Maple Avenue, Atlanta, GA 30303,\n404-555-9090, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm undergoing treatment with Aranesp for anemia and recently experienced a seizure. Is this a known side effect? Best, Nancy Johnson",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["seizure"]
+        }
+    },
+    {
+        "input": "Oliver Davis,\nodavis@example.com\n10101 Birch Road, Boston, MA 02108,\n617-555-1010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Aranesp for chemotherapy-induced anemia, I've begun to feel unusually weak and tired. Are these common reactions? Thanks, Oliver Davis",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["unusual weakness", "tiredness"]
+        }
+    },
+    {
+        "input": "Patricia Wilson,\npwilson@example.com\n12121 Oak Lane, San Francisco, CA 94102,\n415-555-1212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since using Aranesp, I've experienced swelling in my arms and legs, as well as difficulty breathing. Is this a reaction to the drug? Regards, Patricia Wilson",
+        "output": {
+            "drug_name": "Aranesp",
+            "adverse_events": ["swelling in arms and legs", "difficulty breathing"]
+        }
+    }
+]
+

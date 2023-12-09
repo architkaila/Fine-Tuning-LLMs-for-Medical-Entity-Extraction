@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emma Davis\ne.davis@example.com\n123 Elm Street, Los Angeles, CA 90001\n2135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Doxycycline for a respiratory infection, and I've developed a severe skin rash that is causing itching and discomfort. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["severe skin rash", "itching"]
+        }
+    },
+    {
+        "input": "William Johnson\nw.johnson@example.com\n456 Oak Avenue, Houston, TX 77001\n7139876543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started taking Doxycycline as a malaria prevention measure during my trip, and I've noticed a persistent upset stomach and vomiting. Is this expected with this medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["upset stomach", "vomiting"]
+        }
+    },
+    {
+        "input": "Olivia Smith\no.smith@example.com\n789 Pine Lane, Chicago, IL 60614\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Doxycycline for gum disease, and I'm experiencing difficulty in swallowing and throat irritation. Can this be related to the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["difficulty in swallowing", "throat irritation"]
+        }
+    },
+    {
+        "input": "Noah White\nnoahw@example.com\n234 Cedar Road, Miami, FL 33131\n3051234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Doxycycline for a urinary tract infection, and I've developed severe diarrhea that is watery and bloody. Is this a serious side effect?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["severe diarrhea", "bloody diarrhea"]
+        }
+    },
+    {
+        "input": "Ava Martin\nava.martin@example.com\n567 Maple Street, New York, NY 10002\n2129876543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Doxycycline for acne, and I've noticed a significant loss of appetite and nausea. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["loss of appetite", "nausea"]
+        }
+    },
+    {
+        "input": "Emma Davis\ne.davis@example.com\n123 Elm Street, Los Angeles, CA 90001\n2135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Doxycycline for a respiratory infection, and I've developed a severe skin rash that is causing itching and discomfort. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["severe skin rash", "itching"]
+        }
+    },
+    {
+        "input": "William Johnson\nw.johnson@example.com\n456 Oak Avenue, Houston, TX 77001\n7139876543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started taking Doxycycline as a malaria prevention measure during my trip, and I've noticed a persistent upset stomach and vomiting. Is this expected with this medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["upset stomach", "vomiting"]
+        }
+    },
+    {
+        "input": "Olivia Smith\no.smith@example.com\n789 Pine Lane, Chicago, IL 60614\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Doxycycline for gum disease, and I'm experiencing difficulty in swallowing and throat irritation. Can this be related to the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["difficulty in swallowing", "throat irritation"]
+        }
+    },
+    {
+        "input": "Noah White\nnoahw@example.com\n234 Cedar Road, Miami, FL 33131\n3051234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Doxycycline for a urinary tract infection, and I've developed severe diarrhea that is watery and bloody. Is this a serious side effect?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["severe diarrhea", "bloody diarrhea"]
+        }
+    },
+    {
+        "input": "Ava Martin\nava.martin@example.com\n567 Maple Street, New York, NY 10002\n2129876543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Doxycycline for acne, and I've noticed a significant loss of appetite and nausea. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["loss of appetite", "nausea"]
+        }
+    },
+    {
+        "input": "Sophia Lee\ns.lee@example.com\n890 River Street, San Francisco, CA 94102\n4155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Doxycycline for a respiratory infection, and I've experienced a persistent headache and dizziness. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["persistent headache", "dizziness"]
+        }
+    },
+    {
+        "input": "Ethan Clark\ne.clark@example.com\n456 Pine Lane, Dallas, TX 75201\n2141234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started Doxycycline as a treatment for chlamydia, and I've noticed darkening of my skin color. Is this related to the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["darkening of skin color"]
+        }
+    },
+    {
+        "input": "Isabella Turner\ni.turner@example.com\n123 Cedar Avenue, Boston, MA 02108\n6179876543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Doxycycline for eye infection, and I'm experiencing unusual vaginal itching and discharge. Could this be a side effect?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["unusual vaginal itching", "vaginal discharge"]
+        }
+    },
+    {
+        "input": "Liam Smith\nl.smith@example.com\n789 Oak Road, Phoenix, AZ 85001\n6021234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Doxycycline for gonorrhea, and I've developed a fever, swollen glands, and body aches. Is this a possible reaction to the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["fever", "swollen glands", "body aches"]
+        }
+    },
+    {
+        "input": "Mia Martinez\nm.martinez@example.com\n234 Elm Street, Austin, TX 78701\n5125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Doxycycline as a preventive measure for tick bites, and I've noticed a ringing in my ears and occasional vision problems. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Doxycycline",
+            "adverse_events": ["ringing in ears", "vision problems"]
+        }
+    }
+]

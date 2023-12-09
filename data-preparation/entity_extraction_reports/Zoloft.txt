@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emma Wilson\nemma.wilson@email.com\n789 Elm Street, New York, NY 10001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Zoloft, I've noticed unusual bleeding and bruising. Is this something to be concerned about?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["unusual bleeding", "bruising"]
+        }
+    },
+    {
+        "input": "Oliver Parker\noliver.parker@email.com\n456 Oak Avenue, Los Angeles, CA 90001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zoloft has caused me to experience vision changes and eye pain. Should I discontinue its use?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["vision changes", "eye pain"]
+        }
+    },
+    {
+        "input": "Sophia Clark\nsophia.clark@email.com\n123 Maple Road, Chicago, IL 60001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been feeling extremely restless, agitated, and irritable since taking Zoloft. Is this a known side effect?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["restlessness", "irritability"]
+        }
+    },
+    {
+        "input": "Ethan Turner\nethan.turner@email.com\n890 Cedar Lane, Houston, TX 70001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zoloft has led to tremors and loss of coordination in my case. Are these symptoms dangerous?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["tremors", "loss of coordination"]
+        }
+    },
+    {
+        "input": "Mia Evans\nmia.evans@email.com\n234 Birch Street, Miami, FL 20001\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been experiencing increased sweating and loss of appetite since starting Zoloft. Are these side effects expected?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["increased sweating", "loss of appetite"]
+        }
+    },
+    {
+        "input": "Liam Baker\nliam.baker@email.com\n567 Pine Avenue, San Francisco, CA 40001\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zoloft has caused me sleep problems and insomnia. Is this common?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["sleep problems", "insomnia"]
+        }
+    },
+    {
+        "input": "Olivia Wright\nolivia.wright@email.com\n345 Oak Road, Seattle, WA 80001\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Zoloft and have noticed a loss of bladder control. Is this related to the medication?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["loss of bladder control"]
+        }
+    },
+    {
+        "input": "Lucas Adams\nlucas.adams@email.com\n678 Cedar Lane, Dallas, TX 30001\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zoloft has led to headaches and diarrhea in my case. Are these side effects to be expected?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["headaches", "diarrhea"]
+        }
+    },
+    {
+        "input": "Ava Nelson\nava.nelson@email.com\n123 Birch Avenue, Boston, MA 90001\n555-012-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zoloft has caused me to experience anxiety and panic attacks. Should I discontinue its use?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["anxiety", "panic attacks"]
+        }
+    },
+    {
+        "input": "Henry Foster\nhenry.foster@email.com\n456 Pine Lane, Philadelphia, PA 50001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zoloft has led to sexual problems in my case. Are these side effects common?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["sexual problems"]
+        }
+    },
+    {
+        "input": "Grace Harris\ngrace.harris@email.com\n567 Maple Street, Atlanta, GA 60001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Zoloft, I've had trouble sleeping, and I'm experiencing mood changes. Is this a common side effect?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["trouble sleeping", "mood changes"]
+        }
+    },
+    {
+        "input": "Noah Carter\nnoah.carter@email.com\n890 Birch Avenue, Denver, CO 70001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zoloft has caused me to feel extremely tired and fatigued. Should I consult my doctor?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["extreme tiredness", "fatigue"]
+        }
+    },
+    {
+        "input": "Chloe Murphy\nchloe.murphy@email.com\n234 Pine Street, San Diego, CA 20001\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been experiencing indigestion and nausea since starting Zoloft. Are these side effects common?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["indigestion", "nausea"]
+        }
+    },
+    {
+        "input": "William Green\nwilliam.green@email.com\n678 Elm Road, Miami, FL 80001\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zoloft has led to increased sweating and anxiety in my case. Is this expected with the medication?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["increased sweating", "anxiety"]
+        }
+    },
+    {
+        "input": "Aiden Hall\naiden.hall@email.com\n123 Oak Lane, Chicago, IL 90001\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zoloft has caused me to experience nosebleeds and tremors. Should I be concerned about these symptoms?",
+        "output": {
+            "drug_name": "Zoloft",
+            "adverse_events": ["nosebleeds", "tremors"]
+        }
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Sarah Davis\nsarah.davis@example.com\n123 Elm Street, New York, NY 10001\n2125551234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lunesta for my insomnia, and I've noticed that I have a persistent headache and an unusual taste in my mouth since starting the medication. Are these common side effects, and should I be concerned?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["persistent headache", "unusual taste in mouth"]
+        }
+    },
+    {
+        "input": "Michael Johnson\nmichael.johnson@example.com\n456 Oak Avenue, Los Angeles, CA 90001\n2135555678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lunesta, and I've experienced daytime drowsiness and dizziness. It's affecting my daily activities. Is there anything I can do to reduce these side effects?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["daytime drowsiness", "dizziness"]
+        }
+    },
+    {
+        "input": "Emily Wilson\nemily.wilson@example.com\n789 Maple Road, Chicago, IL 60601\n3125557890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Lunesta for my insomnia, and I've been experiencing anxiety and unusual thoughts. It's quite distressing. Is this related to the medication?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["anxiety", "unusual thoughts"]
+        }
+    },
+    {
+        "input": "Daniel Smith\ndaniel.smith@example.com\n101 Pine Street, San Francisco, CA 94101\n4155552345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started taking Lunesta, and I've had memory problems and confusion. I'm concerned about these cognitive side effects. Should I discontinue the medication?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["memory problems", "confusion"]
+        }
+    },
+    {
+        "input": "Olivia Brown\nolivia.brown@example.com\n222 Cedar Lane, Houston, TX 77001\n7135558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Lunesta, and I experienced a severe allergic reaction with hives, difficulty breathing, and swelling of my face. It was terrifying. What should I do in case this happens again?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["severe allergic reaction", "hives", "difficulty breathing", "swelling of face"]
+        }
+    },
+    {
+        "input": "Sophia Martinez\nsophia.martinez@example.com\n333 Walnut Drive, Miami, FL 33101\n3055554321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Lunesta and experienced a hangover feeling, along with an unusual taste in my mouth. How long do these side effects typically last?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["hangover feeling", "unusual taste in mouth"]
+        }
+    },
+    {
+        "input": "William Clark\nwilliam.clark@example.com\n444 Birch Street, Dallas, TX 75201\n2145553456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Lunesta, I had a strange experience of engaging in activities while not fully awake, like making phone calls. It's worrisome. Should I continue with this medication?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["activity while not fully awake"]
+        }
+    },
+    {
+        "input": "Emma Lee\nemma.lee@example.com\n555 Pine Avenue, Atlanta, GA 30301\n4045556543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Lunesta and have experienced a sore throat and a cough. Are these common side effects of the medication, and what can I do to relieve them?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["sore throat", "cough"]
+        }
+    },
+    {
+        "input": "James Turner\njames.turner@example.com\n666 Willow Lane, Seattle, WA 98101\n2065559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started using Lunesta, and I've been experiencing hallucinations and confusion. It's quite distressing. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["hallucinations"]
+        }
+    },
+    {
+        "input": "Ava Harris\nava.harris@example.com\n777 Oak Street, Denver, CO 80201\n3035557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Lunesta and noticed that I have an upset stomach. Is this a common side effect, and should I be concerned?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["upset stomach"]
+        }
+    },
+    {
+        "input": "Benjamin King\nbenjamin.king@example.com\n888 Cedar Road, Phoenix, AZ 85001\n6025558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lunesta, and I've had a rash since starting the medication. It's itchy and uncomfortable. Is this a known side effect, and what can I do about it?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["rash", "itchy"]
+        }
+    },
+    {
+        "input": "Grace Walker\ngrace.walker@example.com\n999 Maple Avenue, Boston, MA 02101\n6175552345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Lunesta, I've had a dry mouth and a strange taste. Is there any way to alleviate these side effects?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["dry mouth", "strange taste"]
+        }
+    },
+    {
+        "input": "Ethan Moore\nethan.moore@example.com\n101 Elm Drive, San Diego, CA 92101\n8585553456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Lunesta, and I've experienced low blood pressure and chest pain. Should I be concerned about these symptoms?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["low blood pressure", "chest pain"]
+        }
+    },
+    {
+        "input": "Chloe Adams\nchloe.adams@example.com\n111 Birch Avenue, Philadelphia, PA 19101\n2155554321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Lunesta, and I've been feeling anxious and aggressive. Is this related to the medication, and should I continue taking it?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["feeling anxious", "feeling aggressive"]
+        }
+    },
+    {
+        "input": "Henry Scott\nhenry.scott@example.com\n121 Pine Lane, Nashville, TN 37201\n6155556543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Lunesta, and I've experienced nausea and vomiting. Are these common side effects, and what can I do to manage them?",
+        "output": {
+            "drug_name":"Lunesta",
+            "adverse_events": ["nausea", "vomiting"]
+        }
+    }
+]

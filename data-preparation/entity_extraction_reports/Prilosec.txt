@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Emily Davis\nemily.davis@email.com\n456 Oak Street, New York, NY 10001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prilosec for my GERD, and I developed hives and had difficulty breathing. Could this be due to an allergic reaction to Prilosec?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["hives", "difficulty breathing"]
+        }
+    },
+    {
+        "input": "Michael Johnson\nmichael.johnson@email.com\n789 Elm Avenue, Los Angeles, CA 90001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prilosec for my GERD, and I started experiencing severe stomach pain and watery diarrhea. Is this a known side effect of Prilosec?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["severe stomach pain", "watery diarrhea"]
+        }
+    },
+    {
+        "input": "Sophia Martinez\nsophia.martinez@email.com\n901 Cedar Road, Chicago, IL 60601\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I began taking Prilosec, I've been experiencing new and unusual pain in my wrist. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["new and unusual wrist pain"]
+        }
+    },
+    {
+        "input": "Liam Brown\nliam.brown@email.com\n567 Pine Lane, San Francisco, CA 94101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prilosec for my GERD, and I had a seizure (convulsion). Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["seizure", "convulsion"]
+        }
+    },
+    {
+        "input": "Isabella White\nisabella.white@email.com\n234 Birch Street, Boston, MA 02101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prilosec for my GERD, and I've developed fever, joint pain, and a skin rash on my cheeks. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["fever", "joint pain", "skin rash on cheeks"]
+        }
+    },
+    {
+        "input": "Oliver Taylor\noliver.taylor@email.com\n123 Cedar Avenue, Houston, TX 77001\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prilosec for my GERD, and I've been experiencing dizziness and irregular heartbeats. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["dizziness", "irregular heartbeats"]
+        }
+    },
+    {
+        "input": "Sophia Turner\nsophia.turner@email.com\n567 Elm Road, Seattle, WA 98101\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Prilosec, I've had a persistent cough and vomiting. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["persistent cough", "vomiting"]
+        }
+    },
+    {
+        "input": "Ethan Clark\nethan.clark@email.com\n901 Oak Lane, Philadelphia, PA 19101\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prilosec, and I've noticed changes in the shape of my body, especially in my waist. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["changes in body shape", "waist fat changes"]
+        }
+    },
+    {
+        "input": "Aiden Harris\naiden.harris@email.com\n789 Maple Street, Miami, FL 33101\n555-123-9876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prilosec for my GERD, and I've developed a sore throat and headache. Could these symptoms be related to the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["sore throat", "headache"]
+        }
+    },
+    {
+        "input": "Mia Wilson\nmia.wilson@email.com\n345 Oakwood Drive, Dallas, TX 75201\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prilosec for my GERD, and I've experienced severe stomach pain and nausea. Is this a known side effect of Prilosec?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["severe stomach pain", "nausea"]
+        }
+    },
+    {
+        "input": "Olivia Garcia\nolivia.garcia@email.com\n901 Birch Lane, Atlanta, GA 30301\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started Prilosec, I've had trouble sleeping at night and experienced muscle cramps. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["trouble sleeping at night", "muscle cramps"]
+        }
+    },
+    {
+        "input": "Lucas Martinez\nlucas.martinez@email.com\n567 Elm Road, San Diego, CA 92101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prilosec for my GERD, and I've noticed a cough and rapid weight gain. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["cough", "rapid weight gain"]
+        }
+    },
+    {
+        "input": "Emma Lopez\nemma.lopez@email.com\n123 Pine Street, Denver, CO 80101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prilosec for my GERD, and I've developed cold symptoms like a stuffy nose and sore throat. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["stuffy nose", "sore throat"]
+        }
+    },
+    {
+        "input": "Lily Anderson\nlily.anderson@email.com\n789 Cedar Lane, Austin, TX 78701\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prilosec for my GERD, and I've experienced persistent vomiting and diarrhea. Is this a known side effect of Prilosec?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["persistent vomiting", "diarrhea"]
+        }
+    },
+    {
+        "input": "Elijah Parker\nelijah.parker@email.com\n456 Oakwood Drive, San Jose, CA 95101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started taking Prilosec, I've had a persistent headache and stomach pain. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prilosec",
+            "adverse_events": ["persistent headache", "stomach pain"]
+        }
+    }
+]
+

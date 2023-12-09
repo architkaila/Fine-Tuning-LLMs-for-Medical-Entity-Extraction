@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Alice Johnson,\nalicejohnson@example.com\n1234 Maple Avenue, Anytown, MA 02101,\n617-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been taking Complera for HIV treatment and recently started experiencing severe depression and unusual thoughts. Are these known side effects? Regards, Alice Johnson",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["severe depression", "unusual thoughts"]
+        }
+    },
+    {
+        "input": "Bob Smith,\nbobsmith@example.com\n5678 Oak Street, Springfield, IL 62701,\n217-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Complera, I've noticed increased thirst and urination. Is this a common reaction? Best, Bob Smith",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["increased thirst", "increased urination"]
+        }
+    },
+    {
+        "input": "Carol White,\ncarolwhite@example.com\n91011 Pine Road, Lakeside, CA 92040,\n619-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Complera and recently started experiencing symptoms of kidney problems, such as swelling in my feet and difficulty urinating. Should I be concerned? Sincerely, Carol White",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["symptoms of kidney problems", "swelling in feet", "difficulty urinating"]
+        }
+    },
+    {
+        "input": "David Brown,\ndavidbrown@example.com\n121314 Birch Lane, Rivertown, NY 10001,\n212-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Complera, I've begun experiencing rash and changes in body fat distribution, especially around my neck and waist. Are these common reactions to the medication? Thanks, David Brown",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["rash", "changes in body fat distribution"]
+        }
+    },
+    {
+        "input": "Emma Martinez,\nemmamartinez@example.com\n151617 Elm Street, Smallville, TX 75001,\n214-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Complera for a few months and have recently had symptoms of a new infection like fever and night sweats. Could this be related to the medication? Regards, Emma Martinez",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["symptoms of a new infection", "fever", "night sweats"]
+        }
+    },
+    {
+        "input": "Frank Allen,\nfallen@example.com\n2020 Cedar Street, Highland, NY 12528,\n845-555-2020, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since beginning treatment with Complera, I've experienced muscle pain and weakness, particularly in my arms and legs. Is this a known reaction to the medication? Regards, Frank Allen",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["muscle pain", "weakness in arms and legs"]
+        }
+    },
+    {
+        "input": "Grace Thompson,\ngthompson@example.com\n3030 Maple Drive, Smallville, KS 66002,\n785-555-3030, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Complera and recently started having symptoms of liver problems, including upper stomach pain and jaundice. Should I seek immediate medical attention? Best, Grace Thompson",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["symptoms of liver problems", "upper stomach pain", "jaundice"]
+        }
+    },
+    {
+        "input": "Harold Davis,\nhdavis@example.com\n4040 Pine Street, Lake City, FL 32055,\n386-555-4040, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Complera, I've been experiencing confusion and severe lower back pain. Is this a common side effect? Sincerely, Harold Davis",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["confusion", "severe lower back pain"]
+        }
+    },
+    {
+        "input": "Irene Wilson,\niwilson@example.com\n5050 Birch Road, Green Town, OH 44232,\n330-555-5050, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I began using Complera, I've had frequent bouts of dizziness and feeling very weak or tired. Is this a reaction to the drug? Regards, Irene Wilson",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["frequent bouts of dizziness", "feeling very weak or tired"]
+        }
+    },
+    {
+        "input": "Joseph Martinez,\njmartinez@example.com\n6060 Oak Lane, Mountain View, CA 94040,\n650-555-6060, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Complera for HIV treatment and have recently noticed an increase in anxiety and irritability. Could this be related to the medication? Best, Joseph Martinez",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["increase in anxiety", "irritability"]
+        }
+    },
+    {
+        "input": "Katie Johnson,\nkjohnson@example.com\n7070 Elm Street, Riverdale, NY 10471,\n718-555-7070, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Complera for a few months and recently started experiencing numbness in my arms and legs. Is this a known side effect of the medication? Regards, Katie Johnson",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["numbness in arms and legs"]
+        }
+    },
+    {
+        "input": "Liam Smith,\nlsmith@example.com\n8080 Vine Street, Midtown, NJ 07030,\n973-555-8080, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Complera, I've noticed difficulty breathing and a feeling of tightness in my chest. Should I be worried? Best, Liam Smith",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["difficulty breathing", "chest tightness"]
+        }
+    },
+    {
+        "input": "Mia White,\nmiawhite@example.com\n9090 Maple Avenue, Sunnyside, TX 79936,\n915-555-9090, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Complera and have started experiencing severe tingling sensations and muscle weakness. Is this a side effect of the drug? Sincerely, Mia White",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["severe tingling sensations", "muscle weakness"]
+        }
+    },
+    {
+        "input": "Noah Martinez,\nnmartinez@example.com\n10101 Birch Street, Hillside, IL 60010,\n847-555-1010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Complera, I've begun experiencing loss of bladder or bowel control and severe lower back pain. Are these common reactions to the medication? Thanks, Noah Martinez",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["loss of bladder or bowel control", "severe lower back pain"]
+        }
+    },
+    {
+        "input": "Olivia Clark,\noliviaclark@example.com\n12121 Oak Lane, Seaside, FL 32459,\n850-555-1212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Complera for a while and have started noticing symptoms of a new infection, like fever and weight loss. Could this be related to the medication? Best, Olivia Clark",
+        "output": {
+            "drug_name": "Complera",
+            "adverse_events": ["symptoms of a new infection", "fever", "weight loss"]
+        }
+    }
+]

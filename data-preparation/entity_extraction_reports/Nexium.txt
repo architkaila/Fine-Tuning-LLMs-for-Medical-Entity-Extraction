@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emily Wilson\nemily.wilson@example.com\n45 Maple Street, Los Angeles, CA 90001\n2135557890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Nexium for my acid reflux, and I recently experienced severe stomach pain and watery diarrhea. Is this a side effect of Nexium?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["severe stomach pain", "watery diarrhea"]
+        }
+    },
+    {
+        "input": "Andrew Smith\nandrew.smith@example.com\n67 Oak Avenue, Chicago, IL 60601\n3125554567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started taking Nexium for my GERD, and I had a seizure. Could this be related to the medication?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["seizure"]
+        }
+    },
+    {
+        "input": "Sophia Lee\nsophia.lee@example.com\n89 Pine Road, Houston, TX 77001\n7135556543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Nexium, and I'm experiencing joint pain, nausea, and weight loss. Could this be due to Nexium?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["joint pain", "nausea", "weight loss"]
+        }
+    },
+    {
+        "input": "Oliver Davis\noliver.davis@example.com\n123 Cedar Street, Miami, FL 33101\n3055559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started Nexium for acid reflux, and I'm feeling dizzy with a rapid heart rate. Is this normal?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["dizziness", "rapid heart rate", "normal side effect"]
+        }
+    },
+    {
+        "input": "Emma White\nemma.white@example.com\n34 Elm Lane, San Francisco, CA 94101\n4155552345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Nexium, and my face, lips, and tongue swelled up. Could this be an allergic reaction?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["swelling of face, lips, tongue", "allergic reaction"]
+        }
+    },
+    {
+        "input": "Lucas Johnson\nlucas.johnson@example.com\n56 Birch Avenue, Philadelphia, PA 19101\n2155558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Nexium, I developed a skin rash on my cheeks and arms, and it gets worse in sunlight. Is this a known side effect?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["skin rash", "worsens in sunlight"]
+        }
+    },
+    {
+        "input": "Ava Martinez\nava.martinez@example.com\n78 Willow Road, Dallas, TX 75201\n2145557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Nexium, and I'm experiencing dry mouth. Is this a common side effect?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["dry mouth", "common side effect"]
+        }
+    },
+    {
+        "input": "William Brown\nwilliam.brown@example.com\n90 Spruce Street, New York, NY 10001\n2125553456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Nexium and had numbness and tingling, along with muscle cramps. Could this be related to the medication?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["numbness", "tingling", "muscle cramps"]
+        }
+    },
+    {
+        "input": "Sophie Davis\nsophie.davis@example.com\n101 Oak Street, Boston, MA 02101\n6175551234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Nexium for my GERD, and I have been experiencing coughing and choking feelings. Is this a side effect of Nexium?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["coughing", "choking feeling", "side effect"]
+        }
+    },
+    {
+        "input": "Daniel Wilson\ndaniel.wilson@example.com\n112 Pine Avenue, Atlanta, GA 30301\n4045554321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Nexium for acid reflux, and I had a headache and stomach pain. Could this be due to the medication?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["headache", "stomach pain"]
+        }
+    },
+    {
+        "input": "Liam Wilson\nliam.wilson@example.com\n67 Birch Lane, Houston, TX 77001\n7135556789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Nexium for my acid reflux, and I recently had a seizure. Could this be related to the medication?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["seizure"]
+        }
+    },
+    {
+        "input": "Harper Jones\nharper.jones@example.com\n78 Maple Road, Los Angeles, CA 90001\n2135558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started Nexium for my GERD, and I'm feeling dizzy with a rapid heart rate. Is this normal?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["dizziness", "rapid heart rate"]
+        }
+    },
+    {
+        "input": "Mia Rodriguez\nmia.rodriguez@example.com\n45 Cedar Street, Miami, FL 33101\n3055559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Nexium, I developed a skin rash on my cheeks and arms, and it gets worse in sunlight. Is this a known side effect?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["skin rash", "worsens in sunlight"]
+        }
+    },
+    {
+        "input": "Logan Martinez\nlogan.martinez@example.com\n56 Oak Avenue, Chicago, IL 60601\n3125557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Nexium, and I'm experiencing dry mouth. Is this a common side effect?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["dry mouth"]
+        }
+    },
+    {
+        "input": "Ella Davis\nella.davis@example.com\n89 Pine Road, Dallas, TX 75201\n2145552345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Nexium and had numbness and tingling, along with muscle cramps. Could this be related to the medication?",
+        "output": {
+            "drug_name":"Nexium",
+            "adverse_events": ["numbness", "tingling", "muscle cramps"]
+        }
+    }
+]

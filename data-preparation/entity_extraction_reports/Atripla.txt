@@ -1,0 +1,108 @@
+[
+    {
+        "input": "James Williams,\njwilliams@example.com\n1234 River Road, Anytown, TX 75001,\n214-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been taking Atripla for HIV treatment. Recently, I've started experiencing severe depression and unusual thoughts. Should I contact my doctor about these symptoms? Regards, James Williams",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["severe depression", "unusual thoughts"]
+        }
+    },
+    {
+        "input": "Sarah Johnson,\nsjohnson@example.com\n5678 Oak Lane, Springfield, IL 62704,\n217-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Atripla, I've had symptoms of liver problems, including dark urine and loss of appetite. Is this a known side effect? Best, Sarah Johnson",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["symptoms of liver problems", "dark urine", "loss of appetite"]
+        }
+    },
+    {
+        "input": "Michael Brown,\nmbrown@example.com\n91011 Pine Road, Metropolis, NY 10001,\n212-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Atripla for HIV and recently started experiencing severe dizziness and drowsiness. Should I be concerned about these symptoms? Sincerely, Michael Brown",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["severe dizziness", "drowsiness"]
+        }
+    },
+    {
+        "input": "Emily Davis,\nedavis@example.com\n121314 Birch Avenue, Lakeside, CA 92040,\n619-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Atripla, I've begun experiencing nausea and diarrhea. Are these common reactions to the medication? Thanks, Emily Davis",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["nausea", "diarrhea"]
+        }
+    },
+    {
+        "input": "David Wilson,\ndwilson@example.com\n151617 Elm Street, Rivertown, FL 33101,\n305-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Atripla for a few months and have recently had swelling in my neck and difficulty swallowing. Could this be related to the medication? Regards, David Wilson",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["swelling in neck", "difficulty swallowing"]
+        }
+    },
+    {
+        "input": "Linda Harris,\nlharris@example.com\n1985 Maple Street, New City, NY 10001,\n212-555-1985, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Atripla, I've been experiencing constant headaches and muscle pain. Is this a reaction to the medication? Thanks, Linda Harris",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["constant headaches", "muscle pain"]
+        }
+    },
+    {
+        "input": "Kevin Brown,\nkbrown@example.com\n2020 Pine Road, Smalltown, PA 19103,\n215-555-2020, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Atripla for HIV treatment and have recently noticed an increase in muscle weakness and difficulty concentrating. Are these known side effects? Regards, Kevin Brown",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["muscle weakness", "difficulty concentrating"]
+        }
+    },
+    {
+        "input": "Rachel White,\nrwhite@example.com\n2468 Birch Lane, Lakeside, CA 92040,\n619-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Atripla, I've been experiencing significant weight loss and night sweats. Should I be concerned? Best, Rachel White",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["significant weight loss", "night sweats"]
+        }
+    },
+    {
+        "input": "Jason Martinez,\njmartinez@example.com\n1357 Oak Street, Bigtown, TX 75001,\n214-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Atripla and have recently developed a severe skin rash with itching. Is this a reaction to the drug? Thanks, Jason Martinez",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["severe skin rash", "itching"]
+        }
+    },
+    {
+        "input": "Emma Thompson,\nethompson@example.com\n3690 Elm Road, Coastville, FL 33101,\n305-555-3690, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since being prescribed Atripla, I've had episodes of severe dizziness and feeling cold. Are these typical reactions to the medication? Regards, Emma Thompson",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["severe dizziness", "feeling cold"]
+        }
+    },
+    {
+        "input": "Mark Robinson,\nmrobinson@example.com\n1010 Willow Street, Cliffside, NJ 07010,\n201-555-1010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Atripla, I've been experiencing a constant upset stomach and occasional severe diarrhea. Is this normal? Regards, Mark Robinson",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["constant upset stomach", "severe diarrhea"]
+        }
+    },
+    {
+        "input": "Natalie Johnson,\nnjohnson@example.com\n2020 Cedar Road, Hilltown, MA 02108,\n617-555-2020, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I began taking Atripla for HIV treatment, I've noticed swelling in my hands and feet. Is this a reaction to the medication? Best, Natalie Johnson",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["swelling in hands", "swelling in feet"]
+        }
+    },
+    {
+        "input": "Olivia Martinez,\nomartinez@example.com\n3030 Maple Avenue, Sunnyside, AZ 85004,\n480-555-3030, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Atripla and have started having trouble speaking clearly and problems with balance. Should I be concerned? Thanks, Olivia Martinez",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["trouble speaking", "problems with balance"]
+        }
+    },
+    {
+        "input": "Peter White,\npwhite@example.com\n4040 Oak Lane, Lakeview, IL 60605,\n312-555-4040, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Atripla for a few months now and have begun experiencing hallucinations and severe depression. Is this related to the medication? Regards, Peter White",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["hallucinations", "severe depression"]
+        }
+    },
+    {
+        "input": "Sarah Thompson,\nsthomson@example.com\n5050 Birch Street, Riverside, CA 92501,\n951-555-5050, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Atripla, I've had increased urination and muscle pain. Are these common side effects? Best, Sarah Thompson",
+        "output": {
+            "drug_name": "Atripla",
+            "adverse_events": ["increased urination", "muscle pain"]
+        }
+    }
+]
+

@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Olivia Smith\nolivia.smith@email.com\n123 Elm Street, Los Angeles, CA 90001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Staxyn for my erectile dysfunction, I experienced a prolonged and painful erection that lasted more than 4 hours. It was very distressing and painful. Please advise on what to do.",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["prolonged painful erection"]
+        }
+    },
+    {
+        "input": "Emma Johnson\nemma.johnson@email.com\n456 Oak Avenue, Houston, TX 77001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I recently started using Staxyn for my erectile dysfunction, and I've been experiencing sudden hearing loss and ringing in my ears. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["sudden hearing loss", "ringing in ears"]
+        }
+    },
+    {
+        "input": "Aiden Wilson\naiden.wilson@email.com\n789 Maple Drive, Miami, FL 33101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Staxyn for the first time, and it caused a severe headache and dizziness. I had to lie down because the dizziness was so intense.",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["severe headache", "dizziness"]
+        }
+    },
+    {
+        "input": "Sophia Brown\nsophia.brown@email.com\n101 Pine Lane, New York, NY 10001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced an upset stomach after taking Staxyn for my erectile dysfunction. Is this a common side effect, and should I continue taking the medication?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["upset stomach"]
+        }
+    },
+    {
+        "input": "Liam Miller\nliam.miller@email.com\n567 Birch Road, Chicago, IL 60601\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Staxyn and had a sudden feeling of warmth, redness, and tingling all over my body. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["feeling of warmth", "redness", "tingling"]
+        }
+    },
+    {
+        "input": "Ava Davis\nava.davis@email.com\n987 Cedar Street, San Francisco, CA 94101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced back pain after taking Staxyn for my erectile dysfunction. Is this a known side effect, and should I continue with the medication?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["back pain"]
+        }
+    },
+    {
+        "input": "Noah Lee\nnoah.lee@email.com\n543 Willow Lane, Philadelphia, PA 19101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Staxyn for my erectile dysfunction, and it caused chest pain and a rapid heartbeat. I'm concerned about these symptoms.",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["chest pain", "rapid heartbeat"]
+        }
+    },
+    {
+        "input": "Mia Garcia\nmia.garcia@email.com\n321 Magnolia Drive, Dallas, TX 75201\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced a feeling of light-headedness and near-fainting after taking Staxyn for my erectile dysfunction. Is this a common side effect, and should I be worried?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["light-headedness", "near-fainting"]
+        }
+    },
+    {
+        "input": "James Clark\njames.clark@email.com\n876 Redwood Lane, Seattle, WA 98101\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Staxyn caused an uncomfortable burning sensation when I urinated. Is this a known side effect, and should I discontinue the medication?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["burning sensation when urinating"]
+        }
+    },
+    {
+        "input": "Ella Turner\nella.turner@email.com\n234 Oakwood Road, Denver, CO 80201\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Staxyn, I experienced an inability to urinate, which was quite distressing. Is this a known side effect, and what should I do?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["inability to urinate"]
+        }
+    },
+    {
+        "input": "Oliver White\noliver.white@email.com\n567 Elm Street, Phoenix, AZ 85001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I used Staxyn to treat my erectile dysfunction and experienced blurred vision and eye pain. Is this a common side effect, and should I continue the medication?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["blurred vision", "eye pain"]
+        }
+    },
+    {
+        "input": "Charlotte Hall\ncharlotte.hall@email.com\n789 Pine Avenue, Boston, MA 02101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Staxyn for erectile dysfunction, I had sores and white patches in my mouth. Are these symptoms related to the medication?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["sores in mouth", "white patches in mouth"]
+        }
+    },
+    {
+        "input": "William Turner\nwilliam.turner@email.com\n432 Cedar Road, San Diego, CA 92101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced pain and burning during urination after using Staxyn for my erectile dysfunction. Are these side effects expected?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["pain during urination", "burning during urination"]
+        }
+    },
+    {
+        "input": "Grace Lewis\ngrace.lewis@email.com\n876 Maple Lane, Atlanta, GA 30301\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Staxyn caused me to have little to no urination. It's causing discomfort, and I'm worried. What should I do?",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["little to no urination"]
+        }
+    },
+    {
+        "input": "Henry Adams\nhenry.adams@email.com\n123 Birch Street, Miami, FL 33101\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Staxyn for my erectile dysfunction and experienced an irregular heartbeat. This was concerning, and I'm unsure if it's related to the medication.",
+        "output": {
+            "drug_name": "Staxyn",
+            "adverse_events": ["irregular heartbeat"]
+        }
+    }
+]
+

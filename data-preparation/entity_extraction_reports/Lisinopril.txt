@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Michael Johnson\nmichael.johnson@example.com\n123 Elm Street, New York, NY 10001\n2125551234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lisinopril for my high blood pressure, and I've noticed that I often feel lightheaded, especially when standing up. This has been going on for a few weeks now, and it's concerning. Can you provide some guidance?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["lightheadedness when standing", "persistent lightheadedness"]
+        }
+    },
+    {
+        "input": "Emily Lewis\nemily.lewis@example.com\n456 Oak Avenue, Los Angeles, CA 90001\n2135555678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started taking Lisinopril, and I've developed a persistent cough that's quite bothersome. It's affecting my daily life, and I'd like to know if this is a common side effect and if there's anything I can do about it.",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["persistent cough", "bothersome cough"]
+        }
+    },
+    {
+        "input": "David Smith\ndavid.smith@example.com\n789 Maple Road, Chicago, IL 60601\n3125559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lisinopril for my high blood pressure, and I've noticed a significant decrease in my energy levels and constant fatigue. It's impacting my daily life, and I'd like to discuss this side effect and potential alternatives.",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["decrease in energy levels", "constant fatigue"]
+        }
+    },
+    {
+        "input": "Sarah Davis\nsarah.davis@example.com\n987 Pine Street, San Francisco, CA 94101\n4155554321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lisinopril for my blood pressure, and I've experienced severe stomach pain. It's quite painful and persistent. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["severe stomach pain", "persistent stomach pain"]
+        }
+    },
+    {
+        "input": "Lisa Rodriguez\nlisa.rodriguez@example.com\n654 Cedar Lane, Miami, FL 33101\n3055558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Lisinopril for a while, and I've developed a persistent skin rash that's quite itchy. It's making me very uncomfortable. Can you provide guidance on how to alleviate this?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["persistent skin rash", "itchy rash", "discomfort"]
+        }
+    },
+    {
+        "input": "John Taylor\njohn.taylor@example.com\n741 Birch Lane, Houston, TX 77001\n7135556789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lisinopril, and I've noticed a significant decrease in my appetite. I've lost weight, and it's concerning. Is this related to the medication?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["decrease in appetite", "weight loss"]
+        }
+    },
+    {
+        "input": "Laura Anderson\nlaura.anderson@example.com\n321 Walnut Road, Philadelphia, PA 19101\n2155555432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I recently started Lisinopril, and I've been experiencing muscle weakness, especially in my legs. It's making it difficult to move around. I'd like to know if this is a common side effect and if there's anything I can do about it.",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["muscle weakness", "difficulty in movement", "weakness in legs"]
+        }
+    },
+    {
+        "input": "Daniel Martinez\ndaniel.martinez@example.com\n555 Cedar Lane, Dallas, TX 75201\n2145557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lisinopril, and I've noticed that I'm experiencing frequent headaches. They are quite severe and frequent. I'd like to know if this is a known side effect and if there's anything I can do to prevent it.",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["frequent severe headaches", "headache prevention"]
+        }
+    },
+    {
+        "input": "Mary Harris\nmary.harris@example.com\n888 Oakwood Lane, Atlanta, GA 30301\n4045556543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lisinopril for my blood pressure, and I've noticed a persistent metallic taste in my mouth. It's quite unpleasant, and I'm concerned about this taste being related to the medication. Can you provide some guidance?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["persistent metallic taste", "unpleasant taste"]
+        }
+    },
+    {
+        "input": "Sophia Wilson\nsophia.wilson@example.com\n111 Maple Court, Seattle, WA 98101\n2065558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Lisinopril for my high blood pressure, and I've noticed that I often feel dizzy. This has been going on for a while now, and it's concerning. Can you provide some guidance?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["feeling dizzy", "persistent dizziness"]
+        }
+    },
+    {
+        "input": "Robert Turner\nrobert.turner@example.com\n222 Elm Street, Boston, MA 02101\n6175559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lisinopril, and I've noticed that I have a persistent dry cough. It's quite bothersome, especially at night. Can you provide some guidance on how to manage this side effect?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["persistent dry cough", "bothersome cough", "nighttime cough"]
+        }
+    },
+    {
+        "input": "Jennifer Clark\njennifer.clark@example.com\n333 Maple Avenue, San Diego, CA 92101\n6195557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Lisinopril for a while, and I've developed swelling in my lips and face. It's quite noticeable and concerning. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["swelling in lips", "swelling in face"]
+        }
+    },
+    {
+        "input": "William Brown\nwilliam.brown@example.com\n444 Oakwood Drive, Denver, CO 80201\n3035554321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lisinopril, and I've experienced a persistent sore throat. It's quite uncomfortable. Is this a known side effect, and what can I do to alleviate it?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["persistent sore throat", "uncomfortable throat", "sore throat alleviation"]
+        }
+    },
+    {
+        "input": "Karen White\nkaren.white@example.com\n555 Cedar Avenue, Phoenix, AZ 85001\n6025558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've started Lisinopril, and I've noticed that my heart rate feels irregular at times. It's concerning, and I'd like to know if this is related to the medication and if it's a serious issue.",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["irregular heart rate", "concerning heart rate"]
+        }
+    },
+    {
+        "input": "Ethan Adams\nethan.adams@example.com\n666 Birch Road, Austin, TX 78701\n5125556543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lisinopril, and I've noticed that my urine output has decreased significantly. It's making me feel uneasy. Can you provide some insights into this side effect?",
+        "output": {
+            "drug_name":"Lisinopril",
+            "adverse_events": ["decreased urine output", "uneasy feeling", "urinary side effect"]
+        }
+    }
+]

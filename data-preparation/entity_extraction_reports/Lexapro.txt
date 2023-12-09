@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Emma Johnson\nemma.johnson@example.com\n123 Oak Street, New York, NY 10001\n2125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lexapro, and I've noticed blurred vision, especially at night. It's making me concerned about my eyesight.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["blurred vision", "concern about eyesight"]
+        }
+    },
+    {
+        "input": "Daniel Smith\ndaniel.smith@example.com\n456 Pine Avenue, Los Angeles, CA 90001\n2135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I recently started Lexapro, and I've been experiencing excessive sweating and sleep problems, which are affecting my daily life.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["excessive sweating", "sleep problems"]
+        }
+    },
+    {
+        "input": "Olivia Brown\nolivia.brown@example.com\n789 Maple Road, Chicago, IL 60601\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Lexapro, I developed a painful urination problem. This is causing discomfort, and I'm seeking advice on how to manage it.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["painful urination", "discomfort"]
+        }
+    },
+    {
+        "input": "James Wilson\njames.wilson@example.com\n987 Cedar Lane, Houston, TX 77001\n7135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Lexapro has led to increased muscle movements and tremors, which are making me feel uneasy. I'd like to understand these side effects better.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["increased muscle movements", "tremors", "uneasiness"]
+        }
+    },
+    {
+        "input": "Mia Davis\nmia.davis@example.com\n654 Birch Avenue, Miami, FL 33101\n3055550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Lexapro has resulted in severe nausea and a dry mouth, affecting my appetite. I'm concerned about my overall well-being.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["severe nausea", "dry mouth", "appetite concerns"]
+        }
+    },
+    {
+        "input": "William Turner\nwilliam.turner@example.com\n234 Elm Street, San Francisco, CA 94101\n4155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been experiencing unusual mood swings, including extreme happiness and sadness, after starting Lexapro. These mood changes are concerning.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["unusual mood swings", "extreme happiness", "extreme sadness", "concerning mood changes"]
+        }
+    },
+    {
+        "input": "Ava Smith\nava.smith@example.com\n876 Pine Road, Dallas, TX 75201\n2145550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Lexapro has led to frequent nosebleeds and heavy menstrual periods, which are disrupting my daily life. I need guidance on managing these issues.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["frequent nosebleeds", "heavy menstrual periods", "impact on daily life"]
+        }
+    },
+    {
+        "input": "Liam Johnson\nliam.johnson@example.com\n765 Oak Lane, Philadelphia, PA 19101\n2155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Lexapro is causing drowsiness and weakness, making it difficult for me to perform daily tasks. I'm seeking advice on how to address these side effects.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["drowsiness", "weakness", "difficulty performing daily tasks"]
+        }
+    },
+    {
+        "input": "Ella Martin\nella.martin@example.com\n543 Cedar Road, Seattle, WA 98101\n2065550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Lexapro has triggered increased anxiety and agitation in me. It's affecting my daily life, and I need assistance in managing these symptoms.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["increased anxiety", "agitation"]
+        }
+    },
+    {
+        "input": "Sophia Lee\nsophia.lee@example.com\n876 Willow Lane, Boston, MA 02101\n6175550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Lexapro has caused me to have vivid and disturbing dreams. I wake up feeling anxious and restless. It's impacting my sleep quality and overall well-being.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["vivid dreams", "disturbing dreams", "anxiety", "restlessness", "impact on sleep quality", "overall well-being"]
+        }
+    },
+    {
+        "input": "Henry Wilson\nhenry.wilson@example.com\n543 Elm Road, Atlanta, GA 30301\n4045550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've developed a persistent headache and dizziness after starting Lexapro. These symptoms are affecting my daily life, and I need advice on managing them.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["persistent headache", "dizziness"]
+        }
+    },
+    {
+        "input": "Lily Smith\nlily.smith@example.com\n234 Oak Avenue, San Diego, CA 92101\n6195550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Lexapro has led to increased thirst and a dry mouth, causing discomfort. I'm concerned about my hydration and well-being.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["increased thirst", "dry mouth", "discomfort"]
+        }
+    },
+    {
+        "input": "Noah Davis\nnoah.davis@example.com\n789 Cedar Street, Miami, FL 33101\n3055550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Lexapro has resulted in muscle stiffness and loss of coordination. These physical symptoms are causing significant discomfort, and I'm seeking guidance on managing them.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["muscle stiffness", "loss of coordination", "physical discomfort"]
+        }
+    },
+    {
+        "input": "Aiden White\naiden.white@example.com\n321 Pine Lane, Dallas, TX 75201\n2145550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lexapro, and it has caused me to feel extremely fatigued and weak. These symptoms are making it hard for me to carry out daily activities.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["extreme fatigue", "weakness", "difficulty in daily activities"]
+        }
+    },
+    {
+        "input": "Ella Turner\nella.turner@example.com\n456 Maple Street, Chicago, IL 60601\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Lexapro for a few weeks, and I've noticed a significant decrease in my libido and sexual desire. It's causing distress and affecting my relationship. I would like to discuss this side effect and potential solutions.",
+        "output": {
+            "drug_name": "Lexapro",
+            "adverse_events": ["decreased libido", "sexual desire", "distress", "impact on relationship"]
+        }
+    }
+]
+

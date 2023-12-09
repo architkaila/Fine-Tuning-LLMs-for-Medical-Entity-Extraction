@@ -1,0 +1,143 @@
+[
+    {
+        "input": "Sophia Clark\nsophia.clark@email.com\n123 Oak Street, Chicago, IL 60601\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Protonix for my GERD, and I've developed a severe headache and stomach pain. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["severe headache", "stomach pain"]
+        }
+    },
+    {
+        "input": "Ethan White\nethan.white@email.com\n456 Elm Avenue, New York, NY 10001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Protonix, I've experienced persistent diarrhea and joint pain. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent diarrhea", "joint pain"]
+        }
+    },
+    {
+        "input": "Ava Johnson\nava.johnson@email.com\n789 Maple Road, Los Angeles, CA 90001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Protonix for my GERD, and I've developed a skin rash and fever. Could this be due to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["skin rash", "fever"]
+        }
+    },
+    {
+        "input": "Noah Brown\nnoah.brown@email.com\n567 Pine Lane, Houston, TX 77001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Protonix, I've experienced a persistent cough and fatigue. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent cough", "fatigue"]
+        }
+    },
+    {
+        "input": "Olivia Smith\nolivia.smith@email.com\n901 Birch Street, San Francisco, CA 94101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Protonix for my GERD, and I've had trouble sleeping at night and muscle cramps. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["trouble sleeping at night", "muscle cramps"]
+        }
+    },
+    {
+        "input": "Liam Davis\nliam.davis@email.com\n234 Cedar Road, Miami, FL 33101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started Protonix, I've noticed swelling in my face and hands along with a rapid heart rate. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["swelling in face and hands", "rapid heart rate"]
+        }
+    },
+    {
+        "input": "Aiden Miller\naiden.miller@email.com\n345 Elm Street, Dallas, TX 75201\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Protonix for my GERD, and I've experienced persistent nausea and vomiting. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "Aria Martinez\naria.martinez@email.com\n678 Oak Avenue, Boston, MA 02101\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Protonix, I've developed a sore throat and dizziness. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["sore throat", "dizziness"]
+        }
+    },
+    {
+        "input": "Henry Taylor\nhenry.taylor@email.com\n890 Pine Road, Phoenix, AZ 85001\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Protonix for my GERD, and I've experienced persistent diarrhea and joint pain. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent diarrhea", "joint pain"]
+        }
+    },
+    {
+        "input": "Grace Hernandez\ngrace.hernandez@email.com\n567 Cedar Lane, Seattle, WA 98101\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Protonix, I've noticed a persistent headache and stomach pain. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent headache", "stomach pain"]
+        }
+    },
+    {
+        "input": "Sophia Clark\nsophia.clark@email.com\n123 Oak Street, Chicago, IL 60601\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Protonix for my GERD, and I've developed a severe headache and stomach pain. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["severe headache", "stomach pain"]
+        }
+    },
+    {
+        "input": "Ethan White\nethan.white@email.com\n456 Elm Avenue, New York, NY 10001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Protonix, I've experienced persistent diarrhea and joint pain. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent diarrhea", "joint pain"]
+        }
+    },
+    {
+        "input": "Ava Johnson\nava.johnson@email.com\n789 Maple Road, Los Angeles, CA 90001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Protonix for my GERD, and I've developed a skin rash and fever. Could this be due to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["skin rash", "fever"]
+        }
+    },
+    {
+        "input": "Noah Brown\nnoah.brown@email.com\n567 Pine Lane, Houston, TX 77001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Protonix, I've experienced a persistent cough and fatigue. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent cough", "fatigue"]
+        }
+    },
+    {
+        "input": "Olivia Smith\nolivia.smith@email.com\n901 Birch Street, San Francisco, CA 94101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Protonix for my GERD, and I've had trouble sleeping at night and muscle cramps. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["trouble sleeping at night", "muscle cramps"]
+        }
+    },
+    {
+        "input": "Liam Davis\nliam.davis@email.com\n234 Cedar Road, Miami, FL 33101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started Protonix, I've noticed swelling in my face and hands along with a rapid heart rate. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["swelling in face and hands", "rapid heart rate"]
+        }
+    },
+    {
+        "input": "Aiden Miller\naiden.miller@email.com\n345 Elm Street, Dallas, TX 75201\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Protonix for my GERD, and I've experienced persistent nausea and vomiting. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "Aria Martinez\naria.martinez@email.com\n678 Oak Avenue, Boston, MA 02101\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Protonix, I've developed a sore throat and dizziness. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["sore throat", "dizziness"]
+        }
+    },
+    {
+        "input": "Henry Taylor\nhenry.taylor@email.com\n890 Pine Road, Phoenix, AZ 85001\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Protonix for my GERD, and I've experienced persistent diarrhea and joint pain. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent diarrhea", "joint pain"]
+        }
+    },
+    {
+        "input": "Grace Hernandez\ngrace.hernandez@email.com\n567 Cedar Lane, Seattle, WA 98101\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Protonix, I've noticed a persistent headache and stomach pain. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Protonix",
+            "adverse_events": ["persistent headache", "stomach pain"]
+        }
+    }
+]
+

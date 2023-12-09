@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emily Davis\nemily.davis@email.com\n45 Willow Lane, Los Angeles, CA 90001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been undergoing Remicade treatment for ulcerative colitis, and I experienced severe chest pain and difficulty breathing during my last infusion. It was quite distressing.",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["severe chest pain", "difficulty breathing"]
+        }
+    },
+    {
+        "input": "Liam Johnson\nliam.johnson@email.com\n567 Maple Avenue, Chicago, IL 60601\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Remicade for ankylosing spondylitis, and I've developed a persistent skin rash and joint pain. Is this a potential side effect of the medication?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["persistent skin rash", "joint pain"]
+        }
+    },
+    {
+        "input": "Olivia Smith\nolivia.smith@email.com\n789 Oak Street, Houston, TX 77001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Remicade treatment for my Crohn's disease and noticed swelling in my neck and severe headache afterward. Should I be concerned?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["swelling in neck", "severe headache"]
+        }
+    },
+    {
+        "input": "Ethan Wilson\nethan.wilson@email.com\n890 Elm Street, Boston, MA 02101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Remicade for psoriatic arthritis, and I've noticed my blood pressure becoming very high. Is this a known side effect?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["high blood pressure"]
+        }
+    },
+    {
+        "input": "Sophia White\nsophia.white@email.com\n123 Cedar Lane, San Francisco, CA 94101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm being treated with Remicade for rheumatoid arthritis, and I've experienced persistent nausea and vomiting. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["persistent nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "Noah Harris\nnoah.harris@email.com\n456 Birch Road, Seattle, WA 98101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving a Remicade infusion for my psoriasis, I developed a severe skin rash with blisters and itching. It's causing significant discomfort.",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["severe skin rash", "itching"]
+        }
+    },
+    {
+        "input": "Ava Turner\nava.turner@email.com\n678 Pine Street, Miami, FL 33101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been undergoing Remicade treatment for ankylosing spondylitis, and I've developed severe fatigue and muscle weakness. Is this a potential side effect?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["severe fatigue", "muscle weakness"]
+        }
+    },
+    {
+        "input": "Lucas Clark\nlucas.clark@email.com\n890 Willow Lane, Denver, CO 80101\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Remicade for severe plaque psoriasis, and I've developed a persistent cough and chest pain. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["persistent cough", "chest pain"]
+        }
+    },
+    {
+        "input": "Harper Hall\nharper.hall@email.com\n234 Maple Avenue, Atlanta, GA 30301\n555-012-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been receiving Remicade treatment for ulcerative colitis, and I've noticed persistent diarrhea and skin changes. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["persistent diarrhea", "skin changes"]
+        }
+    },
+    {
+        "input": "Mila Martin\nmila.martin@email.com\n456 Cedar Lane, Dallas, TX 75201\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm being treated with Remicade for Crohn's disease, and I've experienced numbness and tingling in my arms and legs. Is this a known side effect?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["numbness", "tingling in arms and legs"]
+        }
+    },
+    {
+        "input": "William Turner\nwilliam.turner@email.com\n123 Elm Street, Philadelphia, PA 19101\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Remicade infusion for my ulcerative colitis, and I've developed a severe fever and flu-like symptoms since then. Is this a potential side effect?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["severe fever", "flu-like symptoms"]
+        }
+    },
+    {
+        "input": "Scarlett Evans\nscarlett.evans@email.com\n789 Oak Road, Phoenix, AZ 85001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Remicade for psoriatic arthritis, and I've noticed a sudden loss of appetite and weight loss. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["sudden loss of appetite", "weight loss"]
+        }
+    },
+    {
+        "input": "Henry Baker\nhenry.baker@email.com\n456 Pine Avenue, San Diego, CA 92101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Remicade infusion for my Crohn's disease, and I've experienced joint swelling and muscle stiffness. Is this a known side effect?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["joint swelling", "muscle stiffness"]
+        }
+    },
+    {
+        "input": "Aria Walker\naria.walker@email.com\n890 Cedar Street, Nashville, TN 37201\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been undergoing Remicade treatment for rheumatoid arthritis, and I've developed a persistent cough and chest pain. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["persistent cough", "chest pain"]
+        }
+    },
+    {
+        "input": "Sebastian Cooper\nsebastian.cooper@email.com\n567 Maple Road, Austin, TX 78701\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving a Remicade infusion for my plaque psoriasis, I've experienced blurred vision and severe headaches. Are these symptoms related to the medication?",
+        "output": {
+            "drug_name": "Remicade",
+            "adverse_events": ["blurred vision", "severe headaches"]
+        }
+    }
+]

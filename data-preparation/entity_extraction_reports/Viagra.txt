@@ -1,0 +1,109 @@
+[
+    {
+        "input": "John Doe,\njohn.doe@example.com\n123 Main Street, Anytown, TX 75001,\n123-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Viagra for the past three months. Recently, I've started experiencing severe headaches and a bit of dizziness. Is this normal? Should I be concerned about these symptoms? Regards, John Doe",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["severe headaches", "dizziness"]
+        }
+    },
+    {
+        "input": "Emily Smith,\nemily.smith@example.com\n456 Oak Lane, Springfield, IL 62704,\n987-654-3210, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, after taking Viagra, I have noticed that I am experiencing some muscle pain and back pain. These symptoms started soon after I began the medication. Can you advise? Best, Emily Smith",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["muscle pain", "back pain"]
+        }
+    },
+    {
+        "input": "Michael Johnson,\nmichael.johnson@example.com\n789 Pine Road, Metropolis, NY 10001,\n456-123-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Viagra and have been using it for a few weeks. Recently, I've started to experience a stuffy nose and some nosebleeds. Is this a common side effect? Thanks, Michael Johnson",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["stuffy nose", "nosebleeds"]
+        }
+    },
+    {
+        "input": "Sarah Brown,\nsarah.brown@example.com\n321 Willow Avenue, Lakeside, CA 92040,\n789-321-4560, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Viagra as prescribed, but I've noticed that I'm experiencing some flushing and an upset stomach. Are these typical side effects? Looking forward to your response, Sarah Brown",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["flushing", "upset stomach"]
+        }
+    },
+    {
+        "input": "David Wilson,\ndavid.wilson@example.com\n987 Maple Street, Rivertown, FL 33101,\n321-987-6540, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Dear Sir/Madam, since starting Viagra, I've been having sleep problems, specifically insomnia. Is this related to the medication? Any guidance would be appreciated. Regards, David Wilson",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["sleep problems", "insomnia"]
+        }
+    },
+    {
+        "input": "Alex Martinez,\nalex.martinez@example.com\n1010 Sunset Blvd, Los Angeles, CA 90026,\n213-555-0101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Viagra, I've noticed that I get quite dizzy and there's a ringing in my ears. It's becoming quite bothersome. Is this something I should be worried about? Best, Alex Martinez",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["dizziness", "ringing in ears"]
+        }
+    },
+    {
+        "input": "Rachel Green,\nrachel.green@example.com\n2020 Broadway, New York, NY 10023,\n212-555-0202, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I've been prescribed Viagra and I have started experiencing shortness of breath and an irregular heartbeat. Are these known side effects? Regards, Rachel Green",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["shortness of breath", "irregular heartbeat"]
+        }
+    },
+    {
+        "input": "Lucas White,\nlucas.white@example.com\n3030 Vine Street, Chicago, IL 60614,\n312-555-0303, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Good day, I've recently started using Viagra and have been feeling light-headed and like I might pass out. Should I be concerned? Thank you, Lucas White",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["light-headed", "feeling like passing out"]
+        }
+    },
+    {
+        "input": "Sophia Johnson,\nsophia.johnson@example.com\n4040 Maple Drive, Houston, TX 77002,\n713-555-0404, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm reaching out to report that after taking Viagra, I've developed severe swelling in my hands and feet. Is this a normal reaction? Sincerely, Sophia Johnson",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["swelling in hands", "swelling in feet"]
+        }
+    },
+    {
+        "input": "Oliver Brown,\noliver.brown@example.com\n5050 Elm Street, Miami, FL 33131,\n305-555-0505, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I've been on Viagra for a couple of weeks now. Recently, I've started experiencing blurred vision and a change in color vision. Should I stop taking the medication? Regards, Oliver Brown",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["blurred vision", "change in color vision"]
+        }
+    },
+    {
+        "input": "Megan Taylor,\nmegan.taylor@example.com\n6060 Oak Street, Denver, CO 80203,\n303-555-0606, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been taking Viagra and have recently started experiencing severe nasal congestion and a runny nose. Are these common side effects? Thanks, Megan Taylor",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["nasal congestion", "runny nose"]
+        }
+    },
+    {
+        "input": "Ethan King,\nethan.king@example.com\n7070 Cherry Lane, Seattle, WA 98101,\n206-555-0707, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Dear Sir/Madam, I've noticed that after taking Viagra, I'm experiencing an upset stomach and frequent headaches. Is this something I should be concerned about? Regards, Ethan King",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["upset stomach", "frequent headaches"]
+        }
+    },
+    {
+        "input": "Isabella Scott,\nisabella.scott@example.com\n8080 Pine Road, Atlanta, GA 30303,\n404-555-0808, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I've been using Viagra and recently started feeling a tingly sensation and warmth, mostly in my face and neck. Is this a reaction to the drug? Best, Isabella Scott",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["tingly sensation", "warmth in face and neck"]
+        }
+    },
+    {
+        "input": "Noah Miller,\nnoah.miller@example.com\n9090 Willow Avenue, Orlando, FL 32801,\n407-555-0909, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been prescribed Viagra and have begun to experience some swelling in my ankles and feet. Should I be alarmed? Thanks, Noah Miller",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["swelling in ankles", "swelling in feet"]
+        }
+    },
+    {
+        "input": "Ava Johnson,\nava.johnson@example.com\n10101 Birch Street, Boston, MA 02101,\n617-555-1010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Good morning, since starting Viagra, I've had a seizure and I'm also experiencing some convulsions. Are these known side effects of the medication? Kind regards, Ava Johnson",
+        "output": {
+            "drug_name": "Viagra",
+            "adverse_events": ["seizure", "convulsions"]
+        }
+    }
+]
+
+

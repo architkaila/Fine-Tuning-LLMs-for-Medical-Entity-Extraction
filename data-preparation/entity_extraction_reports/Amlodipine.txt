@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Hannah Lee,\nhannah.lee@example.com\n1122 Cedar St, Raleigh, NC 27601,\n919-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Amlodipine for high blood pressure and recently started experiencing severe dizziness and swelling in my ankles. Is this a common reaction? Kind regards, Hannah Lee",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["severe dizziness", "swelling in ankles"]
+        }
+    },
+    {
+        "input": "Mark Johnson,\nmark.johnson@example.com\n3344 Pine Road, Denver, CO 80203,\n303-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I've been prescribed Amlodipine for chest pain. I've noticed that I have irregular heartbeats and sometimes a fluttering feeling in my chest. Should I be concerned? Best, Mark Johnson",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["irregular heartbeats", "fluttering in chest"]
+        }
+    },
+    {
+        "input": "Emily Davis,\nemily.davis@example.com\n5566 Elm Street, San Francisco, CA 94102,\n415-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Amlodipine, I've experienced muscle stiffness and some uncontrolled muscle movements. Is this a known side effect of the medication? Sincerely, Emily Davis",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["muscle stiffness", "uncontrolled muscle movements"]
+        }
+    },
+    {
+        "input": "David Smith,\ndsmith@example.com\n7788 Maple Drive, Boston, MA 02108,\n617-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Amlodipine for hypertension and have begun feeling extremely tired and have had bouts of stomach pain and nausea. Are these related to the medication? Thanks, David Smith",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["feeling extremely tired", "stomach pain", "nausea"]
+        }
+    },
+    {
+        "input": "Sarah Wilson,\nsarah.wilson@example.com\n8899 Birch Lane, Miami, FL 33101,\n305-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been using Amlodipine for my coronary artery disease, but I've noticed a sudden warmth and redness in my skin. Is this a common reaction? Regards, Sarah Wilson",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["sudden warmth and redness in skin"]
+        }
+    },
+    {
+        "input": "Olivia Martinez,\nolivia.martinez@example.com\n123 Main Street, Seattle, WA 98101,\n206-555-1212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started taking Amlodipine for hypertension, I've been feeling light-headed, like I might pass out. Is this a reaction to the medication? Regards, Olivia Martinez",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["feeling light-headed", "might pass out"]
+        }
+    },
+    {
+        "input": "Jacob Brown,\njacob.brown@example.com\n456 Broadway, New York, NY 10001,\n212-555-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I've been using Amlodipine for angina, and I've recently started experiencing pounding heartbeats. Should I be concerned about this? Best, Jacob Brown",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["pounding heartbeats"]
+        }
+    },
+    {
+        "input": "Mia Johnson,\nmia.johnson@example.com\n789 Park Ave, Chicago, IL 60601,\n312-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Amlodipine, I've had instances of severe drowsiness and weakness. Are these common side effects? Sincerely, Mia Johnson",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["severe drowsiness", "weakness"]
+        }
+    },
+    {
+        "input": "Ethan Williams,\nethan.williams@example.com\n1010 Elm Street, Los Angeles, CA 90001,\n213-555-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Amlodipine for high blood pressure but have been experiencing nausea and occasional chest pain. Is this related to the drug? Thanks, Ethan Williams",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["nausea", "occasional chest pain"]
+        }
+    },
+    {
+        "input": "Sophia Rodriguez,\nsophia.rodriguez@example.com\n1212 Cedar Rd, Houston, TX 77002,\n713-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been using Amlodipine for coronary artery disease and recently started to feel a fluttering in my chest. Is this a common side effect? Regards, Sophia Rodriguez",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["fluttering in chest"]
+        }
+    },
+    {
+        "input": "Michael Smith,\nmichael.smith@example.com\n2345 Lakeview Drive, Orlando, FL 32801,\n407-555-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Amlodipine for high blood pressure and have started experiencing severe stomach pain and nausea. Are these side effects related to Amlodipine? Regards, Michael Smith",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["severe stomach pain", "nausea"]
+        }
+    },
+    {
+        "input": "Lily Johnson,\nljohnson@example.com\n6789 Pine Street, San Diego, CA 92101,\n619-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I've been using Amlodipine for angina and recently I've noticed a tingly feeling and muscle stiffness. Is this a known reaction to the medication? Best, Lily Johnson",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["tingly feeling", "muscle stiffness"]
+        }
+    },
+    {
+        "input": "James Wilson,\njwilson@example.com\n123 Main Street, Philadelphia, PA 19103,\n215-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Amlodipine for hypertension, I've been experiencing an irregular heartbeat and occasional dizziness. Are these side effects of Amlodipine? Sincerely, James Wilson",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["irregular heartbeat", "occasional dizziness"]
+        }
+    },
+    {
+        "input": "Emma Davis,\nemmadavis@example.com\n4567 Broadway, Boston, MA 02108,\n617-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Amlodipine for chest pain but have begun feeling extremely tired and have had a few instances of drowsiness. Is this a reaction to the drug? Thanks, Emma Davis",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["feeling extremely tired", "drowsiness"]
+        }
+    },
+    {
+        "input": "Oliver Martinez,\noliver.martinez@example.com\n8901 Cedar Road, Austin, TX 78701,\n512-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been using Amlodipine for controlling my blood pressure and recently noticed swelling in my legs. Is this a common side effect? Regards, Oliver Martinez",
+        "output": {
+            "drug_name": "Amlodipine",
+            "adverse_events": ["swelling in legs"]
+        }
+    }
+]
+

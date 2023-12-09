@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Sarah Wilson\nsarah.wilson@example.com\n45 Elm Street, New York, NY 10001\n2125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Levitra, and I experienced a sudden hearing loss. It was quite alarming, and I'm concerned about this side effect.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["sudden hearing loss"]
+        }
+    },
+    {
+        "input": "David Miller\ndavid.miller@example.com\n789 Oak Avenue, Los Angeles, CA 90001\n2135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I used Levitra and had a prolonged erection that lasted more than 4 hours. It was painful, and I had to seek medical help.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["prolonged erection", "painful erection"]
+        }
+    },
+    {
+        "input": "Emily Brown\nemily.brown@example.com\n567 Maple Road, Chicago, IL 60001\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Levitra, and I noticed a sudden increase in my heart rate. It made me feel lightheaded and anxious.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["sudden increase in heart rate", "lightheadedness", "anxiety"]
+        }
+    },
+    {
+        "input": "Michael Johnson\nmichael.johnson@example.com\n123 Pine Street, Houston, TX 77001\n7135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Levitra, I developed swelling in my hands and feet. It was uncomfortable and concerning.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["swelling in hands", "swelling in feet"]
+        }
+    },
+    {
+        "input": "Laura Davis\nlaura.davis@example.com\n890 Cedar Lane, Miami, FL 33001\n3055550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Levitra, and I experienced a severe headache and sinus pain. It was quite bothersome.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["severe headache", "sinus pain"]
+        }
+    },
+    {
+        "input": "John Smith\njohn.smith@example.com\n456 Birch Road, San Francisco, CA 94001\n4155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I used Levitra, and I had flushing, redness, and a tingly feeling. It was unexpected.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["flushing", "redness", "tingly feeling"]
+        }
+    },
+    {
+        "input": "Olivia Wilson\nolivia.wilson@example.com\n234 Oak Avenue, Dallas, TX 75201\n2145550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Levitra, and it upset my stomach, causing nausea. I'm concerned about this side effect.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["upset stomach", "nausea"]
+        }
+    },
+    {
+        "input": "Robert Martin\nrobert.martin@example.com\n678 Pine Lane, Philadelphia, PA 19101\n2155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I used Levitra, and it caused vision changes and sudden vision loss. I'm worried about my eyesight.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["vision changes", "sudden vision loss"]
+        }
+    },
+    {
+        "input": "Alice Turner\nalice.turner@example.com\n345 Cedar Road, Seattle, WA 98101\n2065550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Levitra, I experienced irregular heartbeat, and it made me feel uneasy. Is this a known side effect?",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["irregular heartbeat", "uneasiness"]
+        }
+    },
+    {
+        "input": "Sophia Turner\nsophia.turner@example.com\n321 Elm Street, Boston, MA 02101\n6175550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Levitra and had a light-headed feeling, like I might pass out. It was concerning and happened suddenly.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["light-headed feeling", "feeling like passing out"]
+        }
+    },
+    {
+        "input": "William Harris\nwilliam.harris@example.com\n543 Birch Road, Atlanta, GA 30301\n4045550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Levitra, I had a seizure, which was a frightening experience. I need more information about this side effect.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["seizure", "frightening experience"]
+        }
+    },
+    {
+        "input": "Ella Clark\nella.clark@example.com\n876 Oak Avenue, Denver, CO 80201\n3035550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Levitra and noticed a breakdown of the outer layer of skin, along with itching and blisters. It's quite uncomfortable.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["breakdown of outer skin layer", "itching", "blisters"]
+        }
+    },
+    {
+        "input": "Liam Wilson\nliam.wilson@example.com\n234 Pine Lane, San Diego, CA 92101\n6195550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Levitra, I experienced a sudden increase in blood pressure and felt extremely anxious. Can you provide guidance on this side effect?",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["sudden increase in blood pressure", "extreme anxiety"]
+        }
+    },
+    {
+        "input": "Ava Brown\nava.brown@example.com\n765 Cedar Road, Detroit, MI 48201\n3135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Levitra, and it caused back pain. The pain was quite severe and persisted.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["severe back pain"]
+        }
+    },
+    {
+        "input": "Lucas Martin\nlucas.martin@example.com\n432 Maple Lane, Phoenix, AZ 85001\n6025550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Levitra, I developed an upset stomach and experienced diarrhea. I'm concerned about these gastrointestinal side effects.",
+        "output": {
+            "drug_name": "Levitra",
+            "adverse_events": ["upset stomach", "diarrhea"]
+        }
+    }
+]

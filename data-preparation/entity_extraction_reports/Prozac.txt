@@ -1,0 +1,111 @@
+[
+    {
+        "input": "Emily Wilson\nemily.wilson@email.com\n123 Elm Street, Boston, MA 02101\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prozac for my panic disorder, and I've noticed a decrease in my sex drive and difficulty having an orgasm. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["decreased sex drive", "difficulty having an orgasm"]
+        }
+    },
+    {
+        "input": "Oliver Smith\noliver.smith@email.com\n456 Oak Avenue, Chicago, IL 60601\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Prozac for my major depressive disorder, I've experienced severe nausea and vomiting. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["severe nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "Ava Davis\nava.davis@email.com\n789 Maple Road, Los Angeles, CA 90101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Prozac for my obsessive-compulsive disorder, and I'm having unusual dreams and trouble sleeping (insomnia). Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["unusual dreams", "trouble sleeping (insomnia)"]
+        }
+    },
+    {
+        "input": "Liam Johnson\nliam.johnson@email.com\n234 Cedar Lane, San Francisco, CA 94101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prozac for my major depressive disorder, and I've noticed blurred vision and a feeling of dizziness. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["blurred vision", "dizziness"]
+        }
+    },
+    {
+        "input": "Sophia Martin\nsophia.martin@email.com\n567 Pine Street, Denver, CO 80101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Prozac for my panic disorder, I've had trouble sleeping (insomnia) and experienced unusual tiredness. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["trouble sleeping (insomnia)", "unusual tiredness"]
+        }
+    },
+    {
+        "input": "Ella Anderson\nella.anderson@email.com\n890 Willow Avenue, Miami, FL 33101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Prozac for my major depressive disorder, and I've developed an upset stomach and diarrhea. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["upset stomach", "diarrhea"]
+        }
+    },
+    {
+        "input": "Mason White\nmason.white@email.com\n345 Birch Road, Seattle, WA 98101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Prozac for my obsessive-compulsive disorder, and I've had tremors and muscle shaking. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["tremors", "muscle shaking"]
+        }
+    },
+    {
+        "input": "Aiden Garcia\naiden.garcia@email.com\n678 Cedar Lane, Dallas, TX 75201\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Prozac for my panic disorder, I've experienced unusual behavior and agitation. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["unusual behavior", "agitation"]
+        }
+    },
+    {
+        "input": "Isabella Clark\nisabella.clark@email.com\n123 Oakwood Drive, Atlanta, GA 30301\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prozac for my major depressive disorder, and I've had an increase in heart rate and chest pain. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["increase in heart rate", "chest pain"]
+        }
+    },
+    {
+        "input": "Lucas Brown\nlucas.brown@email.com\n456 Maple Street, Phoenix, AZ 85001\n555-012-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Prozac for my obsessive-compulsive disorder, and I've experienced dry mouth and sweating. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["dry mouth", "sweating"]
+        }
+    },
+    {
+        "input": "Madison Turner\nmadison.turner@email.com\n789 Elm Street, Houston, TX 77001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prozac for my major depressive disorder, and I've noticed mood changes, including increased irritability. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["mood changes", "increased irritability"]
+        }
+    },
+    {
+        "input": "Henry Adams\nhenry.adams@email.com\n567 Birch Road, San Diego, CA 92101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Prozac for my panic disorder, and I've experienced difficulty in concentration and memory problems. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["difficulty in concentration", "memory problems"]
+        }
+    },
+    {
+        "input": "Scarlett Foster\nscarlett.foster@email.com\n234 Oakwood Drive, Las Vegas, NV 89101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prozac for my obsessive-compulsive disorder, and I've noticed unusual weight loss and loss of appetite. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["unusual weight loss", "loss of appetite"]
+        }
+    },
+    {
+        "input": "Mia Martinez\nmia.martinez@email.com\n890 Cedar Lane, Philadelphia, PA 19101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Prozac for my major depressive disorder, and I've had an upset stomach and diarrhea. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["upset stomach", "diarrhea"]
+        }
+    },
+    {
+        "input": "Aiden Cooper\naiden.cooper@email.com\n123 Pine Street, New York, NY 10001\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Prozac for my panic disorder, I've experienced tremors and muscle shaking. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Prozac",
+            "adverse_events": ["tremors", "muscle shaking"]
+        }
+    }
+]
+
+
+
+

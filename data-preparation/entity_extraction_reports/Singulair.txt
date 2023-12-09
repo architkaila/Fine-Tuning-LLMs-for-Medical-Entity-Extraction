@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Sarah Johnson\nsarah.johnson@email.com\n45 Elm Street, Boston, MA 02101\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Singulair to manage my allergies, but I've developed severe stomach pain and diarrhea. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["stomach pain", "diarrhea"]
+        }
+    },
+    {
+        "input": "James Smith\njames.smith@email.com\n789 Pine Avenue, Los Angeles, CA 90001\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started using Singulair to prevent exercise-induced bronchoconstriction, and I've noticed a persistent headache. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["headache"]
+        }
+    },
+    {
+        "input": "Olivia Brown\nolivia.brown@email.com\n234 Oak Lane, Miami, FL 33101\n555-876-5432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: My child has been taking Singulair for allergies, and we've observed mood changes and restlessness. Is this something to be concerned about?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["mood changes", "restlessness"]
+        }
+    },
+    {
+        "input": "William Davis\nwilliam.davis@email.com\n567 Birch Road, San Francisco, CA 94101\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Singulair for seasonal allergies, and I've experienced ear pain and trouble hearing. Can this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["ear pain", "trouble hearing"]
+        }
+    },
+    {
+        "input": "Sophia Wilson\nsophia.wilson@email.com\n890 Maple Street, Seattle, WA 98101\n555-765-4321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Singulair for asthma prevention, I've been having vivid dreams and sleep-walking episodes. Is this related to the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["vivid dreams", "sleep-walking"]
+        }
+    },
+    {
+        "input": "Ethan Turner\nethan.turner@email.com\n123 Cedar Road, Denver, CO 80123\n555-543-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Singulair for allergy management, and I've experienced flu-like symptoms and a sore throat. Is this a common reaction to the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["flu-like symptoms", "sore throat"]
+        }
+    },
+    {
+        "input": "Ava Parker\nava.parker@email.com\n456 Willow Lane, Dallas, TX 75201\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: My child is on Singulair for allergies, and we've noticed stuttering and uncontrolled muscle movements. Is this a known side effect?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["stuttering", "muscle movements"]
+        }
+    },
+    {
+        "input": "Emily Clark\nemily.clark@email.com\n321 Elm Street, Chicago, IL 60601\n555-789-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Singulair for asthma prevention, and I've had an unusual increase in appetite and weight gain. Is this related to the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["increase in appetite", "weight gain"]
+        }
+    },
+    {
+        "input": "Daniel Martinez\ndaniel.martinez@email.com\n987 Oak Avenue, Houston, TX 77001\n555-876-5432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Singulair for allergies, and I've experienced numbness and a 'pins and needles' feeling in my arms and legs. Can this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["numbness", "'pins and needles' feeling"]
+        }
+    },
+    {
+        "input": "Liam White\nliam.white@email.com\n654 Maple Lane, Phoenix, AZ 85001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've started Singulair for seasonal allergies, and I've had trouble sleeping and a feeling of restlessness. Is this a common reaction to the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["trouble sleeping", "restlessness"]
+        }
+    },
+    {
+        "input": "Aria Johnson\naria.johnson@email.com\n789 Cedar Street, Atlanta, GA 30301\n555-654-3210, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: My child has been on Singulair for asthma, and we've observed a decrease in their attention span and memory problems. Could this be linked to the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["decrease in attention span", "memory problems"]
+        }
+    },
+    {
+        "input": "Mason Hall\nmason.hall@email.com\n234 Pine Road, San Diego, CA 92101\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Singulair for exercise-induced bronchoconstriction, and I've developed a skin rash. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["skin rash"]
+        }
+    },
+    {
+        "input": "Grace Turner\ngrace.turner@email.com\n876 Willow Street, Miami, FL 33101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Singulair for allergies, I've been experiencing cough and sinus pain. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["cough", "sinus pain"]
+        }
+    },
+    {
+        "input": "Henry Moore\nhenry.moore@email.com\n543 Oakwood Drive, Seattle, WA 98101\n555-123-9876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Singulair for asthma prevention, and I've had uncontrolled muscle spasms. Is this something to be concerned about?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["muscle spasms"]
+        }
+    },
+    {
+        "input": "Zoe Perez\nzoe.perez@email.com\n678 Birch Street, Denver, CO 80123\n555-432-8765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: My child has been on Singulair for allergies, and they've developed flu-like symptoms and a sore throat. Could this be due to the medication?",
+        "output": {
+            "drug_name": "Singulair",
+            "adverse_events": ["flu-like symptoms", "sore throat"]
+        }
+    }
+]

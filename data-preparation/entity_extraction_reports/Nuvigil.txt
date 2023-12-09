@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Sophia White\nsophia.white@example.com\n45 Willow Street, Austin, TX 73301\n5125557890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Nuvigil for my excessive sleepiness, and I developed a severe skin rash that's spreading rapidly. It's painful, and I'm worried. Is this related to the medication?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["severe skin rash", "painful"]
+        }
+    },
+    {
+        "input": "Noah Johnson\nnoah.johnson@example.com\n56 Elm Lane, New York, NY 10001\n2125556789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started taking Nuvigil for my narcolepsy, and I'm experiencing severe tingling and muscle weakness. It's making it difficult for me to function. Could this be a side effect?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["severe tingling", "muscle weakness", "difficulty functioning"]
+        }
+    },
+    {
+        "input": "Olivia Smith\nolivia.smith@example.com\n78 Cedar Avenue, San Francisco, CA 94101\n4155555678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Nuvigil for my shift work sleep disorder, and I've developed mouth sores and trouble swallowing. Is this a known issue with the medication?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["mouth sores", "trouble swallowing"]
+        }
+    },
+    {
+        "input": "William Brown\nwilliam.brown@example.com\n34 Oak Road, Chicago, IL 60601\n3125554567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Nuvigil for my sleep apnea, and I'm experiencing excessive sleepiness. Isn't this medication supposed to help with that?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["excessive sleepiness"]
+        }
+    },
+    {
+        "input": "Ava Taylor\nava.taylor@example.com\n23 Pine Street, Los Angeles, CA 90001\n2135553456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Nuvigil, I developed depression, anxiety, and unusual thoughts. It's affecting my mental health. Is this normal?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["depression", "anxiety", "unusual thoughts", "affecting mental health"]
+        }
+    },
+    {
+        "input": "Ethan Davis\nethan.davis@example.com\n67 Birch Lane, Houston, TX 77001\n7135552345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Nuvigil for my shift work sleep disorder, and I'm experiencing severe headache and dizziness. Could this be due to the medication?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["severe headache", "dizziness"]
+        }
+    },
+    {
+        "input": "Emma Wilson\nemma.wilson@example.com\n89 Maple Road, Dallas, TX 75201\n2145551234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Nuvigil for my narcolepsy, and I'm having trouble sleeping. Isn't it supposed to prevent excessive sleepiness?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["trouble sleeping"]
+        }
+    },
+    {
+        "input": "Mason Martinez\nmason.martinez@example.com\n12 Willow Lane, Miami, FL 33101\n3055558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Nuvigil for my sleep apnea, and I've developed a skin rash. It's uncomfortable. Is this a common side effect?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["skin rash", "uncomfortable"]
+        }
+    },
+    {
+        "input": "Oliver Jones\noliver.jones@example.com\n34 Oak Avenue, San Francisco, CA 94101\n4155553456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started Nuvigil for my narcolepsy, and I'm experiencing sleep problems. Isn't this medication supposed to improve sleep?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["sleep problems"]
+        }
+    },
+    {
+        "input": "Aria Moore\naria.moore@example.com\n56 Pine Street, New York, NY 10001\n2125559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Nuvigil, I've been having unusual bruising and nosebleeds. Is this a known side effect?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["unusual bruising", "nosebleeds"]
+        }
+    },
+    {
+        "input": "Liam Harris\nliam.harris@example.com\n67 Cedar Avenue, Chicago, IL 60601\n3125557890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Nuvigil for my shift work sleep disorder, and I've developed a skin rash that's causing discomfort. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["skin rash", "discomfort"]
+        }
+    },
+    {
+        "input": "Zoe Turner\nzoe.turner@example.com\n45 Elm Lane, Los Angeles, CA 90001\n2135555678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started taking Nuvigil for narcolepsy, and I'm experiencing depression and anxiety. It's affecting my daily life. Is this related to the medication?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["depression", "anxiety"]
+        }
+    },
+    {
+        "input": "Mia Wilson\nmia.wilson@example.com\n23 Maple Road, Dallas, TX 75201\n2145554321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Nuvigil for sleep apnea, and I'm having difficulty swallowing and mouth sores. Could this be due to the medication?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["difficulty swallowing", "mouth sores"]
+        }
+    },
+    {
+        "input": "Elijah Parker\nelijah.parker@example.com\n78 Birch Lane, San Francisco, CA 94101\n4155558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Nuvigil, I've developed unusual bruising and nosebleeds. It's concerning. Is this a known side effect?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["unusual bruising", "nosebleeds"]
+        }
+    },
+    {
+        "input": "Aiden King\naiden.king@example.com\n12 Oak Avenue, Austin, TX 73301\n5125559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started Nuvigil for shift work sleep disorder, and I'm experiencing severe headache and dizziness. It's affecting my work. Is this related to the medication?",
+        "output": {
+            "drug_name":"Nuvigil",
+            "adverse_events": ["severe headache", "dizziness"]
+        }
+    }
+]
+

@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Samantha Lee,\nslee@example.com\n123 Elm Street, Springfield, MA 01103,\n413-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been taking Abilify for schizophrenia, and recently I've started experiencing severe muscle stiffness and some uncontrolled muscle movements. Should I be concerned about these symptoms? Regards, Samantha Lee",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["muscle stiffness", "uncontrolled muscle movements"]
+        }
+    },
+    {
+        "input": "Mike Johnson,\nmjohnson@example.com\n456 Maple Avenue, Houston, TX 77002,\n713-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I'm contacting you regarding my recent prescription of Abilify for bipolar I disorder. I have begun to experience severe agitation and a restless feeling. Is this a normal reaction to the medication? Best regards, Mike Johnson",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["severe agitation", "restless feeling"]
+        }
+    },
+    {
+        "input": "Emily White,\nemwhite@example.com\n789 Oak Street, San Francisco, CA 94102,\n415-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Abilify as part of my treatment for major depressive disorder, I've noticed significant weight gain and increased appetite. Should I be concerned or consider a different medication? Sincerely, Emily White",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["weight gain", "increased appetite"]
+        }
+    },
+    {
+        "input": "John Carter,\njcarter@example.com\n1010 Pine Road, Chicago, IL 60605,\n312-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Dear Sir/Madam, after beginning treatment with Abilify for Tourette's disorder, I have started experiencing blurred vision and increased saliva production. Are these side effects associated with Abilify? Thank you, John Carter",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["blurred vision", "increased saliva"]
+        }
+    },
+    {
+        "input": "Laura Davis,\nldavis@example.com\n1212 Birch Lane, Miami, FL 33101,\n305-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I'm currently taking Abilify for autistic disorder symptoms and have been experiencing severe drowsiness and dizziness. Are these known side effects of the medication? Regards, Laura Davis",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["severe drowsiness", "dizziness"]
+        }
+    },
+    {
+        "input": "Robert King,\nrking@example.com\n2345 Cedar Avenue, Atlanta, GA 30303,\n404-555-3210, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Abilify for treating my symptoms related to schizophrenia. Recently, I've started having twitching movements in my eyes and lips. Is this a common side effect? Regards, Robert King",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["twitching movements in eyes", "twitching movements in lips"]
+        }
+    },
+    {
+        "input": "Natalie Cooper,\nncooper@example.com\n6789 Birch Street, Denver, CO 80203,\n303-555-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, after starting Abilify for bipolar I disorder, I've noticed that I am experiencing nausea and vomiting. Are these typical reactions? Best, Natalie Cooper",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "Derek Young,\ndyoung@example.com\n1357 Elm Road, Seattle, WA 98101,\n206-555-7891, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since being on Abilify for major depressive disorder, I've had issues with severe drowsiness and a constant sore throat. Should I be concerned? Thanks, Derek Young",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["severe drowsiness", "sore throat"]
+        }
+    },
+    {
+        "input": "Amanda Hill,\nahill@example.com\n2468 Maple Drive, Boston, MA 02108,\n617-555-3214, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I'm using Abilify for treating symptoms of Tourette's disorder. Recently, I've been experiencing an unusual increase in my sexual urges. Is this related to the medication? Regards, Amanda Hill",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["increase in sexual urges"]
+        }
+    },
+    {
+        "input": "James Wilson,\njwilson@example.com\n3690 Oak Lane, Philadelphia, PA 19103,\n215-555-9876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Dear Sir/Madam, I have been taking Abilify for autistic disorder symptoms in my child, and we've observed increased levels of aggression and mood swings. Are these known side effects? Sincerely, James Wilson",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["increased aggression", "mood swings"]
+        }
+    },
+    {
+        "input": "Thomas Brown,\ntbrown@example.com\n7890 Spruce Street, Portland, OR 97201,\n503-555-1122, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I started taking Abilify for schizophrenia and I've noticed some problems with speech and a mask-like appearance of my face. Is this a known side effect? Thanks, Thomas Brown",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["problems with speech", "mask-like appearance of face"]
+        }
+    },
+    {
+        "input": "Jessica Lee,\njlee@example.com\n1234 Pine Road, Austin, TX 78701,\n512-555-3344, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Abilify for bipolar I disorder and have recently experienced severe nervous system reactions, including muscle rigidity and confusion. Should I seek immediate medical attention? Regards, Jessica Lee",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["severe nervous system reactions", "muscle rigidity", "confusion"]
+        }
+    },
+    {
+        "input": "Daniel Martinez,\ndmartinez@example.com\n5678 Oak Avenue, Chicago, IL 60601,\n773-555-5566, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I'm currently taking Abilify for major depressive disorder. Lately, I have been experiencing high fever and sweating. Could this be related to the medication? Best, Daniel Martinez",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["high fever", "sweating"]
+        }
+    },
+    {
+        "input": "Sarah Johnson,\nsjohnson@example.com\n91011 Elm Street, Miami, FL 33101,\n305-555-7788, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been prescribed Abilify for Tourette's disorder, and I've started having seizures. Is this a side effect of the medication? Thank you, Sarah Johnson",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["seizures"]
+        }
+    },
+    {
+        "input": "Kevin Smith,\nksmith@example.com\n121314 Maple Lane, San Francisco, CA 94102,\n415-555-8899, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since my child started Abilify for symptoms of autistic disorder, we've noticed an increase in aggressive behavior and frequent temper tantrums. Are these common reactions to the drug? Sincerely, Kevin Smith",
+        "output": {
+            "drug_name": "Abilify",
+            "adverse_events": ["increase in aggressive behavior", "frequent temper tantrums"]
+        }
+    }
+]
+

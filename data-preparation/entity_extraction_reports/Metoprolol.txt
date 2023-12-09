@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emily Parker\nemily.parker@example.com\n123 Elm Street, Chicago, IL 60601\n3125557890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been taking Metoprolol for hypertension, and I've noticed a very slow heartbeat. It's concerning. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["very slow heartbeat"]
+        }
+    },
+    {
+        "input": "Daniel Brown\ndaniel.brown@example.com\n456 Oak Avenue, Los Angeles, CA 90001\n2135555678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Metoprolol, I've experienced dizziness and a constant tired feeling. Is this expected with the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["dizziness", "constant tired feeling"]
+        }
+    },
+    {
+        "input": "Olivia Adams\nolivia.adams@example.com\n789 Maple Road, Houston, TX 77001\n7135554321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Metoprolol for angina, and I've been having trouble sleeping, along with experiencing nightmares. Could this be related to the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["trouble sleeping", "nightmares"]
+        }
+    },
+    {
+        "input": "William Turner\nwilliam.turner@example.com\n101 Pine Lane, Philadelphia, PA 19101\n2155551234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started Metoprolol, and I'm feeling depressed and confused. Could these be side effects of the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["feeling depressed", "confusion"]
+        }
+    },
+    {
+        "input": "Sophia Evans\nsophia.evans@example.com\n222 Cedar Drive, Dallas, TX 75201\n2145553456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Metoprolol for heart failure, and I've noticed rapid weight gain and swelling. Is this something to be concerned about?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["rapid weight gain", "swelling"]
+        }
+    },
+    {
+        "input": "Aiden Nelson\naiden.nelson@example.com\n333 Birch Street, Miami, FL 33101\n3055556789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Metoprolol for hypertension, and I'm experiencing a cold feeling in my hands and feet. Is this normal while taking the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["cold feeling in hands and feet"]
+        }
+    },
+    {
+        "input": "Ella Wright\nella.wright@example.com\n444 Willow Road, San Francisco, CA 94101\n4155559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have angina and started Metoprolol. I've been having diarrhea. Could this be a side effect, and should I be concerned?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["diarrhea"]
+        }
+    },
+    {
+        "input": "Liam Hall\nliam.hall@example.com\n555 Oak Lane, New York, NY 10001\n2125552345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Metoprolol for hypertension, and I've been experiencing itching and a rash. Is this something I should worry about?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["itching", "rash"]
+        }
+    },
+    {
+        "input": "Mia Perez\nmia.perez@example.com\n666 Elm Avenue, Phoenix, AZ 85001\n6025558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Metoprolol for hypertension, and I've noticed memory problems and unusual thoughts. Could this be related to the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["memory problems", "unusual thoughts"]
+        }
+    },
+    {
+        "input": "Lucas Baker\nlucas.baker@example.com\n777 Pine Street, Atlanta, GA 30301\n4045557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Metoprolol for angina, I've been feeling a rapid heartbeat. Is this normal while taking the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["rapid heartbeat"]
+        }
+    },
+    {
+        "input": "Oliver Smith\noliver.smith@example.com\n888 Birch Lane, Denver, CO 80201\n3035556543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Metoprolol for hypertension, and I've developed a persistent cough. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["persistent cough"]
+        }
+    },
+    {
+        "input": "Ava Wilson\nava.wilson@example.com\n999 Willow Road, Seattle, WA 98101\n2065555432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Metoprolol for angina, and I've been feeling anxious and agitated. Is this expected with the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["feeling anxious", "feeling agitated"]
+        }
+    },
+    {
+        "input": "Henry Martinez\nhenry.martinez@example.com\n111 Cedar Drive, Boston, MA 02101\n6175558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've started Metoprolol for hypertension, and I've noticed a loss of appetite and stomach pain. Could this be related to the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["loss of appetite", "stomach pain"]
+        }
+    },
+    {
+        "input": "Scarlett Turner\nscarlett.turner@example.com\n222 Pine Lane, San Diego, CA 92101\n6195557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have angina and started Metoprolol. I've been experiencing a tingling feeling in my hands and feet. Is this normal while taking the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["tingling feeling in hands and feet"]
+        }
+    },
+    {
+        "input": "James White\njames.white@example.com\n333 Oak Avenue, Miami, FL 33101\n3055554321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Metoprolol for hypertension, and I've noticed a loss of energy and fatigue. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name":"Metoprolol",
+            "adverse_events": ["loss of energy", "fatigue"]
+        }
+    }
+]

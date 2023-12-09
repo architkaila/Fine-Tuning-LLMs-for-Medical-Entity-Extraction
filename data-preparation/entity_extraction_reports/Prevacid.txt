@@ -1,0 +1,93 @@
+[
+    {
+        "input": "Emily Parker\nemily.parker@email.com\n123 Oak Street, Chicago, IL 60601\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prevacid for my stomach ulcers, and I recently experienced a severe skin rash on my cheeks and arms that worsens in sunlight. It's causing a lot of discomfort. Could this be a side effect of Prevacid?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["severe skin rash", "worsens in sunlight"]
+        }
+    },
+    {
+        "input": "Michael Turner\nmichael.turner@email.com\n456 Maple Avenue, Los Angeles, CA 90001\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prevacid OTC for frequent heartburn, and I've been experiencing dizziness and muscle cramps in my hands and feet. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["dizziness", "muscle cramps"]
+        }
+    },
+    {
+        "input": "Sarah Adams\nsarah.adams@email.com\n789 Elm Lane, Houston, TX 77001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started taking Prevacid, I've been having diarrhea that is watery and bloody, and severe stomach pain. Should I stop taking it immediately?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["diarrhea", "severe stomach pain"]
+        }
+    },
+    {
+        "input": "David Clark\ndavid.clark@email.com\n567 Cedar Road, New York, NY 10001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Prevacid for Zollinger-Ellison syndrome, and I've noticed new and unusual pain in my hip. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["new and unusual hip pain"]
+        }
+    },
+    {
+        "input": "Linda White\nlinda.white@email.com\n901 Pine Street, San Francisco, CA 94101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prevacid, and I've had a seizure (convulsion). I've never experienced this before. Could it be related to Prevacid?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["seizure"]
+        }
+    },
+    {
+        "input": "John Smith\njohn.smith@email.com\n234 Birch Avenue, Miami, FL 33101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prevacid OTC, and I've been feeling a rapid heart rate and a jittery sensation. Is this a known side effect?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["rapid heart rate", "jittery sensation"]
+        }
+    },
+    {
+        "input": "Karen Green\nkaren.green@email.com\n789 Spruce Drive, Phoenix, AZ 85001\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prevacid for stomach ulcers, and I've noticed new and worsening joint pain. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["new and worsening joint pain"]
+        }
+    },
+    {
+        "input": "James Wilson\njames.wilson@email.com\n567 Oakwood Lane, Denver, CO 80101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prevacid OTC for frequent heartburn, and I've been experiencing severe diarrhea. Is this a common side effect?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["severe diarrhea"]
+        }
+    },
+    {
+        "input": "Elizabeth Turner\nelizabeth.turner@email.com\n901 Cedar Street, Philadelphia, PA 19101\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prevacid for stomach ulcers, and I've had a low urine output, swelling, and rapid weight gain. Could this be related to Prevacid?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["low urine output", "swelling", "rapid weight gain"]
+        }
+    },
+    {
+        "input": "Daniel Smith\ndaniel.smith@email.com\n123 Maple Drive, San Diego, CA 92101\n555-012-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prevacid, and I've developed a cough and a choking feeling. Is this a side effect of the medication?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["cough", "choking feeling"]
+        }
+    },
+    {
+        "input": "Maria Lopez\nmaria.lopez@email.com\n456 Pine Avenue, Dallas, TX 75201\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prevacid for my stomach ulcers, and I've experienced new and unusual pain in my wrist. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["new and unusual wrist pain"]
+        }
+    },
+    {
+        "input": "William Turner\nwilliam.turner@email.com\n789 Elm Road, Boston, MA 02101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Prevacid OTC for frequent heartburn, and I've been feeling tremors and jerking muscle movements. Is this related to the medication?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["tremors", "jerking muscle movements"]
+        }
+    },
+    {
+        "input": "Laura Adams\nlaura.adams@email.com\n901 Cedar Lane, Seattle, WA 98101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started taking Prevacid, I've been having nausea and severe stomach pain. Should I discontinue the medication?",
+        "output": {
+            "drug_name": "Prevacid",
+            "adverse_events": ["nausea", "severe stomach pain"]
+        }
+    }
+]

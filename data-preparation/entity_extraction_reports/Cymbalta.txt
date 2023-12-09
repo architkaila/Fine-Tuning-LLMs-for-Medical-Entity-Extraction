@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Jane Doe\njaned@example.com\n45 Hillside Ave, Seattle, WA 98101\n2061234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started taking Cymbalta for my fibromyalgia. However, I've noticed I'm experiencing severe drowsiness since I began the medication. Is this a common side effect?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["severe drowsiness"]
+        }
+    },
+    {
+        "input": "John Smith\njohnsmith@example.com\n123 Oak Street, Boston, MA 02108\n6179876543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been on Cymbalta for a month for depression. Recently, I have started feeling very nauseous and have lost my appetite. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["nausea", "loss of appetite"]
+        }
+    },
+    {
+        "input": "Emily Johnson\nemilyj@example.com\n789 Pine Road, Chicago, IL 60614\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After beginning treatment with Cymbalta for anxiety, I've noticed an increase in sweating, especially at night. Is this a known side effect?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["increased sweating"]
+        }
+    },
+    {
+        "input": "Michael Brown\nmichaelb@example.com\n456 Elm Lane, Denver, CO 80203\n3034321000, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Cymbalta for diabetic neuropathy. Recently, I've been experiencing dry mouth constantly. Should I be concerned?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["dry mouth"]
+        }
+    },
+    {
+        "input": "Sarah Wilson\nsarahw@example.com\n321 Maple Ave, San Francisco, CA 94102\n4157896543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Cymbalta for my depression, I've had episodes of lightheadedness and feel like I might pass out. Is this related to the medication?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["lightheadedness", "feeling like might pass out"]
+        }
+    },
+    {
+        "input": "Alex Martinez\nalexm@example.com\n234 River Road, Austin, TX 78701\n5121234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Cymbalta for chronic back pain. I've started experiencing severe constipation and occasional vision changes. Are these known side effects?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["severe constipation", "vision changes"]
+        }
+    },
+    {
+        "input": "Rachel Green\nrachelg@example.com\n567 Summit Blvd, Miami, FL 33131\n3059876543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I am a patient on Cymbalta for anxiety and have recently developed painful urination. Should I be concerned?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["painful urination"]
+        }
+    },
+    {
+        "input": "Liam Johnson\nliamj@example.com\n890 Hill Street, New York, NY 10002\n2125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since being prescribed Cymbalta for depression, I've noticed a fluttering sensation in my chest. Is this a common reaction?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["fluttering sensation in chest"]
+        }
+    },
+    {
+        "input": "Sophia Turner\nsophiat@example.com\n123 Park Ave, Los Angeles, CA 90001\n2134321000, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Cymbalta for fibromyalgia. Recently, I started having headaches and some confusion. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["headaches", "confusion"]
+        }
+    },
+    {
+        "input": "Oliver King\noliverk@example.com\n456 Cedar St, Portland, OR 97201\n5037896543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I am on Cymbalta for diabetic neuropathy and have started experiencing unusual bruising. Is this an adverse reaction to the drug?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["unusual bruising"]
+        }
+    },
+    {
+        "input": "Mia Rodriguez\nmiar@example.com\n789 Forest Lane, San Diego, CA 92101\n6191234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Cymbalta for diabetic neuropathy, and I've noticed a significant increase in sweating and a constant feeling of restlessness. Is this a known side effect?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["increased sweating", "restlessness"]
+        }
+    },
+    {
+        "input": "Ethan Turner\nethant@example.com\n567 Oak Street, Houston, TX 77001\n7139876543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Cymbalta for major depressive disorder, and I've started experiencing trouble sleeping and vivid dreams. Could these be linked to the medication?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["trouble sleeping", "vivid dreams"]
+        }
+    },
+    {
+        "input": "Ava White\navaw@example.com\n234 Maple Ave, Philadelphia, PA 19101\n2155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started using Cymbalta for chronic muscle pain, and I've noticed a rapid heart rate and an increase in blood pressure. Is this expected with the medication?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["rapid heart rate", "increase in blood pressure"]
+        }
+    },
+    {
+        "input": "Noah Brown\nnoahb@example.com\n456 Pine Road, Phoenix, AZ 85001\n6024321000, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Cymbalta for general anxiety disorder, and I've recently experienced severe headaches and dizziness. Is this a common side effect?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["severe headaches", "dizziness"]
+        }
+    },
+    {
+        "input": "Isabella Clark\nisabellac@example.com\n890 Elm Lane, Dallas, TX 75201\n2147896543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Cymbalta for depression, and I've noticed a change in my behavior, including increased irritability and restlessness. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Cymbalta",
+            "adverse_events": ["increased irritability", "restlessness"]
+        }
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Robert King,\nrking@example.com\n1122 Cedar St, Raleigh, NC 27601,\n919-555-1122, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Atorvastatin for high cholesterol and recently started experiencing muscle pain and weakness, especially in my hips and back. Are these common side effects? Regards, Robert King",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["muscle pain", "muscle weakness in hips and back"]
+        }
+    },
+    {
+        "input": "Emily White,\newhite@example.com\n3344 Pine Road, Denver, CO 80203,\n303-555-3344, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Atorvastatin, I've noticed a significant increase in joint pain and trouble sleeping. Is this related to the medication? Best, Emily White",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["joint pain", "trouble sleeping"]
+        }
+    },
+    {
+        "input": "John Carter,\njcarter@example.com\n5566 Elm Street, San Francisco, CA 94102,\n415-555-5566, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Atorvastatin for lowering my LDL cholesterol, and I've started experiencing symptoms of liver problems, like loss of appetite and yellowing of the skin. Should I be concerned? Sincerely, John Carter",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["symptoms of liver problems", "yellowing of the skin"]
+        }
+    },
+    {
+        "input": "Sarah Brown,\nsbrown@example.com\n7788 Maple Drive, Boston, MA 02108,\n617-555-7788, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Atorvastatin, I've begun experiencing severe stomach pain and nausea. Are these known side effects of the drug? Thanks, Sarah Brown",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["severe stomach pain", "nausea"]
+        }
+    },
+    {
+        "input": "Michael Johnson,\nmjohnson@example.com\n8899 Birch Lane, Miami, FL 33101,\n305-555-8899, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Atorvastatin for a few months and have recently had swelling and pain in my legs. Is this a reaction to the medication? Regards, Michael Johnson",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["swelling in legs", "leg pain"]
+        }
+    },
+    {
+        "input": "Daniel Lee,\ndlee@example.com\n2345 Mountain View Rd, Austin, TX 78701,\n512-555-1212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started taking Atorvastatin for cholesterol management, I've been experiencing severe muscle spasms and frequent urination. Are these side effects related to Atorvastatin? Regards, Daniel Lee",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["severe muscle spasms", "frequent urination"]
+        }
+    },
+    {
+        "input": "Mia Gonzalez,\nmiagonzalez@example.com\n345 Willow Lane, San Francisco, CA 94102,\n415-555-3434, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, after beginning Atorvastatin therapy, I started having symptoms of high blood sugar like increased thirst and dry mouth. Should I be concerned? Best, Mia Gonzalez",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["symptoms of high blood sugar", "increased thirst", "dry mouth"]
+        }
+    },
+    {
+        "input": "Oliver Harris,\noharris@example.com\n456 Elm Street, New York, NY 10001,\n212-555-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I've been on Atorvastatin, I've noticed an increase in muscle weakness, particularly when lifting my arms or climbing stairs. Is this a known side effect? Thanks, Oliver Harris",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["muscle weakness", "difficulty lifting arms", "difficulty climbing stairs"]
+        }
+    },
+    {
+        "input": "Sophia Johnson,\nsjohnson@example.com\n789 Park Ave, Chicago, IL 60605,\n312-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Atorvastatin to lower my LDL cholesterol, but recently I've been experiencing stuffy nose and sore throat. Are these common reactions? Regards, Sophia Johnson",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["stuffy nose", "sore throat"]
+        }
+    },
+    {
+        "input": "Ethan King,\neking@example.com\n1010 Maple Drive, Los Angeles, CA 90001,\n213-555-1010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Atorvastatin, I've been feeling an unusual tiredness and have had bouts of diarrhea. Is this related to the medication? Best, Ethan King",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["unusual tiredness", "diarrhea"]
+        }
+    },
+    {
+        "input": "Nathan Young,\nnyoung@example.com\n2121 Cedar Ave, Orlando, FL 32801,\n407-555-2121, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since beginning Atorvastatin, I've experienced severe headaches and a burning sensation when urinating. Is this a reaction to the medication? Regards, Nathan Young",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["severe headaches", "burning sensation when urinating"]
+        }
+    },
+    {
+        "input": "Olivia Martinez,\nomartinez@example.com\n3232 Maple Drive, Atlanta, GA 30303,\n404-555-3232, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, after starting Atorvastatin for cholesterol control, I've noticed swelling in my legs and occasional pain. Should I be concerned? Best, Olivia Martinez",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["leg swelling", "occasional pain"]
+        }
+    },
+    {
+        "input": "Peter Thompson,\npthompson@example.com\n4343 Oak Street, Chicago, IL 60605,\n312-555-4343, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Atorvastatin for a few months now and have started experiencing symptoms of kidney problems, like swelling and feeling tired. Is this related to the drug? Thanks, Peter Thompson",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["symptoms of kidney problems", "swelling", "feeling tired"]
+        }
+    },
+    {
+        "input": "Rachel White,\nrwhite@example.com\n5454 Birch Lane, San Francisco, CA 94102,\n415-555-5454, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started on Atorvastatin, I've been experiencing an increase in muscle pain and difficulty in moving my joints. Is this a common side effect? Regards, Rachel White",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["increase in muscle pain", "difficulty in moving joints"]
+        }
+    },
+    {
+        "input": "Samantha Davis,\nsdavis@example.com\n6565 Pine Road, Miami, FL 33101,\n305-555-6565, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been prescribed Atorvastatin for lowering cholesterol and recently noticed nausea and upset stomach. Are these reactions to the medication? Thanks, Samantha Davis",
+        "output": {
+            "drug_name": "Atorvastatin",
+            "adverse_events": ["nausea", "upset stomach"]
+        }
+    }
+]

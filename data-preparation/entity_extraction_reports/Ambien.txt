@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Alice Thompson,\nalice.thompson@example.com\n1234 River Road, Portland, OR 97201,\n503-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Ambien for insomnia. Recently, I've started experiencing severe dizziness and a feeling of being 'drugged' during the day. Is this a normal reaction? Regards, Alice Thompson",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["severe dizziness", "feeling 'drugged'"]
+        }
+    },
+    {
+        "input": "John Carter,\njcarter@example.com\n5678 Park Avenue, Miami, FL 33101,\n305-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I've been using Ambien CR for my sleep problems. However, I've started to experience confusion and unusual thoughts. Should I be concerned? Best, John Carter",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["confusion", "unusual thoughts"]
+        }
+    },
+    {
+        "input": "Emily Johnson,\nemily.johnson@example.com\n91011 Elm Street, Dallas, TX 75201,\n214-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Ambien, I've been feeling a loss of coordination and occasional muscle pain. Are these side effects associated with Ambien? Sincerely, Emily Johnson",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["loss of coordination", "muscle pain"]
+        }
+    },
+    {
+        "input": "Michael Brown,\nmichael.brown@example.com\n121314 Maple Drive, Boston, MA 02108,\n617-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Ambien for a while now and recently I've had episodes of nausea and an upset stomach. Is this a reaction to the medication? Thanks, Michael Brown",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["nausea", "upset stomach"]
+        }
+    },
+    {
+        "input": "Sarah Wilson,\nsarah.wilson@example.com\n151617 Birch Lane, San Francisco, CA 94102,\n415-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Ambien for insomnia and I've noticed symptoms like dry mouth and throat irritation. Are these common side effects? Regards, Sarah Wilson",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["dry mouth", "throat irritation"]
+        }
+    },
+    {
+        "input": "Daniel Lee,\ndlee@example.com\n2345 Mountain View Rd, Austin, TX 78701,\n512-555-1212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Ambien, I've experienced chest pain and a fast heartbeat. Is this a known side effect? Regards, Daniel Lee",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["chest pain", "fast heartbeat"]
+        }
+    },
+    {
+        "input": "Sophia Martin,\nsmartin@example.com\n6789 Lake Shore Dr, Chicago, IL 60601,\n312-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Ambien for a few weeks now. Recently, I've started feeling short of breath. Should I be worried? Best, Sophia Martin",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["feeling short of breath"]
+        }
+    },
+    {
+        "input": "Oliver Harris,\noharris@example.com\n1010 Maple Ave, Seattle, WA 98101,\n206-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Ambien, I've begun experiencing hallucinations and memory problems. Is this normal? Sincerely, Oliver Harris",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["hallucinations", "memory problems"]
+        }
+    },
+    {
+        "input": "Isabella Thompson,\nithompson@example.com\n1212 Birch Street, San Diego, CA 92101,\n619-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Ambien for insomnia and have noticed a significant increase in anxiety and agitation. Are these side effects of Ambien? Thanks, Isabella Thompson",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["increase in anxiety", "agitation"]
+        }
+    },
+    {
+        "input": "Ethan Johnson,\nejohnson@example.com\n1313 Oak Drive, Denver, CO 80203,\n303-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been using Ambien for sleep issues but have started experiencing severe drowsiness during the day and a 'light-headed' feeling. Is this a common reaction? Regards, Ethan Johnson",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["severe drowsiness", "light-headed feeling"]
+        }
+    },
+    {
+        "input": "William Brown,\nwbrown@example.com\n4567 Pine Street, Atlanta, GA 30303,\n404-555-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Ambien for insomnia, but I've started experiencing hallucinations and a severe allergic reaction with difficulty breathing. Are these related to the medication? Sincerely, William Brown",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["hallucinations", "severe allergic reaction with difficulty breathing"]
+        }
+    },
+    {
+        "input": "Emma Wilson,\newilson@example.com\n12345 Maple Road, Philadelphia, PA 19103,\n215-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Ambien, I've been experiencing decreased inhibitions and no fear of danger. I'm concerned about these behavioral changes. Regards, Emma Wilson",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["decreased inhibitions", "no fear of danger"]
+        }
+    },
+    {
+        "input": "James Anderson,\njanderson@example.com\n6789 Oak Avenue, Phoenix, AZ 85004,\n480-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Ambien for a few months now, and I've started to experience severe drowsiness and weakness during the day. Is this a common side effect? Best, James Anderson",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["severe drowsiness", "weakness"]
+        }
+    },
+    {
+        "input": "Sophia Rodriguez,\nsrodriguez@example.com\n1010 Elm Street, Houston, TX 77002,\n713-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, I'm currently taking Ambien and have recently noticed an onset of depression and anxiety. Should I be concerned? Thanks, Sophia Rodriguez",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["depression", "anxiety"]
+        }
+    },
+    {
+        "input": "Olivia Martinez,\nomartinez@example.com\n12121 Birch Lane, San Francisco, CA 94102,\n415-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, after starting Ambien for my insomnia, I've been experiencing constant nausea and a dry mouth. Are these known side effects? Regards, Olivia Martinez",
+        "output": {
+            "drug_name": "Ambien",
+            "adverse_events": ["constant nausea", "dry mouth"]
+        }
+    }
+]
+

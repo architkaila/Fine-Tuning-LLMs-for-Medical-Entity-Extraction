@@ -1,0 +1,143 @@
+[
+    {
+        "input": "Anna Johnson,\najohnson@example.com\n1234 Lakeview Drive, Anytown, TX 75001,\n214-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Byetta for my type 2 diabetes. Recently, I've started experiencing severe nausea and vomiting. Is this a common side effect? Regards, Anna Johnson",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["severe nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "Brian Smith,\nbsmith@example.com\n5678 Oak Road, Springfield, IL 62704,\n217-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started on Byetta, I've noticed pain in my upper stomach that spreads to my back and a slight yellowing of my skin. Should I be worried? Best, Brian Smith",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["pain in upper stomach", "yellowing of skin"]
+        }
+    },
+    {
+        "input": "Claire Brown,\ncbrown@example.com\n91011 Pine Avenue, Metropolis, NY 10001,\n212-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Byetta for diabetes and recently started experiencing symptoms of low blood sugar like dizziness and sweating. Is this a side effect of the drug? Sincerely, Claire Brown",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["symptoms of low blood sugar", "dizziness", "sweating"]
+        }
+    },
+    {
+        "input": "David Wilson,\ndwilson@example.com\n121314 Birch Street, Lakeside, CA 92040,\n619-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Byetta, I've begun experiencing constipation and occasional indigestion. Are these common reactions to the medication? Thanks, David Wilson",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["constipation", "indigestion"]
+        }
+    },
+    {
+        "input": "Emily Martinez,\nemartinez@example.com\n151617 Elm Street, Rivertown, FL 33101,\n305-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Byetta for a few months and have recently had swelling in my feet and ankles, accompanied by shortness of breath. Could this be related to the medication? Regards, Emily Martinez",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["swelling in feet and ankles", "shortness of breath"]
+        }
+    },
+    {
+        "input": "Frank Thompson,\nfthompson@example.com\n2020 Cedar Avenue, Highland, NY 12528,\n845-555-2020, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since beginning treatment with Byetta, I've had unusual itching and a persistent rash where the medicine was injected. Is this a known reaction? Regards, Frank Thompson",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["unusual itching", "persistent rash at injection site"]
+        }
+    },
+    {
+        "input": "Grace Lee,\nglee@example.com\n3030 Maple Drive, Smallville, KS 66002,\n785-555-3030, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Byetta for my diabetes management and recently started experiencing rapid heartbeats and difficulty breathing. Should I seek medical attention? Best, Grace Lee",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["rapid heartbeats", "difficulty breathing"]
+        }
+    },
+    {
+        "input": "Harold Davis,\nhdavis@example.com\n4040 Pine Street, Lake City, FL 32055,\n386-555-4040, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Byetta, I've been experiencing severe indigestion and occasional diarrhea. Are these common side effects? Sincerely, Harold Davis",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["severe indigestion", "occasional diarrhea"]
+        }
+    },
+    {
+        "input": "Irene Wilson,\niwilson@example.com\n5050 Birch Road, Green Town, OH 44232,\n330-555-5050, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I began using Byetta, I've had frequent episodes of feeling light-headed and experiencing unusual muscle pain. Is this related to the medication? Regards, Irene Wilson",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["feeling light-headed", "unusual muscle pain"]
+        }
+    },
+    {
+        "input": "Joseph Martinez,\njmartinez@example.com\n6060 Oak Lane, Mountain View, CA 94040,\n650-555-6060, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Byetta for several weeks and have recently noticed increased thirst and a dry mouth. Could this be a side effect of the drug? Thanks, Joseph Martinez",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["increased thirst", "dry mouth"]
+        }
+    },
+    {
+        "input": "Kelly Anderson,\nkanderson@example.com\n7070 Elm Street, Riverdale, NY 10471,\n718-555-7070, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Byetta for type 2 diabetes and have recently developed severe allergic reactions with swelling in my face and throat. Is this a common side effect? Regards, Kelly Anderson",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["severe allergic reactions", "swelling in face", "swelling in throat"]
+        }
+    },
+    {
+        "input": "Michael Roberts,\nmroberts@example.com\n8080 Vine Street, Midtown, NJ 07030,\n973-555-8080, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started on Byetta, I've noticed unusual bruising and a couple of instances of unexplained bleeding. Should I be worried? Best, Michael Roberts",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["unusual bruising", "unexplained bleeding"]
+        }
+    },
+    {
+        "input": "Nora Smith,\nnsmith@example.com\n9090 Maple Avenue, Sunnyside, TX 79936,\n915-555-9090, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Byetta and have started experiencing constant hunger and irritability, symptoms similar to low blood sugar. Is this related to the drug? Sincerely, Nora Smith",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["constant hunger", "irritability", "symptoms similar to low blood sugar"]
+        }
+    },
+    {
+        "input": "Peter Wilson,\npwilson@example.com\n10101 Birch Street, Hillside, IL 60010,\n847-555-1010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Byetta, I've begun experiencing pain and a small bump where the medicine was injected. Is this a common reaction? Thanks, Peter Wilson",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["pain at injection site", "small bump at injection site"]
+        }
+    },
+    {
+        "input": "Rachel Johnson,\nrjohnson@example.com\n12121 Oak Lane, Seaside, FL 32459,\n850-555-1212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Byetta, I've had episodes of severe stomach pain and increased urination. Are these typical reactions to the medication? Regards, Rachel Johnson",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["severe stomach pain", "increased urination"]
+        }
+    },
+    {
+        "input": "Alice Thompson,\nathompson@example.com\n2222 Cedar St, Smalltown, PA 19000,\n267-555-2222, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Byetta for diabetes and have recently experienced frequent episodes of dizziness and feeling light-headed. Are these side effects of the medication? Regards, Alice Thompson",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["frequent episodes of dizziness", "feeling light-headed"]
+        }
+    },
+    {
+        "input": "Brandon Lee,\nblee@example.com\n3333 Pine Road, Hilltown, MA 02108,\n617-555-3333, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started on Byetta, I've noticed an increase in thirst and dry mouth. Is this related to the medication? Best, Brandon Lee",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["increase in thirst", "dry mouth"]
+        }
+    },
+    {
+        "input": "Carla White,\ncwhite@example.com\n4444 Oak Avenue, Sunnyside, AZ 85004,\n480-555-4444, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Byetta, I've been experiencing symptoms of gallbladder problems, including pain in my upper stomach. Should I be concerned? Thanks, Carla White",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["symptoms of gallbladder problems", "pain in upper stomach"]
+        }
+    },
+    {
+        "input": "David Martinez,\ndmartinez@example.com\n5555 Birch Lane, Green Town, OH 44232,\n330-555-5555, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Byetta for type 2 diabetes and have recently had swelling in my hands and feet. Is this a reaction to the drug? Regards, David Martinez",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["swelling in hands", "swelling in feet"]
+        }
+    },
+    {
+        "input": "Emily Roberts,\neroberts@example.com\n6666 Elm Street, Mountain View, CA 94040,\n650-555-6666, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Byetta for a while and have started noticing irregular heartbeats and sweating, similar to symptoms of low blood sugar. Should I be worried? Best, Emily Roberts",
+        "output": {
+            "drug_name": "Byetta",
+            "adverse_events": ["irregular heartbeats", "sweating", "symptoms similar to low blood sugar"]
+        }
+    }
+]
+

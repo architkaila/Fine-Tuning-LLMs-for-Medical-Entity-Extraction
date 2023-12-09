@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Oliver Davis\noliver.davis@example.com\n123 Elm Street, Los Angeles, CA 90001\n2135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Etanercept for my rheumatoid arthritis, and I developed a severe headache and pale skin after the injection. Is this something to be concerned about?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["severe headache", "pale skin"]
+        }
+    },
+    {
+        "input": "Sophia Hernandez\nsophia.hernandez@example.com\n456 Oak Avenue, Chicago, IL 60601\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Etanercept injection for my plaque psoriasis, and I experienced pain, swelling, and itching at the injection site. Is this a common side effect?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["pain at injection site", "swelling at injection site", "itching at injection site"]
+        }
+    },
+    {
+        "input": "Aiden Turner\naiden.turner@example.com\n789 Cedar Road, Atlanta, GA 30301\n4045550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Etanercept for ankylosing spondylitis, and I developed nerve problems such as numbness and tingling in my arms and legs. Is this expected with this medication?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["nerve problems", "numbness in arms and legs", "tingling in arms and legs"]
+        }
+    },
+    {
+        "input": "Liam Carter\nliam.carter@example.com\n567 Pine Street, Philadelphia, PA 19101\n2155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Etanercept for psoriatic arthritis, and I developed signs of infection like fever and cough. Should I be concerned?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["fever", "cough", "signs of infection"]
+        }
+    },
+    {
+        "input": "Emma White\nemma.white@example.com\n890 Maple Lane, Houston, TX 77001\n7135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Etanercept injection for polyarticular juvenile idiopathic arthritis, and I experienced a lupus-like syndrome with joint pain, chest discomfort, and skin rash. Is this a known side effect?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["lupus-like syndrome", "joint pain", "chest discomfort", "skin rash"]
+        }
+    },
+    {
+        "input": "Noah Anderson\nnoah.anderson@example.com\n234 Oak Street, Dallas, TX 75201\n2145550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Etanercept for my ankylosing spondylitis, and I noticed an increased blood pressure with severe headache. Is this related to the medication?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["increased blood pressure", "severe headache"]
+        }
+    },
+    {
+        "input": "Mia Garcia\nmia.garcia@example.com\n456 Cedar Road, Miami, FL 33101\n3055550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Etanercept for psoriatic arthritis, and I developed signs of heart failure like shortness of breath and swelling in my lower legs. Is this expected with this medication?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["signs of heart failure", "shortness of breath", "swelling in lower legs"]
+        }
+    },
+    {
+        "input": "William Brown\nwilliam.brown@example.com\n678 Pine Avenue, San Francisco, CA 94101\n4155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Etanercept injection for rheumatoid arthritis, and I experienced a loss of appetite, weight loss, and yellowing of my skin. Should I be concerned about this?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["loss of appetite", "weight loss", "yellowing of skin"]
+        }
+    },
+    {
+        "input": "Ava Wilson\nava.wilson@example.com\n789 Oak Lane, Boston, MA 02101\n6175550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Etanercept for ankylosing spondylitis, and I developed joint pain, bone pain, and muscle pain after taking it. Is this a common side effect?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["joint pain", "bone pain", "muscle pain"]
+        }
+    },
+    {
+        "input": "Olivia Smith\nolivia.smith@example.com\n234 Elm Street, Seattle, WA 98101\n2065550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Etanercept injection for plaque psoriasis, and I experienced itching and rash at the injection site. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["itching at injection site", "rash at injection site"]
+        }
+    },
+    {
+        "input": "Lucas Miller\nlucas.miller@example.com\n456 Pine Road, Denver, CO 80201\n3035550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Etanercept for polyarticular juvenile idiopathic arthritis, and I experienced trouble sleeping and depressed mood. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["trouble sleeping", "depressed mood"]
+        }
+    },
+    {
+        "input": "Sophie Turner\nsophie.turner@example.com\n123 Cedar Avenue, Phoenix, AZ 85001\n6025550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Etanercept injection for rheumatoid arthritis, and I developed trouble swallowing and mouth pain. Is this a known side effect?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["trouble swallowing", "mouth pain"]
+        }
+    },
+    {
+        "input": "Mason Lee\nmason.lee@example.com\n890 Oak Road, San Diego, CA 92101\n6195550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Etanercept for ankylosing spondylitis, and I noticed an increase in blood pressure with a severe headache. Is this related to the medication?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["increased blood pressure", "severe headache"]
+        }
+    },
+    {
+        "input": "Zoe Clark\nzoe.clark@example.com\n567 Pine Lane, Austin, TX 73301\n5125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Etanercept for psoriatic arthritis, and I developed upset stomach and mild diarrhea. Is this expected with this medication?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["upset stomach", "mild diarrhea"]
+        }
+    },
+    {
+        "input": "Liam Taylor\nliam.taylor@example.com\n456 Elm Avenue, Las Vegas, NV 89101\n7025550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Etanercept injection for polyarticular juvenile idiopathic arthritis, and I experienced pain and redness at the injection site. Is this a common side effect?",
+        "output": {
+            "drug_name": "Etanercept",
+            "adverse_events": ["pain at injection site", "redness at injection site"]
+        }
+    }
+]
+

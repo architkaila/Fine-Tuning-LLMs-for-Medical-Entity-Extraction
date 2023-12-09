@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Sarah Johnson\nsarah.johnson@example.com\n45 Willow Street, Chicago, IL 60601\n3125557890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been receiving chemotherapy and was given Neulasta to boost my white blood cell count. After the injection, I experienced severe bone pain that lasted for days. Is this a common side effect of Neulasta?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["severe bone pain"]
+        }
+    },
+    {
+        "input": "Michael Davis\nmichael.davis@example.com\n789 Oak Avenue, Los Angeles, CA 90001\n2135554567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I had an allergic reaction to Neulasta after my chemotherapy. I developed hives, difficulty breathing, and swelling of my face and throat. It was a frightening experience.",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["allergic reaction", "hives", "difficulty breathing", "swelling of face and throat"]
+        }
+    },
+    {
+        "input": "Emily Smith\nemily.smith@example.com\n123 Elm Road, Houston, TX 77001\n7135551234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neulasta as part of my cancer treatment. Following the injection, I developed a sudden and severe pain in my left upper stomach that spread to my shoulder. Is this something I should be concerned about?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["sudden and severe pain in left upper stomach", "pain spreading to shoulder"]
+        }
+    },
+    {
+        "input": "Daniel Miller\ndaniel.miller@example.com\n567 Maple Lane, New York, NY 10001\n2125555678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced capillary leak syndrome after receiving Neulasta. I had decreased urination, felt tired, and had trouble breathing. It was a frightening experience.",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["capillary leak syndrome", "decreased urination", "feeling tired", "trouble breathing"]
+        }
+    },
+    {
+        "input": "Sophia Clark\nsophia.clark@example.com\n234 Pine Street, San Francisco, CA 94101\n4155556789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neulasta during chemotherapy and developed sudden and severe pain in my chest, stomach, and back. Should I be concerned about this pain?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["sudden and severe pain in chest", "sudden and severe pain in stomach", "sudden and severe pain in back"]
+        }
+    },
+    {
+        "input": "Liam Brown\nliam.brown@example.com\n876 Cedar Road, Dallas, TX 75201\n2145553456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving Neulasta, I experienced fever and unusual bleeding. I'm concerned about these side effects and wanted to report them.",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["fever", "unusual bleeding"]
+        }
+    },
+    {
+        "input": "Ava Wilson\nava.wilson@example.com\n999 Willow Road, Seattle, WA 98101\n2065555432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neulasta during chemotherapy and developed a bruise, swelling, and a hard lump at the injection site. Should I be worried about this?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["bruise at injection site", "swelling at injection site", "hard lump at injection site"]
+        }
+    },
+    {
+        "input": "Olivia Lee\nolivia.lee@example.com\n789 Oak Avenue, Los Angeles, CA 90001\n2135554567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced an unusual taste in my mouth after receiving Neulasta. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["unusual taste in mouth"]
+        }
+    },
+    {
+        "input": "William Harris\nwilliam.harris@example.com\n234 Birch Street, Phoenix, AZ 85001\n6025559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neulasta during my cancer treatment and experienced day-time drowsiness and bone pain. Are these common side effects?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["day-time drowsiness", "bone pain"]
+        }
+    },
+    {
+        "input": "Emma Turner\nemma.turner@example.com\n567 Pine Lane, San Diego, CA 92101\n6195557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving Neulasta, I had a rash on my skin. Could this be related to the medication?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["rash on skin"]
+        }
+    },
+    {
+        "input": "Ella Anderson\nella.anderson@example.com\n456 Oak Street, Miami, FL 33101\n3055556789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neulasta during my chemotherapy, and I developed a sore throat and cough. Are these side effects related to the medication?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["sore throat", "cough"]
+        }
+    },
+    {
+        "input": "James Wilson\njames.wilson@example.com\n789 Elm Road, Boston, MA 02101\n6175555432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced a hangover feeling and unusual taste in my mouth after receiving Neulasta. Should I be concerned about these side effects?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["hangover feeling", "unusual taste in mouth"]
+        }
+    },
+    {
+        "input": "Aiden Garcia\naiden.garcia@example.com\n123 Birch Lane, San Antonio, TX 78201\n2105558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving Neulasta, I had a cold and flu-like symptoms, including fever and body aches. Are these symptoms common with this medication?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["cold-like symptoms", "fever", "body aches"]
+        }
+    },
+    {
+        "input": "Sophie Turner\nsophie.turner@example.com\n567 Cedar Street, Denver, CO 80201\n3035557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neulasta, and I developed memory problems and nightmares. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["memory problems", "nightmares"]
+        }
+    },
+    {
+        "input": "Oliver Brown\noliver.brown@example.com\n876 Pine Road, Philadelphia, PA 19101\n2155552345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neulasta, and I experienced dry mouth as a side effect. Is this common with this medication?",
+        "output": {
+            "drug_name":"Neulasta",
+            "adverse_events": ["dry mouth"]
+        }
+    }
+]

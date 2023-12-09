@@ -1,0 +1,111 @@
+[
+    {
+        "input": "Sarah Johnson\nsarah.johnson@example.com\n123 Maple Street, Los Angeles, CA 90001\n2135557890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen during my chemotherapy, and I developed a rash and itchy skin. Are these side effects common with this medication?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["rash", "itchy skin"]
+        }
+    },
+    {
+        "input": "David White\ndavid.white@example.com\n456 Oak Avenue, Chicago, IL 60601\n3125556543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced pain and discomfort in my upper left stomach after receiving Neupogen. Should I be concerned about this side effect?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["upper left stomach pain"]
+        }
+    },
+    {
+        "input": "Emily Martinez\nemily.martinez@example.com\n789 Cedar Lane, Houston, TX 77001\n7135559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving Neupogen, I felt dizzy and had a headache. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["dizziness", "headache"]
+        }
+    },
+    {
+        "input": "Daniel Clark\ndaniel.clark@example.com\n234 Pine Road, New York, NY 10001\n2125557654, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen and had an unusual taste in my mouth. Is this a typical side effect?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["unusual taste in mouth"]
+        }
+    },
+    {
+        "input": "Sophia Lee\nsophia.lee@example.com\n567 Elm Street, Miami, FL 33101\n3055555432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced sudden swelling and weight gain after Neupogen. Should I be concerned about these symptoms?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["sudden swelling", "weight gain"]
+        }
+    },
+    {
+        "input": "William Harris\nwilliam.harris@example.com\n890 Oak Road, San Francisco, CA 94101\n4155558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen and had trouble breathing and fever. Are these common side effects of the medication?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["trouble breathing", "fever"]
+        }
+    },
+    {
+        "input": "Olivia Turner\nolivia.turner@example.com\n123 Birch Avenue, Denver, CO 80201\n3035552345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After Neupogen, I developed numbness and tingling. Is this related to the medication?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["numbness", "tingling"]
+        }
+    },
+    {
+        "input": "Jackson Adams\njackson.adams@example.com\n456 Pine Street, Atlanta, GA 30301\n4045557890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen and had diarrhea and headache. Should I be concerned about these side effects?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["diarrhea", "headache"]
+        }
+    },
+    {
+        "input": "Ava Moore\nava.moore@example.com\n789 Maple Lane, Dallas, TX 75201\n2145556543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I developed bone pain and anemia after Neupogen. Are these common side effects?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["bone pain", "anemia"]
+        }
+    },
+    {
+        "input": "Mason Wilson\nmason.wilson@example.com\n567 Cedar Road, Philadelphia, PA 19101\n2155559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen and experienced fever, cough, and trouble breathing. Is this related to the medication?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["fever", "cough", "trouble breathing"]
+        }
+    },
+    {
+        "input": "Henry Mitchell\nhenry.mitchell@example.com\n505 Cedar Avenue, Austin, TX 78701\n5125556543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen and had a sudden decrease in urination. Should I be worried about this symptom?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["decrease in urination"]
+        }
+    },
+    {
+        "input": "Ella Adams\nella.adams@example.com\n404 Birch Road, Phoenix, AZ 85001\n4805552345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced pain and weakness after taking Neupogen. Is this a common side effect?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["pain", "weakness"]
+        }
+    },
+    {
+        "input": "Oliver Parker\noliver.parker@example.com\n303 Pine Lane, San Diego, CA 92101\n6195558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen and had night sweats and weight loss. Are these related to the medication?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["night sweats", "weight loss"]
+        }
+    },
+    {
+        "input": "Sophie Davis\nsophie.davis@example.com\n202 Elm Road, Seattle, WA 98101\n2065555678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After taking Neupogen, I developed an unusual rash. Should I be concerned about this side effect?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["unusual rash"]
+        }
+    },
+    {
+    "input": "Liam Johnson\nliam.johnson@example.com\n101 Oak Street, Boston, MA 02101\n6175551234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen during chemotherapy and had a sudden and severe pain in my chest. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name":"Neupogen",
+            "adverse_events": ["sudden chest pain"]
+        }
+    }
+]
+
+
+
+

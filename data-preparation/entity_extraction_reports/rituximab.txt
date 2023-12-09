@@ -1,0 +1,114 @@
+[
+    {
+        "input": "Sarah Johnson\nsarah.johnson@email.com\n123 Elm Street, New York, NY 10001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Rituximab treatment for non-Hodgkin's lymphoma, and I developed a severe skin rash with blistering and peeling. Is this a known side effect?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["severe skin rash", "blistering", "peeling"]
+        }
+    },
+    {
+        "input": "John Smith\njohn.smith@email.com\n456 Oak Avenue, Los Angeles, CA 90001\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I was administered Rituximab for rheumatoid arthritis, and I experienced sudden memory problems and confusion. Is this a common side effect?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["memory problems", "confusion"]
+        }
+    },
+    {
+        "input": "Emily Davis\nemily.davis@email.com\n789 Maple Lane, San Francisco, CA 94101\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving Rituximab for chronic lymphocytic leukemia, I developed a severe headache and difficulty walking. Are these symptoms related to the treatment?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["severe headache", "difficulty walking"]
+        }
+    },
+    {
+        "input": "Michael Turner\nmichael.turner@email.com\n101 Pine Street, Boston, MA 02101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I underwent Rituximab treatment for granulomatosis with polyangiitis, and I've been experiencing extreme fatigue and irregular heartbeats. Should I be concerned about these symptoms?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["extreme fatigue", "irregular heartbeats"]
+        }
+    },
+    {
+        "input": "Olivia Walker\nolivia.walker@email.com\n234 Birch Street, Seattle, WA 98101\n555-876-5432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Rituximab treatment for pemphigus vulgaris, and I'm now experiencing nausea and diarrhea. Are these side effects common with this medication?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["nausea", "diarrhea"]
+        }
+    },
+    {
+        "input": "David Martinez\ndavid.martinez@email.com\n567 Cedar Road, Miami, FL 33101\n555-765-4321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Rituximab along with methotrexate for rheumatoid arthritis, and I've been experiencing painful urination and muscle spasms. Could this be related to the treatment?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["painful urination", "muscle spasms"]
+        }
+    },
+    {
+        "input": "Sophia Lee\nsophia.lee@email.com\n345 Walnut Street, Dallas, TX 75201\n555-543-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After Rituximab treatment for non-Hodgkin's lymphoma, I developed a persistent cough and chest pain. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["persistent cough", "chest pain"]
+        }
+    },
+    {
+        "input": "Liam Harris\nliam.harris@email.com\n678 Oakwood Drive, Denver, CO 80201\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I was administered Rituximab for granulomatosis with polyangiitis, and I'm experiencing a depressed mood and cold symptoms. Could these be related to the treatment?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["depressed mood", "cold symptoms"]
+        }
+    },
+    {
+        "input": "Sarah Johnson\nsarah.johnson@email.com\n123 Elm Street, New York, NY 10001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Rituximab treatment for non-Hodgkin's lymphoma, and I developed a severe skin rash with blistering and peeling. Is this a known side effect?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["severe skin rash", "blistering", "peeling"]
+        }
+    },
+    {
+        "input": "John Smith\njohn.smith@email.com\n456 Oak Avenue, Los Angeles, CA 90001\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I was administered Rituximab for rheumatoid arthritis, and I experienced sudden memory problems and confusion. Is this a common side effect?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["memory problems", "confusion"]
+        }
+    },
+    {
+        "input": "Emily Davis\nemily.davis@email.com\n789 Maple Lane, San Francisco, CA 94101\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving Rituximab for chronic lymphocytic leukemia, I developed a severe headache and difficulty walking. Are these symptoms related to the treatment?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["severe headache", "difficulty walking"]
+        }
+    },
+    {
+        "input": "Michael Turner\nmichael.turner@email.com\n101 Pine Street, Boston, MA 02101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I underwent Rituximab treatment for granulomatosis with polyangiitis, and I've been experiencing extreme fatigue and irregular heartbeats. Should I be concerned about these symptoms?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["extreme fatigue", "irregular heartbeats"]
+        }
+    },
+    {
+        "input": "Olivia Walker\nolivia.walker@email.com\n234 Birch Street, Seattle, WA 98101\n555-876-5432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Rituximab treatment for pemphigus vulgaris, and I'm now experiencing nausea and diarrhea. Are these side effects common with this medication?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["nausea", "diarrhea"]
+        }
+    },
+    {
+        "input": "David Martinez\ndavid.martinez@email.com\n567 Cedar Road, Miami, FL 33101\n555-765-4321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Rituximab along with methotrexate for rheumatoid arthritis, and I've been experiencing painful urination and muscle spasms. Could this be related to the treatment?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["painful urination", "muscle spasms"]
+        }
+    },
+    {
+        "input": "Sophia Lee\nsophia.lee@email.com\n345 Walnut Street, Dallas, TX 75201\n555-543-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After Rituximab treatment for non-Hodgkin's lymphoma, I developed a persistent cough and chest pain. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["persistent cough", "chest pain"]
+        }
+    },
+    {
+        "input": "Liam Harris\nliam.harris@email.com\n678 Oakwood Drive, Denver, CO 80201\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I was administered Rituximab for granulomatosis with polyangiitis, and I'm experiencing a depressed mood and cold symptoms. Could these be related to the treatment?",
+        "output": {
+            "drug_name": "Rituximab",
+            "adverse_events": ["depressed mood", "cold symptoms"]
+        }
+    }
+]

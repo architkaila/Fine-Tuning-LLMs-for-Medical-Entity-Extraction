@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Ryan Taylor,\nrtaylor@example.com\n2020 Willow Road, Phoenix, AZ 85001,\n602-555-2020, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I've been using AndroGel, I've started experiencing painful erections and some discomfort. Is this a normal side effect? Thank you, Ryan Taylor",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["painful erections", "discomfort"]
+        }
+    },
+    {
+        "input": "Laura Brown,\nlaurabrown@example.com\n3030 Cedar Street, Atlanta, GA 30303,\n404-555-3030, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, after applying AndroGel, I've been having a redness and itching sensation where the medication was applied. Should I be concerned? Regards, Laura Brown",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["redness at application site", "itching"]
+        }
+    },
+    {
+        "input": "Kevin Martinez,\nkmartinez@example.com\n4040 Maple Drive, Chicago, IL 60605,\n312-555-4040, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since beginning AndroGel therapy, I've noticed a significant increase in my blood pressure. Is this related to the medication? Best, Kevin Martinez",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["increase in blood pressure"]
+        }
+    },
+    {
+        "input": "Samantha White,\nswhtie@example.com\n5050 Pine Lane, San Francisco, CA 94102,\n415-555-5050, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using AndroGel and have recently experienced swelling and rapid weight gain. Could this be a side effect of the treatment? Thanks, Samantha White",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["swelling", "rapid weight gain"]
+        }
+    },
+    {
+        "input": "Jacob Wilson,\njwilson@example.com\n6060 Birch Street, Miami, FL 33101,\n305-555-6060, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on AndroGel for a short time and have started experiencing shortness of breath during sleep. Is this a known reaction to the medication? Regards, Jacob Wilson",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["shortness of breath during sleep"]
+        }
+    },
+    {
+        "input": "Alex Johnson,\najohnson@example.com\n7070 Oak Street, Portland, OR 97201,\n503-555-7070, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using AndroGel and have experienced difficulty in urination and breast pain. Are these side effects related to the medication? Regards, Alex Johnson",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["difficulty in urination", "breast pain"]
+        }
+    },
+    {
+        "input": "Emily Thompson,\nethompson@example.com\n8080 Elm Road, Dallas, TX 75201,\n214-555-8080, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting AndroGel, I've been experiencing swelling, particularly in my legs, and occasional shortness of breath. Is this normal? Best, Emily Thompson",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["leg swelling", "shortness of breath"]
+        }
+    },
+    {
+        "input": "David White,\ndwhite@example.com\n9090 Maple Avenue, New York, NY 10001,\n212-555-9090, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on AndroGel therapy and have noticed increased red blood cells, causing dizziness and itching. Should I be concerned about this? Thanks, David White",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["increased red blood cells", "dizziness", "itching"]
+        }
+    },
+    {
+        "input": "Sarah Martinez,\nsmartinez@example.com\n10101 Birch Lane, Chicago, IL 60605,\n312-555-1010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using AndroGel, I've begun to experience frequent headaches and mood changes. Are these known side effects? Regards, Sarah Martinez",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["frequent headaches", "mood changes"]
+        }
+    },
+    {
+        "input": "Michael Brown,\nmbrown@example.com\n11111 Cedar Street, Los Angeles, CA 90001,\n213-555-1111, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, since being on AndroGel, I've had symptoms like nausea and vomiting. Is this a reaction to the drug? Thanks, Michael Brown",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "Daniel Green,\ndgreen@example.com\n1212 Willow Lane, Seattle, WA 98101,\n206-555-1212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using AndroGel and noticed a rapid increase in weight and some swelling. Is this associated with the medication? Thanks, Daniel Green",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["rapid weight gain", "swelling"]
+        }
+    },
+    {
+        "input": "Jessica Miller,\njmiller@example.com\n3434 Pine Road, Atlanta, GA 30303,\n404-555-3434, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting AndroGel treatment, I've experienced chest pain and pressure. Are these known side effects? Regards, Jessica Miller",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["chest pain", "chest pressure"]
+        }
+    },
+    {
+        "input": "William Davis,\nwdavis@example.com\n5656 Oak Street, Chicago, IL 60605,\n312-555-5656, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm currently using AndroGel and have begun feeling symptoms of liver problems, like itching and tiredness. Should I be worried? Sincerely, William Davis",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["itching", "tiredness", "symptoms of liver problems"]
+        }
+    },
+    {
+        "input": "Sophia Wilson,\nswilson@example.com\n7878 Maple Drive, Miami, FL 33101,\n305-555-7878, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After applying AndroGel, I've experienced burning sensation and redness where the medicine was applied. Is this normal? Thanks, Sophia Wilson",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["burning sensation at application site", "redness at application site"]
+        }
+    },
+    {
+        "input": "Ethan Johnson,\nejohnson@example.com\n8989 Elm Street, Dallas, TX 75201,\n214-555-8989, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I have been using AndroGel and recently I've been coughing up blood and experiencing chest pain. Could this be a blood clot? Regards, Ethan Johnson",
+        "output": {
+            "drug_name": "AndroGel",
+            "adverse_events": ["coughing up blood", "chest pain"]
+        }
+    }
+]

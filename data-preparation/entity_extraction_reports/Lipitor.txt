@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Sarah Johnson\nsarah.johnson@example.com\n789 Oak Street, Houston, TX 77001\n7135552020, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lipitor for a few months now to manage my cholesterol levels. Lately, I've noticed severe muscle pain and weakness, especially in my arms and legs. It's becoming increasingly difficult to perform daily tasks. I'm concerned about these symptoms and their impact on my health.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["severe muscle pain", "muscle weakness", "difficulty performing tasks"]
+        }
+    },
+    {
+        "input": "John Smith\njohn.smith@example.com\n567 Elm Avenue, Los Angeles, CA 90001\n2135553030, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lipitor for my cholesterol. However, I've developed an itchy rash all over my body since starting the medication. The itching is unbearable, and it's affecting my daily life. I need guidance on how to address this issue.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["itchy rash", "unbearable itching"]
+        }
+    },
+    {
+        "input": "Emily Davis\nemily.davis@example.com\n123 Pine Lane, Miami, FL 33101\n3055554040, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Lipitor for a while now, and I've noticed frequent episodes of upset stomach and diarrhea. It's quite uncomfortable, and I'm wondering if this is a common side effect or if there's something I can do to alleviate it.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["upset stomach", "diarrhea", "discomfort"]
+        }
+    },
+    {
+        "input": "Robert Miller\nrobert.miller@example.com\n456 Cedar Street, New York, NY 10001\n2125555050, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lipitor for my cholesterol management, and I've noticed that my sleep has been disrupted lately. I experience trouble with sleeping and wake up frequently during the night. I'd like to understand if this is related to the medication.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["trouble with sleeping", "frequent awakenings", "sleep disruption"]
+        }
+    },
+    {
+        "input": "Linda Hall\nlinda.hall@example.com\n101 Walnut Drive, San Francisco, CA 94101\n4155556060, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lipitor, and I've noticed that I'm experiencing an increased sense of thirst and more frequent urination. It's concerning, and I'd like to know if this is something I should be worried about.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["increased thirst", "frequent urination", "concern"]
+        }
+    },
+    {
+        "input": "Michael Turner\nmichael.turner@example.com\n321 Birch Street, Dallas, TX 75201\n2145557070, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lipitor for my cholesterol management, and I've noticed that I've been experiencing headaches frequently. They are quite severe and affect my daily life. I'm seeking advice on how to deal with this.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["frequent severe headaches"]
+        }
+    },
+    {
+        "input": "Karen Wilson\nkaren.wilson@example.com\n222 Maple Avenue, Chicago, IL 60601\n3125558080, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Lipitor for a few weeks, and I've noticed persistent nausea and vomiting. It's affecting my appetite and daily routine. I'm concerned about these side effects and their impact on my health.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["persistent nausea", "vomiting", "appetite loss"]
+        }
+    },
+    {
+        "input": "William Brown\nwilliam.brown@example.com\n444 Oakwood Lane, Phoenix, AZ 85001\n6025559090, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lipitor, and I've noticed that I'm experiencing frequent nosebleeds. They are quite sudden and inconvenient. I'm wondering if this is a known side effect and if there's anything I can do to prevent it.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["frequent nosebleeds", "sudden nosebleeds"]
+        }
+    },
+    {
+        "input": "Jennifer White\njennifer.white@example.com\n555 Cedar Lane, Seattle, WA 98101\n2065551010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've recently started Lipitor, and I've been experiencing severe joint pain, especially in my knees and hips. It's making it difficult to move around. I'd like to know if this is a common side effect and if there's anything I can do about it.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["severe joint pain", "difficulty in movement", "pain in knees and hips"]
+        }
+    },
+    {
+        "input": "Daniel Clark\ndaniel.clark@example.com\n666 Elm Street, Denver, CO 80201\n3035551111, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lipitor, and I've noticed a persistent metallic taste in my mouth. It's quite unpleasant, and I'm concerned about this taste being related to the medication. Can you provide some guidance?",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["persistent metallic taste", "unpleasant taste"]
+        }
+    },
+    {
+        "input": "Susan Turner\nsusan.turner@example.com\n777 Pine Avenue, San Diego, CA 92101\n6195551212, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lipitor for a while, and I've experienced a noticeable decrease in my sex drive and difficulty in achieving orgasm. It's affecting my personal life, and I'd like to discuss this side effect.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["decrease in sex drive", "difficulty in achieving orgasm"]
+        }
+    },
+    {
+        "input": "Richard Harris\nrichard.harris@example.com\n888 Birch Lane, Atlanta, GA 30301\n4045551313, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've started Lipitor, and I've been experiencing frequent nosebleeds. They can happen at any time and are quite alarming. I'd like to know if this is a common side effect and if I should be concerned.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["frequent nosebleeds", "alarming nosebleeds"]
+        }
+    },
+    {
+        "input": "Maria Rodriguez\nmaria.rodriguez@example.com\n999 Walnut Street, Philadelphia, PA 19101\n2155551414, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Lipitor for a while, and I've developed a persistent cough. It's quite bothersome, and I'm wondering if this could be related to the medication. What should I do about it?",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["persistent cough", "bothersome cough"]
+        }
+    },
+    {
+        "input": "James Taylor\njames.taylor@example.com\n123 Oak Lane, Boston, MA 02101\n6175551515, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lipitor, and I've noticed a significant decrease in my energy levels and constant fatigue. It's impacting my daily life, and I'd like to discuss this side effect and potential alternatives.",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["decrease in energy levels", "constant fatigue"]
+        }
+    },
+    {
+        "input": "Laura Davis\nlaura.davis@example.com\n234 Cedar Avenue, Miami, FL 33101\n3055551616, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lipitor, and I've developed a persistent skin rash that's quite itchy. It's making me very uncomfortable. Can you provide guidance on how to alleviate this?",
+        "output": {
+            "drug_name":"Lipitor",
+            "adverse_events": ["persistent skin rash", "itchy rash", "discomfort"]
+        }
+    }
+]

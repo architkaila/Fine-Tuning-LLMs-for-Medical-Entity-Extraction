@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Ethan Davis\nethan.davis@email.com\n123 Oak Street, Chicago, IL 60601\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Symbicort for my asthma, and I experienced severe throat pain and irritation after using it. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["throat pain", "throat irritation"]
+        }
+    },
+    {
+        "input": "Ava Johnson\nava.johnson@email.com\n456 Maple Avenue, Los Angeles, CA 90001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been taking Symbicort, and it caused me to have white patches in my mouth and throat, along with pain when swallowing. What should I do about these symptoms?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["white patches in mouth", "pain when swallowing"]
+        }
+    },
+    {
+        "input": "Mia Wilson\nmia.wilson@email.com\n789 Pine Street, San Francisco, CA 94101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Symbicort has been giving me severe tremors and nervousness. It's making me very uncomfortable. Is this a known side effect?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["tremors", "nervousness"]
+        }
+    },
+    {
+        "input": "Liam Martinez\nliam.martinez@email.com\n567 Birch Road, Houston, TX 77001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Symbicort, I experienced blurred vision and eye pain. This is concerning, and I'm unsure if it's related to the medication.",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["blurred vision", "eye pain"]
+        }
+    },
+    {
+        "input": "Olivia Anderson\nolivia.anderson@email.com\n890 Cedar Lane, Miami, FL 33101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Symbicort caused me to have an irregular heartbeat. This was unexpected, and I need guidance on what to do.",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["irregular heartbeat"]
+        }
+    },
+    {
+        "input": "Noah Moore\nnoah.moore@email.com\n432 Elm Court, New York, NY 10001\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced wheezing, choking, and breathing problems after using Symbicort. Should I discontinue the medication?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["wheezing", "choking", "breathing problems"]
+        }
+    },
+    {
+        "input": "Sophia Wilson\nsophia.wilson@email.com\n654 Pine Road, Seattle, WA 98101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Symbicort, and I'm experiencing an upset stomach and vomiting. Is this normal when taking this medication?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["upset stomach", "vomiting"]
+        }
+    },
+    {
+        "input": "William Lee\nwilliam.lee@email.com\n321 Oak Avenue, Dallas, TX 75201\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Symbicort caused me to have flu-like symptoms, including fever, chills, and body aches. Is this a known side effect?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["flu-like symptoms", "fever", "chills", "body aches"]
+        }
+    },
+    {
+        "input": "Chloe Clark\nchloe.clark@email.com\n987 Elm Street, Denver, CO 80201\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Symbicort, and I've noticed an increase in my blood sugar levels. Should I be concerned about this side effect?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["high blood sugar", "increased thirst", "increased urination"]
+        }
+    },
+    {
+        "input": "Lucas Taylor\nlucas.taylor@email.com\n234 Cedar Road, Austin, TX 78701\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Symbicort is causing me to have an irregular heartbeat, and I feel light-headed. What should I do to address these symptoms?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["irregular heartbeat", "feeling light-headed"]
+        }
+    },
+    {
+        "input": "Zoe Baker\nzoe.baker@email.com\n543 Maple Lane, San Diego, CA 92101\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Symbicort, and it's causing me to have cold symptoms like a runny nose, sneezing, and a sore throat. Is this a common side effect?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["runny nose", "sneezing", "sore throat", "cold symptoms"]
+        }
+    },
+    {
+        "input": "Henry Adams\nhenry.adams@email.com\n876 Birch Street, Atlanta, GA 30301\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Symbicort is giving me leg cramps and irregular heartbeats. I'm concerned about these symptoms.",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["leg cramps", "irregular heartbeats"]
+        }
+    },
+    {
+        "input": "Madison Evans\nmadison.evans@email.com\n654 Cedar Drive, Phoenix, AZ 85001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Symbicort, and it's causing me to experience shortness of breath. This is worrisome as it's supposed to help with breathing issues.",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["shortness of breath"]
+        }
+    },
+    {
+        "input": "Oliver Turner\noliver.turner@email.com\n987 Pine Lane, Boston, MA 02101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Symbicort, and I'm feeling a light-headed sensation. It's making me uncomfortable. Is this a common side effect of the medication?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["feeling light-headed"]
+        }
+    },
+    {
+        "input": "Emily White\nemily.white@email.com\n234 Elm Avenue, Philadelphia, PA 19101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Symbicort is causing me to have a dry mouth, and I'm experiencing constant thirst. Is this expected when taking this medication?",
+        "output": {
+            "drug_name": "Symbicort",
+            "adverse_events": ["dry mouth", "constant thirst"]
+        }
+    }
+]

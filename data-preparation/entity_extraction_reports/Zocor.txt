@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emily Clark\nemilyclark@email.com\n123 Oak Street, Los Angeles, CA 90001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Zocor and have developed unexplained muscle pain and tenderness. It's become quite severe, and I'm concerned about it.",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["unexplained muscle pain", "muscle tenderness"]
+        }
+    },
+    {
+        "input": "Daniel Turner\ndanielturner@email.com\n456 Pine Avenue, Chicago, IL 60601\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Zocor, I've experienced persistent nausea and stomach pain. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["persistent nausea", "stomach pain"]
+        }
+    },
+    {
+        "input": "Sophia Adams\nsophiaadams@email.com\n789 Maple Road, Houston, TX 77001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Zocor and have noticed a sore throat and cold-like symptoms. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["sore throat", "cold-like symptoms"]
+        }
+    },
+    {
+        "input": "William Smith\nwilliamsmith@email.com\n234 Birch Lane, Miami, FL 33101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Zocor and have developed itching, tiredness, and loss of appetite. Is this a side effect I should be concerned about?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["itching", "tiredness", "loss of appetite"]
+        }
+    },
+    {
+        "input": "Olivia Martin\noliviamartin@email.com\n567 Elm Street, New York, NY 10001\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zocor has caused me to have a stuffy nose, sneezing, and a sore throat. Are these common side effects?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["stuffy nose", "sneezing", "sore throat"]
+        }
+    },
+    {
+        "input": "Ethan Turner\nethanturner@email.com\n789 Oak Avenue, San Francisco, CA 94101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Zocor and have noticed a yellowing of my skin and eyes. Should I be concerned about this?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["yellowing of skin", "yellowing of eyes"]
+        }
+    },
+    {
+        "input": "Ava Harris\navaharris@email.com\n890 Pine Road, Seattle, WA 98101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zocor has led to a persistent headache and constipation for me. Are these symptoms related to the medication?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["persistent headache", "constipation"]
+        }
+    },
+    {
+        "input": "Lucas Wilson\nlucaswilson@email.com\n123 Cedar Lane, Dallas, TX 75201\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Zocor and have noticed dark-colored urine and upper stomach pain. Is this a known side effect?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["dark-colored urine", "upper stomach pain"]
+        }
+    },
+    {
+        "input": "Lily Davis\nlilydavis@email.com\n456 Maple Street, Boston, MA 02101\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been experiencing unexplained muscle weakness, especially in my hips and shoulders, while using Zocor. Should I be concerned about this?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["unexplained muscle weakness", "hip and shoulder weakness"]
+        }
+    },
+    {
+        "input": "Sophie Turner\nsophieturner@email.com\n234 Cedar Avenue, Atlanta, GA 30301\n555-012-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've developed trouble lifting my arms and climbing stairs since starting Zocor. Is this a known side effect?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["trouble lifting arms", "trouble climbing stairs"]
+        }
+    },
+    {
+        "input": "Benjamin White\nbenjaminwhite@email.com\n567 Birch Road, Denver, CO 80201\n555-123-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Zocor and have experienced severe upper stomach pain and loss of appetite. Is this something I should be worried about?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["severe upper stomach pain", "loss of appetite"]
+        }
+    },
+    {
+        "input": "Aiden King\naidenking@email.com\n789 Oak Street, Phoenix, AZ 85001\n555-234-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zocor has caused me to have a persistent headache and diarrhea. Are these common side effects of the medication?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["persistent headache", "diarrhea"]
+        }
+    },
+    {
+        "input": "Nora Johnson\nnorajohnson@email.com\n890 Elm Lane, San Diego, CA 92101\n555-345-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Zocor and have noticed a burning sensation in my throat and chest. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["burning throat sensation", "chest discomfort"]
+        }
+    },
+    {
+        "input": "Henry Garcia\nhenrygarcia@email.com\n123 Pine Road, San Antonio, TX 78201\n555-456-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Zocor has led to dizziness and confusion for me. Are these symptoms associated with the medication?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["dizziness", "confusion"]
+        }
+    },
+    {
+        "input": "Aria Patel\nariapatel@email.com\n456 Oak Avenue, Las Vegas, NV 89101\n555-567-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Zocor and have noticed swelling in my feet and ankles, along with fatigue. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Zocor",
+            "adverse_events": ["swelling in feet and ankles", "fatigue"]
+        }
+    }
+]

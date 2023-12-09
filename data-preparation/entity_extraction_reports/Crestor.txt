@@ -1,0 +1,108 @@
+[
+    {
+        "input": "James Miller,\njmiller@example.com\n1234 Lakeview Drive, Anytown, TX 75001,\n214-555-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Crestor for cholesterol management. Recently, I've started experiencing muscle pain and weakness, particularly in my hips and back. Are these common side effects? Regards, James Miller",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["muscle pain", "weakness in hips and back"]
+        }
+    },
+    {
+        "input": "Sarah Johnson,\nsjohnson@example.com\n5678 Oak Street, Springfield, IL 62704,\n217-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started on Crestor, I've noticed confusion and some memory problems. Should I be concerned about these symptoms? Best, Sarah Johnson",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["confusion", "memory problems"]
+        }
+    },
+    {
+        "input": "Michael Brown,\nmbrown@example.com\n91011 Pine Avenue, Metropolis, NY 10001,\n212-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Crestor for high cholesterol and recently started experiencing severe stomach pain and nausea. Is this a side effect of the drug? Sincerely, Michael Brown",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["severe stomach pain", "nausea"]
+        }
+    },
+    {
+        "input": "Laura White,\nlwhite@example.com\n121314 Birch Street, Lakeside, CA 92040,\n619-555-1357, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Crestor, I've begun experiencing headache and general weakness. Are these common reactions to the medication? Thanks, Laura White",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["headache", "general weakness"]
+        }
+    },
+    {
+        "input": "David Wilson,\ndwilson@example.com\n151617 Elm Street, Rivertown, FL 33101,\n305-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Crestor for a few months and have recently had symptoms suggesting liver problems, like upper stomach pain and jaundice. Could this be related to the medication? Regards, David Wilson",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["symptoms of liver problems", "upper stomach pain", "jaundice"]
+        }
+    },
+    {
+        "input": "Emma Thompson,\nethompson@example.com\n1818 Cedar Street, Highland, NY 12528,\n845-555-1818, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since beginning treatment with Crestor, I've experienced unexplained muscle tenderness and difficulty climbing stairs. Is this a known reaction to the medication? Regards, Emma Thompson",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["unexplained muscle tenderness", "difficulty climbing stairs"]
+        }
+    },
+    {
+        "input": "Oliver King,\noking@example.com\n2020 Maple Drive, Smallville, KS 66002,\n785-555-2020, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Crestor and recently started having trouble lifting my arms and standing up from a seated position. Should I be worried? Best, Oliver King",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["trouble lifting arms", "trouble standing up"]
+        }
+    },
+    {
+        "input": "Ava Johnson,\najohnson@example.com\n3030 Pine Street, Lake City, FL 32055,\n386-555-3030, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Crestor, I've been experiencing dark urine and loss of appetite. Is this a common side effect? Sincerely, Ava Johnson",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["dark urine", "loss of appetite"]
+        }
+    },
+    {
+        "input": "Mia Martinez,\nmmartinez@example.com\n4040 Birch Road, Green Town, OH 44232,\n330-555-4040, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I began using Crestor, I've had frequent headaches and muscle aches. Is this a reaction to the drug? Regards, Mia Martinez",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["frequent headaches", "muscle aches"]
+        }
+    },
+    {
+        "input": "Isaac Clark,\niclark@example.com\n5050 Oak Lane, Mountain View, CA 94040,\n650-555-5050, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Crestor for lowering cholesterol and have recently noticed nausea and stomach pain. Could this be related to the medication? Best, Isaac Clark",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["nausea", "stomach pain"]
+        }
+    },
+    {
+        "input": "Sophia Williams,\nswilliams@example.com\n6060 Elm Street, Riverdale, NY 10471,\n718-555-6060, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Crestor for cholesterol management and recently started experiencing severe muscle weakness in my shoulders and neck. Is this a known side effect of the medication? Regards, Sophia Williams",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["severe muscle weakness in shoulders and neck"]
+        }
+    },
+    {
+        "input": "Liam Johnson,\nljohnson@example.com\n7070 Vine Street, Midtown, NJ 07030,\n973-555-7070, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Crestor, I've noticed yellowing of the skin and eyes. Should I be worried about liver problems? Best, Liam Johnson",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["yellowing of skin and eyes", "possible liver problems"]
+        }
+    },
+    {
+        "input": "Amelia Brown,\nabrown@example.com\n8080 Maple Avenue, Sunnyside, TX 79936,\n915-555-8080, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Crestor and have started experiencing confusion and difficulty in standing. Is this a side effect of the drug? Sincerely, Amelia Brown",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["confusion", "difficulty in standing"]
+        }
+    },
+    {
+        "input": "Noah Davis,\nndavis@example.com\n9090 Birch Lane, Green Town, OH 44232,\n330-555-9090, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Crestor, I've begun experiencing stomach pain and nausea. Are these common reactions to the medication? Thanks, Noah Davis",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["stomach pain", "nausea"]
+        }
+    },
+    {
+        "input": "Harper Martinez,\nhmartinez@example.com\n10101 Oak Street, Mountain View, CA 94040,\n650-555-1010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Crestor for a while and have started noticing muscle aches and weakness, especially after physical activity. Could this be related to the medication? Best, Harper Martinez",
+        "output": {
+            "drug_name": "Crestor",
+            "adverse_events": ["muscle aches", "weakness after physical activity"]
+        }
+    }
+]
+

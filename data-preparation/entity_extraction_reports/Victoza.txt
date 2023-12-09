@@ -1,0 +1,108 @@
+[
+    {
+        "input": "Sarah Johnson\nsarah.johnson@email.com\n789 Oak Street, Chicago, IL 60601\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Victoza for my type 2 diabetes. Lately, I've been experiencing severe nausea and vomiting. It's making it difficult to continue with my treatment.",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["severe nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "David Lee\ndavid.lee@email.com\n456 Pine Avenue, Los Angeles, CA 90001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Victoza, and I noticed a lump in my neck and trouble swallowing. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["swelling in neck", "trouble swallowing"]
+        }
+    },
+    {
+        "input": "Linda Martinez\nlinda.martinez@email.com\n321 Elm Road, Houston, TX 77001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Victoza, I've been experiencing fast and pounding heartbeats. This is concerning me.",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["fast heartbeats", "pounding heartbeats"]
+        }
+    },
+    {
+        "input": "James Wilson\njames.wilson@email.com\n123 Cedar Lane, Miami, FL 33101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Victoza is causing me to have extreme weakness, confusion, and tremors, especially when my blood sugar drops. Is this normal?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["extreme weakness", "confusion", "tremors"]
+        }
+    },
+    {
+        "input": "Emma Taylor\nemma.taylor@email.com\n567 Birch Street, New York, NY 10001\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Victoza for my diabetes, and it's causing me to have severe pain in my upper stomach and nausea. Is this a common side effect?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["severe stomach pain", "nausea"]
+        }
+    },
+    {
+        "input": "Michael Brown\nmichael.brown@email.com\n876 Maple Avenue, San Francisco, CA 94101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Victoza, I developed a fever, upper stomach pain, and clay-colored stools. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["fever", "upper stomach pain", "clay-colored stools"]
+        }
+    },
+    {
+        "input": "Sophia Davis\nsophia.davis@email.com\n432 Oak Drive, Denver, CO 80201\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Victoza, and it's causing me to feel tired all the time. I'm concerned about this fatigue.",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["fatigue", "feeling tired"]
+        }
+    },
+    {
+        "input": "William Clark\nwilliam.clark@email.com\n654 Pine Road, Seattle, WA 98101\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Victoza is giving me a hoarse voice, and I'm experiencing difficulty in swallowing. Is this a known side effect?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["hoarse voice", "difficulty swallowing"]
+        }
+    },
+    {
+        "input": "Ava White\nava.white@email.com\n345 Cedar Street, Dallas, TX 75201\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Victoza, and it's causing me to have a high heart rate and anxiety. Should I be concerned?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["high heart rate", "anxiety"]
+        }
+    },
+    {
+        "input": "Oliver Turner\noliver.turner@email.com\n234 Elm Avenue, Phoenix, AZ 85001\n555-012-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Victoza, I've been experiencing frequent diarrhea and vomiting. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["frequent diarrhea", "vomiting"]
+        }
+    },
+    {
+        "input": "Ella Adams\nella.adams@email.com\n789 Willow Lane, Atlanta, GA 30301\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After starting Victoza, I've been experiencing blurred vision and eye pain. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["blurred vision", "eye pain"]
+        }
+    },
+    {
+        "input": "Henry Foster\nhenry.foster@email.com\n456 Cedar Street, Boston, MA 02101\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Victoza, and I've noticed a sudden increase in thirst and urination. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["increased thirst", "increased urination"]
+        }
+    },
+    {
+        "input": "Sophie Turner\nsophie.turner@email.com\n654 Oak Avenue, San Diego, CA 92101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Victoza, I've been experiencing a persistent cough and wheezing. Is this a known side effect?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["persistent cough", "wheezing"]
+        }
+    },
+    {
+        "input": "Liam Murphy\nliam.murphy@email.com\n123 Maple Road, Philadelphia, PA 19101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Victoza has caused me to have painful and frequent leg cramps. Is this a common side effect?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["painful leg cramps", "frequent leg cramps"]
+        }
+    },
+    {
+        "input": "Olivia Green\nolivia.green@email.com\n432 Elm Street, Miami, FL 33101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Victoza, I've been experiencing severe headaches and dizziness. Is this something I should be worried about?",
+        "output": {
+            "drug_name": "Victoza",
+            "adverse_events": ["severe headaches", "dizziness"]
+        }
+    }
+]
+

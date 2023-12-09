@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Maria Johnson\nmaria.johnson@email.com\n123 Elm Street, Los Angeles, CA 90001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Spiriva for my COPD, and I've developed blurred vision and eye pain. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["blurred vision", "eye pain"]
+        }
+    },
+    {
+        "input": "Robert Smith\nrobert.smith@email.com\n456 Oak Avenue, New York, NY 10001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started using Spiriva for my asthma, and I've had wheezing and breathing problems after using it. Should I discontinue its use?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["wheezing", "breathing problems"]
+        }
+    },
+    {
+        "input": "Olivia Davis\nolivia.davis@email.com\n789 Maple Lane, Houston, TX 77001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Spiriva for my COPD, and I've noticed sores and white patches in my mouth and on my tongue. Is this related to the medication?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["sores in mouth", "white patches on tongue"]
+        }
+    },
+    {
+        "input": "William Wilson\nwilliam.wilson@email.com\n234 Pine Road, Chicago, IL 60601\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've started using Spiriva for my asthma, and I'm experiencing constipation and painful urination. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["constipation", "painful urination"]
+        }
+    },
+    {
+        "input": "Sophia Turner\nsophia.turner@email.com\n567 Cedar Street, Miami, FL 33101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Spiriva for my COPD, and I've noticed little to no urination. Should I be concerned?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["little to no urination"]
+        }
+    },
+    {
+        "input": "Ethan Harris\nethan.harris@email.com\n890 Willow Street, San Francisco, CA 94101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Spiriva for asthma prevention, I've had chest pain and a fast heart rate. Is this normal?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["chest pain", "fast heart rate"]
+        }
+    },
+    {
+        "input": "Ava Brown\nava.brown@email.com\n678 Birch Street, Atlanta, GA 30301\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've started using Spiriva for my COPD, and I've developed cold symptoms like a stuffy nose and a sore throat. Could this be linked to the medication?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["stuffy nose", "sore throat"]
+        }
+    },
+    {
+        "input": "Liam Miller\nliam.miller@email.com\n432 Oakwood Drive, Denver, CO 80123\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Spiriva for my asthma, and I've experienced dry mouth. Is this a common side effect?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["dry mouth"]
+        }
+    },
+    {
+        "input": "Oliver Jones\noliver.jones@email.com\n765 Maple Lane, Seattle, WA 98101\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Spiriva for my COPD, and I've had upset stomach after taking it. Is this expected?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["upset stomach"]
+        }
+    },
+    {
+        "input": "Emma Taylor\nemma.taylor@email.com\n543 Cedar Street, Dallas, TX 75201\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Spiriva for my asthma, I've had trouble hearing and ear pain. Could this be due to the medication?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["trouble hearing", "ear pain"]
+        }
+    },
+    {
+        "input": "Isabella Martinez\nisabella.martinez@email.com\n321 Pine Street, Phoenix, AZ 85001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Spiriva for my COPD, and I've been experiencing frequent headaches. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["frequent headaches"]
+        }
+    },
+    {
+        "input": "Mason White\nmason.white@email.com\n876 Elm Street, Boston, MA 02101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Spiriva for asthma, I've been having trouble with my memory and attention. Is this related to the medication?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["memory problems", "attention problems"]
+        }
+    },
+    {
+        "input": "Mia Davis\nmia.davis@email.com\n543 Oakwood Drive, San Diego, CA 92101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Spiriva for my COPD, and I've noticed unusual muscle movements and tremors. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["muscle movements", "tremors"]
+        }
+    },
+    {
+        "input": "Lucas Rodriguez\nlucas.rodriguez@email.com\n987 Birch Street, Philadelphia, PA 19101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started Spiriva for asthma prevention, and I've been experiencing sleep-walking and vivid dreams. Is this a known side effect?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["sleep-walking", "vivid dreams"]
+        }
+    },
+    {
+        "input": "Harper Wilson\nharper.wilson@email.com\n234 Cedar Lane, Chicago, IL 60601\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Spiriva for COPD, and I've noticed compulsive behaviors since then. Is this associated with the medication?",
+        "output": {
+            "drug_name": "Spiriva",
+            "adverse_events": ["compulsive behaviors"]
+        }
+    }
+]

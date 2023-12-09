@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emily Davis\nemily.davis@example.com\n45 Willow Lane, Denver, CO 80201\n3035550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been receiving Infliximab for my Crohn's disease, and I developed a persistent skin rash after starting treatment. It's extremely itchy and uncomfortable. Could this be a side effect of Infliximab?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["persistent skin rash", "itchiness"]
+        }
+    },
+    {
+        "input": "Oliver Smith\noliver.smith@example.com\n789 Pine Street, Los Angeles, CA 90001\n2135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Infliximab infusion for my rheumatoid arthritis, and shortly afterward, I experienced severe muscle and joint pain. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["severe muscle pain", "severe joint pain"]
+        }
+    },
+    {
+        "input": "Sophia Johnson\nsophia.johnson@example.com\n123 Cedar Avenue, New York, NY 10001\n2125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Infliximab for my psoriatic arthritis, and I've noticed new growths on my skin that have not been there before. Could this be related to the treatment?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["new growths on skin"]
+        }
+    },
+    {
+        "input": "Liam Brown\nliam.brown@example.com\n456 Oak Street, San Francisco, CA 94101\n4155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I recently had an Infliximab infusion for my ulcerative colitis, and I've been experiencing extreme tiredness and fatigue. Is this a common side effect?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["extreme tiredness", "fatigue"]
+        }
+    },
+    {
+        "input": "Zoe Wilson\nzoe.wilson@example.com\n567 Elm Road, Chicago, IL 60601\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Infliximab for my ankylosing spondylitis, and I'm having trouble swallowing and pain in my throat. Is this a known side effect?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["trouble swallowing", "throat pain"]
+        }
+    },
+    {
+        "input": "Mason Lee\nmason.lee@example.com\n890 Birch Lane, Houston, TX 77001\n7135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Infliximab for my plaque psoriasis, and I've developed a persistent cough and chest pain. Could this be related to the treatment?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["persistent cough", "chest pain"]
+        }
+    },
+    {
+        "input": "Ava Garcia\nava.garcia@example.com\n234 Maple Avenue, Miami, FL 33101\n3055550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Infliximab for my chronic plaque psoriasis, and I've been experiencing severe headaches. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["severe headaches"]
+        }
+    },
+    {
+        "input": "Noah Martinez\nnoah.martinez@example.com\n678 Pine Road, Phoenix, AZ 85001\n6025550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Infliximab infusion for my ulcerative colitis, and I've noticed easy bruising and bleeding. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["easy bruising", "bleeding"]
+        }
+    },
+    {
+        "input": "Aria Thomas\naria.thomas@example.com\n456 Oak Street, San Diego, CA 92101\n6195550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Infliximab for my ankylosing spondylitis, and I've been experiencing fever and night sweats. Could this be related to the treatment?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["fever", "night sweats"]
+        }
+    },
+    {
+        "input": "Ethan Wilson\nethan.wilson@example.com\n890 Cedar Lane, Philadelphia, PA 19101\n2155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Infliximab infusion for my rheumatoid arthritis, and I'm experiencing pain in my upper stomach and loss of appetite. Is this something I should be worried about?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["pain in upper stomach", "loss of appetite"]
+        }
+    },
+    {
+        "input": "Grace Hall\ngrace.hall@example.com\n789 Maple Street, Dallas, TX 75201\n2145550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Infliximab for my rheumatoid arthritis, and I've developed a persistent skin rash and joint swelling. Is this a known side effect?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["persistent skin rash", "joint swelling"]
+        }
+    },
+    {
+        "input": "James White\njames.white@example.com\n123 Oak Road, Seattle, WA 98101\n2065550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Infliximab infusion for my Crohn's disease, and I've been experiencing severe diarrhea and abdominal pain. Is this expected with the treatment?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["severe diarrhea", "abdominal pain"]
+        }
+    },
+    {
+        "input": "Nora Clark\nnora.clark@example.com\n567 Elm Street, Boston, MA 02101\n6175550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Infliximab for my ulcerative colitis, and I've noticed a loss of appetite and weight loss. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["loss of appetite", "weight loss"]
+        }
+    },
+    {
+        "input": "Henry Turner\nhenry.turner@example.com\n456 Birch Avenue, Atlanta, GA 30301\n4045550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Infliximab infusion for my psoriatic arthritis, and I've developed a persistent cough and flu-like symptoms. Could this be related to the treatment?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["persistent cough", "flu-like symptoms"]
+        }
+    },
+    {
+        "input": "Mia Martinez\nmia.martinez@example.com\n890 Pine Lane, San Diego, CA 92101\n6195550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Infliximab for my ankylosing spondylitis, and I've been experiencing numbness and tingling in my arms and legs. Is this a known side effect?",
+        "output": {
+            "drug_name": "Infliximab",
+            "adverse_events": ["numbness", "tingling"]
+        }
+    }
+]

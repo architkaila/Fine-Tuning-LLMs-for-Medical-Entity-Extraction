@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Sarah Davis\nsarah.davis@example.com\n456 Oak Street, Chicago, IL 60601\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Januvia for my type 2 diabetes, and I've noticed severe itching and blisters on my skin. Is this a side effect of the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["severe itching", "blisters on skin"]
+        }
+    },
+    {
+        "input": "John Smith\njohn.smith@example.com\n789 Elm Avenue, Los Angeles, CA 90001\n2135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Januvia, and I'm experiencing severe pain in my joints. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["severe joint pain"]
+        }
+    },
+    {
+        "input": "Emily White\nemily.white@example.com\n123 Maple Lane, Houston, TX 77001\n7135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Januvia for my type 2 diabetes, and I've had little to no urination. Is this a possible side effect?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["little to no urination"]
+        }
+    },
+    {
+        "input": "David Johnson\ndavid.johnson@example.com\n890 Pine Street, New York, NY 10001\n2125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Januvia, and I've developed a severe skin rash that is spreading rapidly. Is this a known reaction to the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["severe skin rash", "rapid spreading"]
+        }
+    },
+    {
+        "input": "Maria Gonzalez\nmaria.gonzalez@example.com\n567 Cedar Road, Miami, FL 33101\n3055550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Januvia for my type 2 diabetes, and I'm experiencing severe abdominal pain that has spread to my back. Is this something to be concerned about?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["severe abdominal pain", "spread to back"]
+        }
+    },
+    {
+        "input": "Michael Brown\nmichael.brown@example.com\n234 Birch Street, San Francisco, CA 94101\n4155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Januvia, and I've developed a severe headache. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["severe headache"]
+        }
+    },
+    {
+        "input": "Linda Wilson\nlinda.wilson@example.com\n678 Redwood Drive, Dallas, TX 75201\n2145550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Januvia, and I've experienced low blood sugar. Is this common with this medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["low blood sugar"]
+        }
+    },
+    {
+        "input": "Robert Lee\nrobert.lee@example.com\n345 Cedar Lane, Seattle, WA 98101\n2065550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Januvia for my type 2 diabetes, and I've developed a runny or stuffy nose along with a sore throat. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["runny or stuffy nose", "sore throat"]
+        }
+    },
+    {
+        "input": "Susan Taylor\nsusan.taylor@example.com\n890 Elm Street, Boston, MA 02101\n6175550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Januvia, and I've experienced severe fatigue and dizziness. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["severe fatigue", "dizziness"]
+        }
+    },
+    {
+        "input": "Karen Hall\nkaren.hall@example.com\n456 Pine Avenue, Atlanta, GA 30301\n4045550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Januvia, and I've developed a persistent cough. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["persistent cough"]
+        }
+    },
+    {
+        "input": "William Clark\nwilliam.clark@example.com\n123 Oak Lane, Denver, CO 80201\n3035550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Januvia for my type 2 diabetes, and I've noticed a sudden weight gain. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["sudden weight gain"]
+        }
+    },
+    {
+        "input": "Helen Turner\nhelen.turner@example.com\n789 Maple Road, Phoenix, AZ 85001\n6025550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Januvia, and I've experienced a loss of appetite and feeling full after eating only a small amount. Is this normal with this medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["loss of appetite", "feeling full after eating"]
+        }
+    },
+    {
+        "input": "James Harris\njames.harris@example.com\n567 Cedar Street, San Diego, CA 92101\n6195550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Januvia, and I've developed skin redness and scaly patches. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["skin redness", "scaly patches"]
+        }
+    },
+    {
+        "input": "Nancy Miller\nnancy.miller@example.com\n234 Birch Avenue, Austin, TX 78701\n5125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Januvia, and I've experienced itching, blisters, and breakdown of the outer layer of skin. Is this related to the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["itching", "blisters", "breakdown of skin"]
+        }
+    },
+    {
+        "input": "George Turner\ngeorge.turner@example.com\n890 Redwood Lane, San Jose, CA 95101\n4085550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Januvia, and I've developed swelling in my legs and feet, along with rapid weight gain. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Januvia",
+            "adverse_events": ["swelling in legs", "rapid weight gain"]
+        }
+    }
+]

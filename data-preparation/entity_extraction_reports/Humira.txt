@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emma Johnson\nemma.johnson@example.com\n456 Oak Street, New York, NY 10001\n2125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Humira for my rheumatoid arthritis, and I developed a severe rash that doesn't seem to go away. Is this a common side effect of Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["severe rash"]
+        }
+    },
+    {
+        "input": "James Smith\njames.smith@example.com\n789 Elm Avenue, Los Angeles, CA 90001\n2135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Humira for Crohn's disease, and I've noticed a persistent sore on my skin that is not healing. Could this be related to Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["persistent sore on skin"]
+        }
+    },
+    {
+        "input": "Olivia Martinez\nolivia.martinez@example.com\n123 Pine Road, Chicago, IL 60601\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Humira for psoriatic arthritis, and I experienced joint and muscle pain. Is this a known side effect?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["joint pain", "muscle pain"]
+        }
+    },
+    {
+        "input": "William Davis\nwilliam.davis@example.com\n234 Cedar Lane, Houston, TX 77001\n7135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Humira injection for plaque psoriasis, and I'm experiencing redness and itching at the injection site. Is this expected?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["redness at injection site", "itching at injection site"]
+        }
+    },
+    {
+        "input": "Sophia Wilson\nsophia.wilson@example.com\n890 Maple Court, Miami, FL 33101\n3055550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Humira for ankylosing spondylitis, and I developed a headache that won't go away. Is this a possible side effect?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["persistent headache"]
+        }
+    },
+    {
+        "input": "Henry White\nhenry.white@example.com\n567 Birch Road, San Francisco, CA 94101\n4155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Humira injection for ulcerative colitis, and I have a constant feeling of fatigue. Is this associated with Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["constant fatigue"]
+        }
+    },
+    {
+        "input": "Ella Taylor\nella.taylor@example.com\n678 Willow Street, Philadelphia, PA 19101\n2155550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Humira for juvenile idiopathic arthritis, and I experienced soreness at the injection site. Is this normal?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["soreness at injection site"]
+        }
+    },
+    {
+        "input": "Liam Clark\nliam.clark@example.com\n345 Oak Avenue, Dallas, TX 75201\n2145550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Humira for hidradenitis suppurativa, and I noticed a significant weight loss. Could this be due to the medication?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["significant weight loss"]
+        }
+    },
+    {
+        "input": "Mia Adams\nmia.adams@example.com\n123 Elm Lane, Atlanta, GA 30301\n4045550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Humira injection for uveitis, and I experienced nausea and vomiting. Is this expected with Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["nausea", "vomiting"]
+        }
+    },
+    {
+        "input": "Noah Hernandez\nnoah.hernandez@example.com\n456 Pine Court, Denver, CO 80201\n3035550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Humira for rheumatoid arthritis, and I developed a sore throat and sinus pain. Could this be related to Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["sore throat", "sinus pain"]
+        }
+    },
+    {
+        "input": "Aiden Turner\naiden.turner@example.com\n567 Maple Street, Seattle, WA 98101\n2065550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Humira for rheumatoid arthritis, and I've noticed a persistent skin rash that started after I began treatment. Could this be a side effect of Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["persistent skin rash"]
+        }
+    },
+    {
+        "input": "Aria Lewis\naria.lewis@example.com\n789 Oak Road, Boston, MA 02101\n6175550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Humira injection for psoriatic arthritis, and I'm experiencing joint swelling and stiffness. Is this common with Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["joint swelling", "joint stiffness"]
+        }
+    },
+    {
+        "input": "Ethan Baker\nethan.baker@example.com\n123 Birch Avenue, San Diego, CA 92101\n6195550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm on Humira for plaque psoriasis, and I've developed persistent diarrhea. Could this be a side effect of Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["persistent diarrhea"]
+        }
+    },
+    {
+        "input": "Ava Harris\nava.harris@example.com\n890 Cedar Street, Miami, FL 33101\n3055550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Humira for ankylosing spondylitis, and I've experienced frequent nosebleeds. Is this associated with Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["frequent nosebleeds"]
+        }
+    },
+    {
+        "input": "Liam Turner\nliam.turner@example.com\n234 Elm Lane, Chicago, IL 60601\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Humira injection for Crohn's disease, and I'm feeling extremely tired all the time. Is this a possible side effect of Humira?",
+        "output": {
+            "drug_name": "Humira",
+            "adverse_events": ["extreme fatigue"]
+        }
+    }
+]

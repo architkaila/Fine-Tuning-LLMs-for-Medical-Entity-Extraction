@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emily Anderson,\nemily.anderson@email.com\n123 Elm Street, Springfield, IL 62701,\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Enbrel for my rheumatoid arthritis, and recently, I've developed a severe skin rash with redness and itching. Is this a common side effect of Enbrel? Regards, Emily Anderson",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["severe skin rash", "redness", "itching"]
+        }
+    },
+    {
+        "input": "Michael Smith,\nmichael.smith@email.com\n456 Oak Avenue, Houston, TX 77001,\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm a psoriatic arthritis patient using Enbrel, and I've noticed persistent headaches and cold-like symptoms after each injection. Is this something I should be concerned about? Thank you, Michael Smith",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["persistent headaches", "cold-like symptoms"]
+        }
+    },
+    {
+        "input": "Olivia Davis,\nolivia.davis@email.com\n789 Maple Road, San Diego, CA 92101,\n555-789-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm a parent of a child with juvenile idiopathic arthritis who's been using Enbrel. Recently, my child has experienced weakness in the legs and difficulty in walking. Could this be related to the medication? Sincerely, Olivia Davis",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["weakness in legs", "difficulty in walking"]
+        }
+    },
+    {
+        "input": "Daniel Johnson,\ndaniel.johnson@email.com\n101 Pine Street, Boston, MA 02101,\n555-101-0101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Enbrel for plaque psoriasis and noticed unusual tingling and numbness in my arms and legs. Is this a known side effect of the medication? Regards, Daniel Johnson",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["unusual tingling", "numbness in arms and legs"]
+        }
+    },
+    {
+        "input": "Sophia Clark,\nsophia.clark@email.com\n321 Cedar Lane, Seattle, WA 98101,\n555-321-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been on Enbrel for my rheumatoid arthritis and recently experienced shortness of breath and swelling in my lower legs. Should I be concerned about heart-related side effects? Thank you, Sophia Clark",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["shortness of breath", "swelling in lower legs"]
+        }
+    },
+    {
+        "input": "Robert Martinez,\nrobert.martinez@email.com\n567 Pine Street, Los Angeles, CA 90001,\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Enbrel for my psoriatic arthritis and noticed a persistent fever, night sweats, and weight loss. Could this be related to the medication? Regards, Robert Martinez",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["persistent fever", "night sweats", "weight loss"]
+        }
+    },
+    {
+        "input": "Linda Turner,\nlinda.turner@email.com\n987 Elm Avenue, Miami, FL 33101,\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm a rheumatoid arthritis patient using Enbrel, and I've recently experienced flu-like symptoms and joint pain. Is this a common side effect of Enbrel? Thank you, Linda Turner",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["flu-like symptoms", "joint pain"]
+        }
+    },
+    {
+        "input": "William Lee,\nwilliam.lee@email.com\n741 Oak Road, Dallas, TX 75201,\n555-741-8520, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Enbrel for plaque psoriasis and noticed an itchy and scaly skin rash. Is this expected while using Enbrel? Regards, William Lee",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["itchy skin rash", "scaly skin rash"]
+        }
+    },
+    {
+        "input": "Maria Rodriguez,\nmaria.rodriguez@email.com\n654 Cedar Street, Chicago, IL 60601,\n555-654-9876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm a patient using Enbrel for ankylosing spondylitis and noticed unusual swelling in my neck and throat. Could this be related to the medication? Sincerely, Maria Rodriguez",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["unusual swelling in neck", "swelling in throat"]
+        }
+    },
+    {
+        "input": "John Davis,\njohn.davis@email.com\n123 Maple Lane, San Francisco, CA 94101,\n555-123-9876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been on Enbrel for ankylosing spondylitis and noticed pain, redness, and swelling at the injection site. Is this something I should be concerned about? Thank you, John Davis",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["pain at injection site", "redness at injection site", "swelling at injection site"]
+        }
+    },
+    {
+        "input": "Emily Anderson,\nemily.anderson@email.com\n456 Willow Avenue, Houston, TX 77001,\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Enbrel for psoriatic arthritis, and I've developed a persistent cough and difficulty breathing. Is this a known side effect of Enbrel? Regards, Emily Anderson",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["persistent cough", "difficulty breathing"]
+        }
+    },
+    {
+        "input": "Daniel Clark,\ndaniel.clark@email.com\n789 Birch Street, New York, NY 10001,\n555-789-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Enbrel for ankylosing spondylitis and have noticed unusual fatigue and muscle weakness. Can this be related to Enbrel? Sincerely, Daniel Clark",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["unusual fatigue", "muscle weakness"]
+        }
+    },
+    {
+        "input": "Susan White,\nsusan.white@email.com\n321 Oakwood Drive, Philadelphia, PA 19101,\n555-321-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm a rheumatoid arthritis patient using Enbrel and recently experienced severe headaches and blurred vision. Is this a common side effect? Thank you, Susan White",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["severe headaches", "blurred vision"]
+        }
+    },
+    {
+        "input": "Richard Turner,\nrichard.turner@email.com\n987 Pine Street, Boston, MA 02101,\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Enbrel for polyarticular juvenile idiopathic arthritis in my child, and they have developed skin sores and redness. Could this be related to Enbrel? Regards, Richard Turner",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["skin sores", "redness"]
+        }
+    },
+    {
+        "input": "Laura Davis,\nlaura.davis@email.com\n654 Elm Avenue, San Diego, CA 92101,\n555-654-9876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: My son is on Enbrel for polyarticular juvenile idiopathic arthritis and is experiencing numbness and tingling in the arms and legs. Is this a known side effect? Thank you, Laura Davis",
+        "output": {
+            "drug_name": "Enbrel",
+            "adverse_events": ["numbness in arms", "tingling in legs"]
+        }
+    }
+]

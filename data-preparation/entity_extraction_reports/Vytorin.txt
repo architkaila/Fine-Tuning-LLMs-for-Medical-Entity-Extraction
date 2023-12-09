@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Megan Johnson\nmegan.johnson@email.com\n45 Elm Street, Chicago, IL 60601\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Vytorin for my cholesterol, and I've noticed unexplained muscle pain and weakness. Is this normal when using Vytorin?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["muscle pain", "muscle weakness"]
+        }
+    },
+    {
+        "input": "David Smith\ndavid.smith@email.com\n789 Oak Avenue, Los Angeles, CA 90001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Vytorin, I've been experiencing upper stomach pain and a loss of appetite. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["upper stomach pain", "loss of appetite"]
+        }
+    },
+    {
+        "input": "Sophia Brown\nsophia.brown@email.com\n123 Maple Road, New York, NY 10001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Vytorin has caused me to have abnormal liver function test results. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["abnormal liver function tests"]
+        }
+    },
+    {
+        "input": "Daniel Miller\ndaniel.miller@email.com\n567 Pine Lane, San Francisco, CA 94101\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Vytorin, and I'm experiencing diarrhea. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["diarrhea"]
+        }
+    },
+    {
+        "input": "Emily Turner\nemily.turner@email.com\n678 Cedar Street, Houston, TX 77001\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Vytorin, I've had recurring headaches. Is this a common side effect?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["recurring headaches"]
+        }
+    },
+    {
+        "input": "Noah Wilson\nnoah.wilson@email.com\n987 Birch Road, Philadelphia, PA 19101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Vytorin, and my urine is dark-colored. Should I be worried about this?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["dark-colored urine"]
+        }
+    },
+    {
+        "input": "Ella Anderson\nella.anderson@email.com\n345 Willow Lane, Miami, FL 33101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Vytorin, and I've noticed that I'm feeling extremely tired. Is this a side effect of the medication?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["extreme fatigue", "feeling extremely tired"]
+        }
+    },
+    {
+        "input": "Aiden Clark\naiden.clark@email.com\n876 Pine Lane, Dallas, TX 75201\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Vytorin, I've been experiencing a hoarse voice and difficulty swallowing. Is this related to the medication?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["hoarse voice", "difficulty swallowing"]
+        }
+    },
+    {
+        "input": "Sophie King\nsophie.king@email.com\n234 Oak Avenue, Seattle, WA 98101\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Vytorin has caused me to have a persistent headache and nausea. Is this a known side effect?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["persistent headache", "nausea"]
+        }
+    },
+    {
+        "input": "Oliver White\noliver.white@email.com\n567 Elm Street, Boston, MA 02101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Vytorin and have experienced sudden changes in my mood and behavior, including suicidal thoughts. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["sudden mood changes", "suicidal thoughts"]
+        }
+    },
+    {
+        "input": "Lily Parker\nlily.parker@email.com\n789 Maple Road, Denver, CO 80123\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Vytorin and have noticed tremors and nervousness. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["tremors", "nervousness"]
+        }
+    },
+    {
+        "input": "Ava Hall\nava.hall@email.com\n123 Cedar Lane, San Diego, CA 92101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Vytorin and have developed a fever and unusual tiredness. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["fever", "unusual tiredness"]
+        }
+    },
+    {
+        "input": "Henry Lewis\nhenry.lewis@email.com\n456 Birch Street, Atlanta, GA 30301\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Vytorin has caused me to have high blood sugar levels, including increased thirst and urination. Is this a known side effect?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["increased thirst", "increased urination"]
+        }
+    },
+    {
+        "input": "Mia Turner\nmia.turner@email.com\n987 Willow Road, Phoenix, AZ 85001\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Vytorin, I've been experiencing leg cramps and irregular heartbeats. Could this be related to the medication?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["leg cramps", "irregular heartbeats"]
+        }
+    },
+    {
+        "input": "Lucas Adams\nlucas.adams@email.com\n234 Pine Avenue, Nashville, TN 37201\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Vytorin and have noticed a swelling in my feet and ankles. Is this a side effect of the medication?",
+        "output": {
+            "drug_name": "Vytorin",
+            "adverse_events": ["swelling in feet", "swelling in ankles"]
+        }
+    }
+]

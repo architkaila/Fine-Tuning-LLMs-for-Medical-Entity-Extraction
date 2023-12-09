@@ -1,0 +1,107 @@
+[
+    {
+        "input": "Emma Collins\nemma.collins@email.com\n456 Oak Lane, Boston, MA 02101\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Rituxan infusion for non-Hodgkin's lymphoma and experienced a severe skin rash with blistering and peeling. Is this a known side effect of the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["severe skin rash", "blistering and peeling"]
+        }
+    },
+    {
+        "input": "Oliver Smith\noliver.smith@email.com\n789 Maple Avenue, Chicago, IL 60601\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I had a Rituxan infusion for rheumatoid arthritis and developed weakness on one side of my body. Should I be concerned?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["weakness on one side of the body"]
+        }
+    },
+    {
+        "input": "Sophia Johnson\nsophia.johnson@email.com\n123 Pine Street, San Francisco, CA 94101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Rituxan treatment for granulomatosis with polyangiitis and experienced confusion, memory problems, and difficulty walking. Is this a side effect of the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["confusion", "memory problems", "difficulty walking"]
+        }
+    },
+    {
+        "input": "Lucas Wilson\nlucas.wilson@email.com\n890 Cedar Road, Los Angeles, CA 90001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I underwent Rituxan therapy for pemphigus vulgaris and developed a severe headache and irregular heartbeats. Could this be related to the treatment?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["severe headache", "irregular heartbeats"]
+        }
+    },
+    {
+        "input": "Lily Martin\nlily.martin@email.com\n567 Elm Street, Miami, FL 33101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving Rituxan for chronic lymphocytic leukemia, I noticed a sudden loss of appetite and severe tiredness. Are these symptoms associated with the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["sudden loss of appetite", "severe tiredness"]
+        }
+    },
+    {
+        "input": "Ethan White\nethan.white@email.com\n432 Birch Road, Dallas, TX 75201\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I had a Rituxan infusion for microscopic polyangiitis and experienced a persistent cough and chest pain. Should I be concerned?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["persistent cough", "chest pain"]
+        }
+    },
+    {
+        "input": "Ava Turner\nava.turner@email.com\n321 Cedar Lane, Denver, CO 80201\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I underwent Rituxan treatment for non-Hodgkin's lymphoma and developed a fever, chills, and cold symptoms. Could these be side effects of the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["fever", "chills", "cold symptoms"]
+        }
+    },
+    {
+        "input": "Mia Baker\nmia.baker@email.com\n876 Oak Street, Seattle, WA 98101\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Rituxan infusion for granulomatosis with polyangiitis and developed a skin rash and redness. Is this something I should be concerned about?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["skin rash", "redness"]
+        }
+    },
+    {
+        "input": "Noah Harris\nnoah.harris@email.com\n765 Pine Road, Houston, TX 77001\n555-012-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After Rituxan treatment for rheumatoid arthritis, I experienced muscle spasms and depression. Can these symptoms be related to the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["muscle spasms", "depression"]
+        }
+    },
+    {
+        "input": "Isabella Turner\nisabella.turner@email.com\n123 Maple Street, Phoenix, AZ 85001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I underwent Rituxan treatment for rheumatoid arthritis and experienced a sudden vision change and difficulty speaking. Are these symptoms related to the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["sudden vision change", "difficulty speaking"]
+        }
+    },
+    {
+        "input": "Liam Martinez\nliam.martinez@email.com\n567 Oak Avenue, San Diego, CA 92101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving Rituxan for non-Hodgkin's lymphoma, I developed swelling in my hands and feet along with a headache. Should I be concerned?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["swelling in hands and feet", "headache"]
+        }
+    },
+    {
+        "input": "Ella Scott\nella.scott@email.com\n890 Cedar Lane, Los Angeles, CA 90001\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I had a Rituxan infusion for chronic lymphocytic leukemia and experienced muscle weakness and tingling in my hands and feet. Could this be a side effect of the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["muscle weakness", "tingling in hands and feet"]
+        }
+    },
+    {
+        "input": "Mason Allen\nmason.allen@email.com\n432 Birch Road, Dallas, TX 75201\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After Rituxan treatment for granulomatosis with polyangiitis, I developed pain and swelling in my stomach. Can this be related to the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["pain in stomach", "swelling in stomach"]
+        }
+    },
+    {
+        "input": "Aiden Davis\naiden.davis@email.com\n654 Elm Avenue, New York, NY 10001\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received a Rituxan infusion for pemphigus vulgaris and developed a depressed mood and cold symptoms. Could these symptoms be associated with the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["depressed mood", "cold symptoms"]
+        }
+    },
+    {
+        "input": "Olivia Walker\nolivia.walker@email.com\n789 Pine Street, Chicago, IL 60601\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I underwent Rituxan treatment for rheumatoid arthritis, and I experienced a severe headache and muscle spasms shortly after the infusion. Could these symptoms be related to the medication?",
+        "output": {
+            "drug_name": "Rituxan",
+            "adverse_events": ["severe headache", "muscle spasms"]
+        }
+    }
+]
