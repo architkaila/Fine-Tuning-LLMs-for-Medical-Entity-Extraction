@@ -25,7 +25,7 @@ from lit_gpt.utils import (
     load_checkpoint,
     num_parameters,
 )
-from scripts.prepare_alpaca import generate_prompt
+from scripts.prepare_entity_extraction_data import generate_prompt
 
 eval_interval = 100
 save_interval = 100
@@ -58,9 +58,9 @@ hparams = {k: v for k, v in locals().items() if isinstance(v, (int, float, str))
 
 
 def setup(
-    data_dir: Path = Path("data/alpaca"),
+    data_dir: Path = Path("data/entity_extraction"),
     checkpoint_dir: Path = Path("checkpoints/stabilityai/stablelm-base-alpha-3b"),
-    out_dir: Path = Path("out/lora/alpaca"),
+    out_dir: Path = Path("out/lora/entity_extraction"),
     precision: Optional[str] = None,
     quantize: Optional[Literal["bnb.nf4", "bnb.nf4-dq", "bnb.fp4", "bnb.fp4-dq", "bnb.int8-training"]] = None,
 ) -> None:
@@ -246,9 +246,9 @@ def validate(fabric: L.Fabric, model: GPT, val_data: List[Dict], tokenizer: Toke
     val_loss = losses.mean()
 
     # produce an example:
-    instruction = "Recommend a movie for me to watch during the weekend and explain the reason."
-    fabric.print(instruction)
-    sample = {"instruction": instruction, "input": ""}
+    #instruction = "Recommend a movie for me to watch during the weekend and explain the reason."
+    #fabric.print(instruction)
+    sample = {"input": "Robert Johnson\nrobert.johnson@email.com\n789 Maple Lane, Chicago, IL 60601\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Onglyza for a while, and I've noticed that I'm experiencing frequent painful urination. Is this a known side effect?"}
     prompt = generate_prompt(sample)
     encoded = tokenizer.encode(prompt, device=fabric.device)
     with fabric.init_tensor():
