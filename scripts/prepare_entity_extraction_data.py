@@ -133,9 +133,7 @@ def generate_prompt(example: dict) -> str:
     'response' field."""
     
     # Prepare the prompt for entity extraction
-    return (
-            f"### Input:\n{example['input']}\n\n### Response:"
-        )
+    return (f"### Input:\n{example['input']}\n\n### Response:")
 
 
 if __name__ == "__main__":
