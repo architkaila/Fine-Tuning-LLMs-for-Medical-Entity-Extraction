@@ -26,17 +26,17 @@ from lit_gpt.utils import (
 )
 from scripts.prepare_entity_extraction_data import generate_prompt
 
-eval_interval = 600
-save_interval = 1000
+eval_interval = 100
+save_interval = 100
 eval_iters = 100
-eval_max_new_tokens = 100
+eval_max_new_tokens = 35
 log_interval = 1
 devices = 1
 
 # Hyperparameters
 learning_rate = 3e-3
-batch_size = 16 / devices
-micro_batch_size = 2  # set to 2 because this is fit into 12GB Vram
+batch_size = 8 / devices
+micro_batch_size = 1  # set to 2 because this is fit into 12GB Vram
 gradient_accumulation_iters = batch_size // micro_batch_size
 assert gradient_accumulation_iters > 0
 max_seq_length = None  # assign value to truncate
