@@ -24,8 +24,8 @@ def prepare(
     test_split_fraction: float = 0.10,  # to get 10% test split
     seed: int = 42,
     mask_inputs: bool = False,  # as in alpaca-lora
-    data_file_name: str = "data/entity-extraction-train-data.json",
-    data_file_url: str = "https://raw.githubusercontent.com/architkaila/Entity-Extraction-with-LLMs/main/data/entity-extraction-train-data.json",
+    data_file_name: str = "entity-extraction-train-data.json",
+    data_file_url: str = "https://raw.githubusercontent.com/architkaila/Entity-Extraction-with-LLMs/main/data/entity_extraction/entity-extraction-train-data.json",
     ignore_index: int = -1,
     max_seq_length: Optional[int] = None,
 ) -> None:
