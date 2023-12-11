@@ -21,7 +21,7 @@ from lit_gpt.tokenizer import Tokenizer
 def prepare(
     destination_path: Path = Path("data/entity_extraction"),
     checkpoint_dir: Path = Path("checkpoints/stabilityai/stablelm-base-alpha-3b"),
-    test_split_fraction: float = 0.10,  # to get 10% test split
+    test_split_fraction: float = 0.05,  # to get 10% test split
     seed: int = 42,
     mask_inputs: bool = False,  # as in alpaca-lora
     data_file_name: str = "entity-extraction-train-data.json",
