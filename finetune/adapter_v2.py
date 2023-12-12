@@ -52,7 +52,7 @@ hparams = {k: v for k, v in locals().items() if isinstance(v, (int, float, str))
 def setup(
     data_dir: Path = Path("data/entity_extraction"),
     checkpoint_dir: Path = Path("checkpoints/stabilityai/stablelm-base-alpha-3b"),
-    out_dir: Path = Path("out/adapter_v2/entity_extraction"),
+    out_dir: Path = Path("out/adapter_v2/Stable-LM/entity_extraction"),
     precision: Optional[str] = None,
 ) -> None:
     precision = precision or get_default_supported_precision(training=True)

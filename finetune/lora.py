@@ -60,7 +60,7 @@ hparams = {k: v for k, v in locals().items() if isinstance(v, (int, float, str))
 def setup(
     data_dir: Path = Path("data/entity_extraction"),
     checkpoint_dir: Path = Path("checkpoints/stabilityai/stablelm-base-alpha-3b"),
-    out_dir: Path = Path("out/lora/entity_extraction"),
+    out_dir: Path = Path("out/lora/Stable-LM/entity_extraction"),
     precision: Optional[str] = None,
     quantize: Optional[Literal["bnb.nf4", "bnb.nf4-dq", "bnb.fp4", "bnb.fp4-dq", "bnb.int8-training"]] = None,
 ) -> None:

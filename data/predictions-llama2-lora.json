@@ -1,0 +1,297 @@
+[
+    {
+        "input": "Natalie Cooper,\nncooper@example.com\n6789 Birch Street, Denver, CO 80203,\n303-555-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, after starting Abilify for bipolar I disorder, I've noticed that I am experiencing nausea and vomiting. Are these typical reactions? Best, Natalie Cooper",
+        "output": "{\"drug_name\": \"Abilify\", \"adverse_events\": [\"nausea\", \"vomiting\"]}",
+        "prediction": "{\"drug_name\": \"Abilify\", \"adverse_events\": [\"nausea\", \"vomiting\"]}"
+    },
+    {
+        "input": "Mia Garcia\nmia.garcia@email.com\n321 Magnolia Drive, Dallas, TX 75201\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I experienced a feeling of light-headedness and near-fainting after taking Staxyn for my erectile dysfunction. Is this a common side effect, and should I be worried?",
+        "output": "{\"drug_name\": \"Staxyn\", \"adverse_events\": [\"light-headedness\", \"near-fainting\"]}",
+        "prediction": "{\"drug_name\": \"Staxyn\", \"adverse_events\": [\"feeling of light-headedness\", \"near-fainting\"]}"
+    },
+    {
+        "input": "Brandon Lee,\nblee@example.com\n3333 Pine Road, Hilltown, MA 02108,\n617-555-3333, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started on Byetta, I've noticed an increase in thirst and dry mouth. Is this related to the medication? Best, Brandon Lee",
+        "output": "{\"drug_name\": \"Byetta\", \"adverse_events\": [\"increase in thirst\", \"dry mouth\"]}",
+        "prediction": "{\"drug_name\": \"Byetta\", \"adverse_events\": [\"increased thirst\", \"dry mouth\"]}"
+    },
+    {
+        "input": "William Brown\nwilliam.brown@example.com\n444 Oakwood Lane, Phoenix, AZ 85001\n6025559090, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Lipitor, and I've noticed that I'm experiencing frequent nosebleeds. They are quite sudden and inconvenient. I'm wondering if this is a known side effect and if there's anything I can do to prevent it.",
+        "output": "{\"drug_name\": \"Lipitor\", \"adverse_events\": [\"frequent nosebleeds\", \"sudden nosebleeds\"]}",
+        "prediction": "{\"drug_name\": \"Lipitor\", \"adverse_events\": [\"frequent nosebleeds\"]}"
+    },
+    {
+        "input": "Diane Wilson,\ndwilson@example.com\n10101 Birch Street, Hillside, IL 60010,\n847-555-1010, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After using Cialis, I've begun experiencing upset stomach and flushing. Are these common reactions to the medication? Thanks, Diane Wilson",
+        "output": "{\"drug_name\": \"Cialis\", \"adverse_events\": [\"upset stomach\", \"flushing\"]}",
+        "prediction": "{\"drug_name\": \"Cialis\", \"adverse_events\": [\"upset stomach\", \"flushing\"]}"
+    },
+    {
+        "input": "Emily Clark,\neclark@example.com\n151617 Elm Street, Rivertown, FL 33101,\n305-555-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been on Cialis for a few months and have recently had an erection that is painful and lasts longer than 4 hours. Could this be related to the medication? Regards, Emily Clark",
+        "output": "{\"drug_name\": \"Cialis\", \"adverse_events\": [\"painful erection\", \"prolonged erection (more than 4 hours)\"]}",
+        "prediction": "{\"drug_name\": \"Cialis\", \"adverse_events\": [\"erection that is painful\", \"erection that lasts longer than 4 hours\"]}"
+    },
+    {
+        "input": "Emily Smith,\nemily.smith@example.com\n456 Oak Lane, Springfield, IL 62704,\n987-654-3210, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hello, after taking Viagra, I have noticed that I am experiencing some muscle pain and back pain. These symptoms started soon after I began the medication. Can you advise? Best, Emily Smith",
+        "output": "{\"drug_name\": \"Viagra\", \"adverse_events\": [\"muscle pain\", \"back pain\"]}",
+        "prediction": "{\"drug_name\": \"Viagra\", \"adverse_events\": [\"muscle pain\", \"back pain\"]}"
+    },
+    {
+        "input": "Ella Anderson\nella.anderson@email.com\n345 Willow Lane, Miami, FL 33101\n555-789-0123, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Vytorin, and I've noticed that I'm feeling extremely tired. Is this a side effect of the medication?",
+        "output": "{\"drug_name\": \"Vytorin\", \"adverse_events\": [\"extreme fatigue\", \"feeling extremely tired\"]}",
+        "prediction": "{\"drug_name\": \"Vytorin\", \"adverse_events\": [\"extreme tiredness\"]}"
+    },
+    {
+        "input": "Isabella Clark\nisabella.clark@email.com\n123 Oakwood Drive, Atlanta, GA 30301\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prozac for my major depressive disorder, and I've had an increase in heart rate and chest pain. Is this a known side effect of the medication?",
+        "output": "{\"drug_name\": \"Prozac\", \"adverse_events\": [\"increase in heart rate\", \"chest pain\"]}",
+        "prediction": "{\"drug_name\": \"Prozac\", \"adverse_events\": [\"increase in heart rate\", \"chest pain\"]}"
+    },
+    {
+        "input": "Emily Wilson\nemily.wilson@example.com\n45 Maple Street, Los Angeles, CA 90001\n2135557890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Nexium for my acid reflux, and I recently experienced severe stomach pain and watery diarrhea. Is this a side effect of Nexium?",
+        "output": "{\"drug_name\": \"Nexium\", \"adverse_events\": [\"severe stomach pain\", \"watery diarrhea\"]}",
+        "prediction": "{\"drug_name\": \"Nexium\", \"adverse_events\": [\"severe stomach pain\", \"watery diarrhea\"]}"
+    },
+    {
+        "input": "William Harris\nwilliam.harris@example.com\n890 Oak Road, San Francisco, CA 94101\n4155558765, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen and had trouble breathing and fever. Are these common side effects of the medication?",
+        "output": "{\"drug_name\": \"Neupogen\", \"adverse_events\": [\"trouble breathing\", \"fever\"]}",
+        "prediction": "{\"drug_name\": \"Neupogen\", \"adverse_events\": [\"trouble breathing\", \"fever\"]}"
+    },
+    {
+        "input": "Alex Martinez\nalexm@example.com\n234 River Road, Austin, TX 78701\n5121234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Cymbalta for chronic back pain. I've started experiencing severe constipation and occasional vision changes. Are these known side effects?",
+        "output": "{\"drug_name\": \"Cymbalta\", \"adverse_events\": [\"severe constipation\", \"vision changes\"]}",
+        "prediction": "{\"drug_name\": \"Cymbalta\", \"adverse_events\": [\"severe constipation\", \"occasional vision changes\"]}"
+    },
+    {
+        "input": "Daniel Wilson\ndaniel.wilson@example.com\n112 Pine Avenue, Atlanta, GA 30301\n4045554321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I took Nexium for acid reflux, and I had a headache and stomach pain. Could this be due to the medication?",
+        "output": "{\"drug_name\": \"Nexium\", \"adverse_events\": [\"headache\", \"stomach pain\"]}",
+        "prediction": "{\"drug_name\": \"Nexium\", \"adverse_events\": [\"headache\", \"stomach pain\"]}"
+    },
+    {
+        "input": "Sebastian Cooper\nsebastian.cooper@email.com\n567 Maple Road, Austin, TX 78701\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: After receiving a Remicade infusion for my plaque psoriasis, I've experienced blurred vision and severe headaches. Are these symptoms related to the medication?",
+        "output": "{\"drug_name\": \"Remicade\", \"adverse_events\": [\"blurred vision\", \"severe headaches\"]}",
+        "prediction": "{\"drug_name\": \"Remicade\", \"adverse_events\": [\"blurred vision\", \"severe headaches\"]}"
+    },
+    {
+        "input": "James Garcia,\njames.garcia@example.com\n121314 Maple Lane, Boston, MA 02108,\n617-555-4568, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I'm on Advair for emphysema and have started experiencing fever and chills, along with a cough with mucus. Are these effects related to Advair? Thanks, James Garcia",
+        "output": "{\"drug_name\": \"Advair\", \"adverse_events\": [\"fever and chills\", \"cough with mucus\"]}",
+        "prediction": "{\"drug_name\": \"Advair\", \"adverse_events\": [\"fever\", \"chills\", \"cough with mucus\"]}"
+    },
+    {
+        "input": "Ethan Clark\ne.clark@example.com\n456 Pine Lane, Dallas, TX 75201\n2141234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started Doxycycline as a treatment for chlamydia, and I've noticed darkening of my skin color. Is this related to the medication?",
+        "output": "{\"drug_name\": \"Doxycycline\", \"adverse_events\": [\"darkening of skin color\"]}",
+        "prediction": "{\"drug_name\": \"Doxycycline\", \"adverse_events\": [\"darkening of skin color\"]}"
+    },
+    {
+        "input": "Sophie Turner\nsophie.turner@email.com\n654 Oak Avenue, San Diego, CA 92101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Victoza, I've been experiencing a persistent cough and wheezing. Is this a known side effect?",
+        "output": "{\"drug_name\": \"Victoza\", \"adverse_events\": [\"persistent cough\", \"wheezing\"]}",
+        "prediction": "{\"drug_name\": \"Victoza\", \"adverse_events\": [\"persistent cough\", \"wheezing\"]}"
+    },
+    {
+        "input": "Michael Johnson,\nmichael.johnson@example.com\n789 Pine Road, Metropolis, NY 10001,\n456-123-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Viagra and have been using it for a few weeks. Recently, I've started to experience a stuffy nose and some nosebleeds. Is this a common side effect? Thanks, Michael Johnson",
+        "output": "{\"drug_name\": \"Viagra\", \"adverse_events\": [\"stuffy nose\", \"nosebleeds\"]}",
+        "prediction": "{\"drug_name\": \"Viagra\", \"adverse_events\": [\"stuffy nose\", \"nosebleeds\"]}"
+    },
+    {
+        "input": "William Turner\nwilliam.turner@email.com\n890 Cedar Lane, Houston, TX 77001\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since taking Provigil, I've developed a persistent headache and hallucinations. Could this be a side effect of the medication?",
+        "output": "{\"drug_name\": \"Provigil\", \"adverse_events\": [\"persistent headache\", \"hallucinations\"]}",
+        "prediction": "{\"drug_name\": \"Provigil\", \"adverse_events\": [\"persistent headache\", \"hallucinations\"]}"
+    },
+    {
+        "input": "Liam Davis\nliam.davis@email.com\n234 Cedar Road, Miami, FL 33101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I started Protonix, I've noticed swelling in my face and hands along with a rapid heart rate. Is this a known side effect of the medication?",
+        "output": "{\"drug_name\": \"Protonix\", \"adverse_events\": [\"swelling in face and hands\", \"rapid heart rate\"]}",
+        "prediction": "{\"drug_name\": \"Protonix\", \"adverse_events\": [\"swelling in face\", \"rapid heart rate\"]}"
+    },
+    {
+        "input": "Sophia Turner\nsophia.turner@email.com\n567 Elm Road, Seattle, WA 98101\n555-890-1234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Prilosec, I've had a persistent cough and vomiting. Is this a common side effect of the medication?",
+        "output": "{\"drug_name\": \"Prilosec\", \"adverse_events\": [\"persistent cough\", \"vomiting\"]}",
+        "prediction": "{\"drug_name\": \"Prilosec\", \"adverse_events\": [\"persistent cough\", \"vomiting\"]}"
+    },
+    {
+        "input": "Ava Johnson\nava.johnson@email.com\n456 Maple Avenue, Los Angeles, CA 90001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been taking Symbicort, and it caused me to have white patches in my mouth and throat, along with pain when swallowing. What should I do about these symptoms?",
+        "output": "{\"drug_name\": \"Symbicort\", \"adverse_events\": [\"white patches in mouth\", \"pain when swallowing\"]}",
+        "prediction": "{\"drug_name\": \"Symbicort\", \"adverse_events\": [\"white patches in mouth\", \"pain when swallowing\"]}"
+    },
+    {
+        "input": "Claire Brown,\ncbrown@example.com\n91011 Pine Avenue, Metropolis, NY 10001,\n212-555-2468, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been treated with Byetta for diabetes and recently started experiencing symptoms of low blood sugar like dizziness and sweating. Is this a side effect of the drug? Sincerely, Claire Brown",
+        "output": "{\"drug_name\": \"Byetta\", \"adverse_events\": [\"symptoms of low blood sugar\", \"dizziness\", \"sweating\"]}",
+        "prediction": "{\"drug_name\": \"Byetta\", \"adverse_events\": [\"symptoms of low blood sugar\"]}"
+    },
+    {
+        "input": "Thomas Brown,\ntbrown@example.com\n7890 Spruce Street, Portland, OR 97201,\n503-555-1122, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I started taking Abilify for schizophrenia and I've noticed some problems with speech and a mask-like appearance of my face. Is this a known side effect? Thanks, Thomas Brown",
+        "output": "{\"drug_name\": \"Abilify\", \"adverse_events\": [\"problems with speech\", \"mask-like appearance of face\"]}",
+        "prediction": "{\"drug_name\": \"Abilify\", \"adverse_events\": [\"problems with speech\", \"mask-like appearance of face\"]}"
+    },
+    {
+        "input": "Maria Rodriguez\nmaria.rodriguez@example.com\n999 Walnut Street, Philadelphia, PA 19101\n2155551414, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Lipitor for a while, and I've developed a persistent cough. It's quite bothersome, and I'm wondering if this could be related to the medication. What should I do about it?",
+        "output": "{\"drug_name\": \"Lipitor\", \"adverse_events\": [\"persistent cough\", \"bothersome cough\"]}",
+        "prediction": "{\"drug_name\": \"Lipitor\", \"adverse_events\": [\"persistent cough\"]}"
+    },
+    {
+        "input": "David Martinez\ndavid.martinez@email.com\n567 Cedar Road, Miami, FL 33101\n555-765-4321, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Rituximab along with methotrexate for rheumatoid arthritis, and I've been experiencing painful urination and muscle spasms. Could this be related to the treatment?",
+        "output": "{\"drug_name\": \"Rituximab\", \"adverse_events\": [\"painful urination\", \"muscle spasms\"]}",
+        "prediction": "{\"drug_name\": \"Rituximab\", \"adverse_events\": [\"painful urination\", \"muscle spasms\"]}"
+    },
+    {
+        "input": "Grace Lee,\nglee@example.com\n3030 Maple Drive, Smallville, KS 66002,\n785-555-3030, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Byetta for my diabetes management and recently started experiencing rapid heartbeats and difficulty breathing. Should I seek medical attention? Best, Grace Lee",
+        "output": "{\"drug_name\": \"Byetta\", \"adverse_events\": [\"rapid heartbeats\", \"difficulty breathing\"]}",
+        "prediction": "{\"drug_name\": \"Byetta\", \"adverse_events\": [\"rapid heartbeats\", \"difficulty breathing\"]}"
+    },
+    {
+        "input": "David Clark\ndavid.clark@email.com\n567 Cedar Road, New York, NY 10001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Prevacid for Zollinger-Ellison syndrome, and I've noticed new and unusual pain in my hip. Could this be a side effect of the medication?",
+        "output": "{\"drug_name\": \"Prevacid\", \"adverse_events\": [\"new and unusual hip pain\"]}",
+        "prediction": "{\"drug_name\": \"Prevacid\", \"adverse_events\": [\"hip pain\"]}"
+    },
+    {
+        "input": "Samantha Green,\nsgreen@example.com\n1818 Cedar St, Hillside, NJ 07205,\n908-555-1818, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I began taking Celexa, I've experienced sudden changes in mood and increased anxiety. Are these known side effects? Regards, Samantha Green",
+        "output": "{\"drug_name\": \"Celexa\", \"adverse_events\": [\"sudden changes in mood\", \"increased anxiety\"]}",
+        "prediction": "{\"drug_name\": \"Celexa\", \"adverse_events\": [\"sudden changes in mood\", \"increased anxiety\"]}"
+    },
+    {
+        "input": "Liam Johnson\nliam.johnson@example.com\n101 Oak Street, Boston, MA 02101\n6175551234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Neupogen during chemotherapy and had a sudden and severe pain in my chest. Is this a known side effect of the medication?",
+        "output": "{\"drug_name\": \"Neupogen\", \"adverse_events\": [\"sudden chest pain\"]}",
+        "prediction": "{\"drug_name\": \"Neupogen\", \"adverse_events\": [\"sudden and severe chest pain\"]}"
+    },
+    {
+        "input": "David Clark\ndavid.clark@email.com\n234 Redwood Drive, Boston, MA 02101\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Onglyza, and I've been experiencing shortness of breath, especially when lying down. Could this be related to the medication?",
+        "output": "{\"drug_name\": \"Onglyza\", \"adverse_events\": [\"shortness of breath\"]}",
+        "prediction": "{\"drug_name\": \"Onglyza\", \"adverse_events\": [\"shortness of breath\", \"lying down\"]}"
+    },
+    {
+        "input": "James Turner\njames.turner@example.com\n666 Willow Lane, Seattle, WA 98101\n2065559876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started using Lunesta, and I've been experiencing hallucinations and confusion. It's quite distressing. Is this a known side effect of the medication?",
+        "output": "{\"drug_name\": \"Lunesta\", \"adverse_events\": [\"hallucinations\"]}",
+        "prediction": "{\"drug_name\": \"Lunesta\", \"adverse_events\": [\"hallucinations\", \"confusion\"]}"
+    },
+    {
+        "input": "John Smith\njohn.smith@email.com\n234 Birch Avenue, Miami, FL 33101\n555-567-8901, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prevacid OTC, and I've been feeling a rapid heart rate and a jittery sensation. Is this a known side effect?",
+        "output": "{\"drug_name\": \"Prevacid\", \"adverse_events\": [\"rapid heart rate\", \"jittery sensation\"]}",
+        "prediction": "{\"drug_name\": \"Prevacid\", \"adverse_events\": [\"rapid heart rate\", \"jittery sensation\"]}"
+    },
+    {
+        "input": "Henry Adams\nhenry.adams@email.com\n876 Birch Street, Atlanta, GA 30301\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Symbicort is giving me leg cramps and irregular heartbeats. I'm concerned about these symptoms.",
+        "output": "{\"drug_name\": \"Symbicort\", \"adverse_events\": [\"leg cramps\", \"irregular heartbeats\"]}",
+        "prediction": "{\"drug_name\": \"Symbicort\", \"adverse_events\": [\"leg cramps\", \"irregular heartbeats\"]}"
+    },
+    {
+        "input": "Isabella Rodriguez\nisabella.rodriguez@email.com\n901 Pine Street, Chicago, IL 60601\n555-456-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Prezista for my HIV treatment, and I've developed swelling in my neck and throat. Is this a known side effect?",
+        "output": "{\"drug_name\": \"Prezista\", \"adverse_events\": [\"swelling in neck\", \"throat swelling\"]}",
+        "prediction": "{\"drug_name\": \"Prezista\", \"adverse_events\": [\"swelling in neck and throat\"]}"
+    },
+    {
+        "input": "Ethan Turner\nethan.turner@email.com\n123 Cedar Road, Denver, CO 80123\n555-543-7890, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Singulair for allergy management, and I've experienced flu-like symptoms and a sore throat. Is this a common reaction to the medication?",
+        "output": "{\"drug_name\": \"Singulair\", \"adverse_events\": [\"flu-like symptoms\", \"sore throat\"]}",
+        "prediction": "{\"drug_name\": \"Singulair\", \"adverse_events\": [\"flu-like symptoms\", \"sore throat\"]}"
+    },
+    {
+        "input": "Andrew Brown\nandrew.brown@email.com\n789 Oakwood Drive, Boston, MA 02101\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Prezista for my HIV treatment, I've had trouble with balance and eye movement, and I feel weak. Could this be related to the medication?",
+        "output": "{\"drug_name\": \"Prezista\", \"adverse_events\": [\"trouble with balance\", \"eye movement issues\", \"weakness\"]}",
+        "prediction": "{\"drug_name\": \"Prezista\", \"adverse_events\": [\"trouble with balance\", \"eye movement problems\", \"feeling weak\"]}"
+    },
+    {
+        "input": "Zoe Wilson\nzoe.wilson@example.com\n567 Elm Road, Chicago, IL 60601\n3125550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Infliximab for my ankylosing spondylitis, and I'm having trouble swallowing and pain in my throat. Is this a known side effect?",
+        "output": "{\"drug_name\": \"Infliximab\", \"adverse_events\": [\"trouble swallowing\", \"throat pain\"]}",
+        "prediction": "{\"drug_name\": \"Infliximab\", \"adverse_events\": [\"trouble swallowing\", \"pain in throat\"]}"
+    },
+    {
+        "input": "James White\njames.white@example.com\n123 Oak Road, Seattle, WA 98101\n2065550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received an Infliximab infusion for my Crohn's disease, and I've been experiencing severe diarrhea and abdominal pain. Is this expected with the treatment?",
+        "output": "{\"drug_name\": \"Infliximab\", \"adverse_events\": [\"severe diarrhea\", \"abdominal pain\"]}",
+        "prediction": "{\"drug_name\": \"Infliximab\", \"adverse_events\": [\"severe diarrhea\", \"abdominal pain\"]}"
+    },
+    {
+        "input": "Liam Thomas\nliam.thomas@email.com\n567 Pine Street, Philadelphia, PA 19101\n555-012-3456, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Provigil for my narcolepsy, and I'm experiencing a severe headache and dizziness. Is this a known side effect of the medication?",
+        "output": "{\"drug_name\": \"Provigil\", \"adverse_events\": [\"severe headache\", \"dizziness\"]}",
+        "prediction": "{\"drug_name\": \"Provigil\", \"adverse_events\": [\"severe headache\", \"dizziness\"]}"
+    },
+    {
+        "input": "William Turner\nwilliam.turner@example.com\n101 Pine Lane, Philadelphia, PA 19101\n2155551234, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I started Metoprolol, and I'm feeling depressed and confused. Could these be side effects of the medication?",
+        "output": "{\"drug_name\": \"Metoprolol\", \"adverse_events\": [\"feeling depressed\", \"confusion\"]}",
+        "prediction": "{\"drug_name\": \"Metoprolol\", \"adverse_events\": [\"depression\", \"confusion\"]}"
+    },
+    {
+        "input": "Emma Thompson,\nethompson@example.com\n3690 Elm Road, Coastville, FL 33101,\n305-555-3690, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since being prescribed Atripla, I've had episodes of severe dizziness and feeling cold. Are these typical reactions to the medication? Regards, Emma Thompson",
+        "output": "{\"drug_name\": \"Atripla\", \"adverse_events\": [\"severe dizziness\", \"feeling cold\"]}",
+        "prediction": "{\"drug_name\": \"Atripla\", \"adverse_events\": [\"severe dizziness\", \"feeling cold\"]}"
+    },
+    {
+        "input": "Ava Wilson\nava.wilson@example.com\n999 Willow Road, Seattle, WA 98101\n2065555432, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm using Metoprolol for angina, and I've been feeling anxious and agitated. Is this expected with the medication?",
+        "output": "{\"drug_name\": \"Metoprolol\", \"adverse_events\": [\"feeling anxious\", \"feeling agitated\"]}",
+        "prediction": "{\"drug_name\": \"Metoprolol\", \"adverse_events\": [\"feeling anxious\", \"agitation\"]}"
+    },
+    {
+        "input": "Henry Taylor\nhenry.taylor@email.com\n890 Pine Road, Phoenix, AZ 85001\n555-901-2345, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Protonix for my GERD, and I've experienced persistent diarrhea and joint pain. Is this a known side effect of the medication?",
+        "output": "{\"drug_name\": \"Protonix\", \"adverse_events\": [\"persistent diarrhea\", \"joint pain\"]}",
+        "prediction": "{\"drug_name\": \"Protonix\", \"adverse_events\": [\"persistent diarrhea\", \"joint pain\"]}"
+    },
+    {
+        "input": "Richard Turner,\nrichard.turner@email.com\n987 Pine Street, Boston, MA 02101,\n555-987-6543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Enbrel for polyarticular juvenile idiopathic arthritis in my child, and they have developed skin sores and redness. Could this be related to Enbrel? Regards, Richard Turner",
+        "output": "{\"drug_name\": \"Enbrel\", \"adverse_events\": [\"skin sores\", \"redness\"]}",
+        "prediction": "{\"drug_name\": \"Enbrel\", \"adverse_events\": [\"skin sores\", \"redness\"]}"
+    },
+    {
+        "input": "John Smith\njohn.smith@example.com\n789 Elm Avenue, Los Angeles, CA 90001\n2135550101, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Januvia, and I'm experiencing severe pain in my joints. Could this be related to the medication?",
+        "output": "{\"drug_name\": \"Januvia\", \"adverse_events\": [\"severe joint pain\"]}",
+        "prediction": "{\"drug_name\": \"Januvia\", \"adverse_events\": [\"severe pain in joints\"]}"
+    },
+    {
+        "input": "Sophia Martinez\nsophia.martinez@email.com\n901 Cedar Road, Chicago, IL 60601\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since I began taking Prilosec, I've been experiencing new and unusual pain in my wrist. Could this be related to the medication?",
+        "output": "{\"drug_name\": \"Prilosec\", \"adverse_events\": [\"new and unusual wrist pain\"]}",
+        "prediction": "{\"drug_name\": \"Prilosec\", \"adverse_events\": [\"new and unusual pain in wrist\"]}"
+    },
+    {
+        "input": "Ava Martin\nava.martin@example.com\n567 Maple Street, New York, NY 10002\n2129876543, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Doxycycline for acne, and I've noticed a significant loss of appetite and nausea. Could this be related to the medication?",
+        "output": "{\"drug_name\": \"Doxycycline\", \"adverse_events\": [\"loss of appetite\", \"nausea\"]}",
+        "prediction": "{\"drug_name\": \"Doxycycline\", \"adverse_events\": [\"loss of appetite\", \"nausea\"]}"
+    },
+    {
+        "input": "Mia Johnson,\nmia.johnson@example.com\n789 Park Ave, Chicago, IL 60601,\n312-555-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting on Amlodipine, I've had instances of severe drowsiness and weakness. Are these common side effects? Sincerely, Mia Johnson",
+        "output": "{\"drug_name\": \"Amlodipine\", \"adverse_events\": [\"severe drowsiness\", \"weakness\"]}",
+        "prediction": "{\"drug_name\": \"Amlodipine\", \"adverse_events\": [\"severe drowsiness\", \"weakness\"]}"
+    },
+    {
+        "input": "Samantha Davis,\nsdavis@example.com\n6565 Pine Road, Miami, FL 33101,\n305-555-6565, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Hi, I've been prescribed Atorvastatin for lowering cholesterol and recently noticed nausea and upset stomach. Are these reactions to the medication? Thanks, Samantha Davis",
+        "output": "{\"drug_name\": \"Atorvastatin\", \"adverse_events\": [\"nausea\", \"upset stomach\"]}",
+        "prediction": "{\"drug_name\": \"Atorvastatin\", \"adverse_events\": [\"nausea\", \"upset stomach\"]}"
+    },
+    {
+        "input": "Liam Smith\nl.smith@example.com\n789 Oak Road, Phoenix, AZ 85001\n6021234567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Doxycycline for gonorrhea, and I've developed a fever, swollen glands, and body aches. Is this a possible reaction to the medication?",
+        "output": "{\"drug_name\": \"Doxycycline\", \"adverse_events\": [\"fever\", \"swollen glands\", \"body aches\"]}",
+        "prediction": "{\"drug_name\": \"Doxycycline\", \"adverse_events\": [\"fever\", \"swollen glands\", \"body aches\"]}"
+    },
+    {
+        "input": "John Davis,\njohn.davis@email.com\n123 Maple Lane, San Francisco, CA 94101,\n555-123-9876, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been on Enbrel for ankylosing spondylitis and noticed pain, redness, and swelling at the injection site. Is this something I should be concerned about? Thank you, John Davis",
+        "output": "{\"drug_name\": \"Enbrel\", \"adverse_events\": [\"pain at injection site\", \"redness at injection site\", \"swelling at injection site\"]}",
+        "prediction": "{\"drug_name\": \"Enbrel\", \"adverse_events\": [\"pain at injection site\", \"redness at injection site\", \"swelling at injection site\"]}"
+    },
+    {
+        "input": "Ethan White\nethan.white@email.com\n456 Elm Avenue, New York, NY 10001\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: Since starting Protonix, I've experienced persistent diarrhea and joint pain. Is this a known side effect of the medication?",
+        "output": "{\"drug_name\": \"Protonix\", \"adverse_events\": [\"persistent diarrhea\", \"joint pain\"]}",
+        "prediction": "{\"drug_name\": \"Protonix\", \"adverse_events\": [\"persistent diarrhea\", \"joint pain\"]}"
+    },
+    {
+        "input": "Karen Green\nkaren.green@email.com\n789 Oakwood Road, Houston, TX 77001\n555-678-9012, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been taking Prezista for my HIV, and I've been experiencing upper stomach pain that may spread to my back and nausea. Is this a known side effect?",
+        "output": "{\"drug_name\": \"Prezista\", \"adverse_events\": [\"upper stomach pain\", \"nausea\"]}",
+        "prediction": "{\"drug_name\": \"Prezista\", \"adverse_events\": [\"upper stomach pain\", \"nausea\"]}"
+    },
+    {
+        "input": "Emily Anderson,\nemily.anderson@email.com\n123 Elm Street, Springfield, IL 62701,\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I have been using Enbrel for my rheumatoid arthritis, and recently, I've developed a severe skin rash with redness and itching. Is this a common side effect of Enbrel? Regards, Emily Anderson",
+        "output": "{\"drug_name\": \"Enbrel\", \"adverse_events\": [\"severe skin rash\", \"redness\", \"itching\"]}",
+        "prediction": "{\"drug_name\": \"Enbrel\", \"adverse_events\": [\"severe skin rash\", \"redness\", \"itching\"]}"
+    },
+    {
+        "input": "Madison Evans\nmadison.evans@email.com\n654 Cedar Drive, Phoenix, AZ 85001\n555-345-6789, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been using Symbicort, and it's causing me to experience shortness of breath. This is worrisome as it's supposed to help with breathing issues.",
+        "output": "{\"drug_name\": \"Symbicort\", \"adverse_events\": [\"shortness of breath\"]}",
+        "prediction": "{\"drug_name\": \"Symbicort\", \"adverse_events\": [\"shortness of breath\"]}"
+    },
+    {
+        "input": "Sarah Johnson\nsarah.johnson@email.com\n123 Elm Street, New York, NY 10001\n555-123-4567, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I received Rituximab treatment for non-Hodgkin's lymphoma, and I developed a severe skin rash with blistering and peeling. Is this a known side effect?",
+        "output": "{\"drug_name\": \"Rituximab\", \"adverse_events\": [\"severe skin rash\", \"blistering\", \"peeling\"]}",
+        "prediction": "{\"drug_name\": \"Rituximab\", \"adverse_events\": [\"severe skin rash\", \"blistering\", \"peeling\"]}"
+    },
+    {
+        "input": "Michael Johnson,\nmjohnson@example.com\n2525 Birch Avenue, Riverside, CA 92507,\n951-555-2525, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I'm taking Celexa and have recently had a seizure. Is this a known side effect of the medication? Regards, Michael Johnson",
+        "output": "{\"drug_name\": \"Celexa\", \"adverse_events\": [\"seizure\"]}",
+        "prediction": "{\"drug_name\": \"Celexa\", \"adverse_events\": [\"seizure\"]}"
+    },
+    {
+        "input": "Daniel Clark\ndaniel.clark@example.com\n666 Elm Street, Denver, CO 80201\n3035551111, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been prescribed Lipitor, and I've noticed a persistent metallic taste in my mouth. It's quite unpleasant, and I'm concerned about this taste being related to the medication. Can you provide some guidance?",
+        "output": "{\"drug_name\": \"Lipitor\", \"adverse_events\": [\"persistent metallic taste\", \"unpleasant taste\"]}",
+        "prediction": "{\"drug_name\": \"Lipitor\", \"adverse_events\": [\"persistent metallic taste in mouth\"]}"
+    }
+]
