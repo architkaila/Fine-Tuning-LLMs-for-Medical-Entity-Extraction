@@ -30,7 +30,7 @@ from scripts.prepare_entity_extraction_data import generate_prompt
 eval_interval = 100
 save_interval = 100
 eval_iters = 100
-eval_max_new_tokens = 100
+eval_max_new_tokens = 38
 log_interval = 1
 devices = 1
 
