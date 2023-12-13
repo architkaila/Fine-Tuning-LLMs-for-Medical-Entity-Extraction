@@ -4,9 +4,9 @@
 
 ## Project Overview ⭐
 
-The pharmaceutical industry heavily relies on accurately processing adverse event reports, a task traditionally done manually and prone to inefficiencies. The automation of medical entity extraction, particularly `drug names` and `side effects`, is essential for enhancing patient safety and compliance. Current systems, while adept at identifying general information like patient name, age, address and other demographics, struggle with specialized medical terminology, creating a pressing need for more advanced solutions.
+The pharmaceutical industry heavily relies on accurately processing adverse event reports, a task traditionally done manually and prone to inefficiencies. The automation of `Medical Entity Extraction`, particularly `drug names` and `side effects`, is essential for enhancing patient safety and compliance. Current systems, while adept at identifying general information like patient name, age, address and other demographics, struggle with specialized medical terminology, creating a pressing need for more advanced solutions.
 
-The goal of this project was to explore and implement methods for `fine-tuning` Large Language Models `(LLMs)` such as Llama2 and StableLM for the specific task of extracting medical entities from adverse event report (emails only). By fine-tuning these models on a synthetic dataset, derived from top drug information on Drugs.com, the aim was to surpass traditional entity recognition methods in accuracy and efficiency. This approach aims to streamline the entity extraction process and enhance the reliability and timeliness of data on drug adverse events, thereby offering potential improvements in medical data analysis practices.
+The goal of this project was to explore and implement methods for `fine-tuning` Large Language Models `(LLMs)` such as `Llama2` and `StableLM` for the specific task of extracting medical entities from adverse event report (for now emails only). By fine-tuning these models on a synthetic dataset, derived from drug information on Drugs.com, the aim was to surpass traditional entity recognition methods in accuracy and efficiency. This approach aims to streamline the entity extraction process and enhance the reliability and timeliness of data on drug adverse events, thereby offering potential improvements in medical data analysis practices.
 
 &nbsp;
 ## Data Sources 💾 
@@ -54,7 +54,7 @@ python scripts/scrape_drugs_data.py
 &nbsp;    
 ### **Synthetic Dataset Generation for Fine-Tuning**
 
-Using the scraped drug information, synthetic `adverse event report emails` were generated. These emails simulate real-world data while ensuring that no real patient data or personally identifiable information was used. The generation process was carried out using prompts designed to guide `ChatGPT` in creating realistic and relevant data scenarios for training purposes. The prompt template used can be found in the data folder and is as follows:  
+Using the scraped drug information, synthetic `Adverse Event Reports (emails)` were generated. These emails simulate real-world data while ensuring that no real patient data or personally identifiable information was used. The generation process was carried out using prompts designed to guide `ChatGPT` in creating realistic and relevant data scenarios for training purposes. The prompt template used can be found in the data folder and is as follows:  
 ```
 Act as an expert Analyst with 20+ years of experience in Pharma and Healthcare industry. You have to generate Adverse Event Reports in JSON format just like the following example:
 
@@ -96,7 +96,7 @@ The python script to generate synthetic data can be found in the `scripts` folde
 ```
 python scripts/data-prepare.py 
 ```
-**2. Run the data aggrgatation script to prepare train and test splits:** 
+**2. Run the data aggregation script to prepare train and test splits:** 
 ```
 python scripts/combine-data.py 
 ```
@@ -125,7 +125,7 @@ In this approach, only a limited set of weights are fine-tuned on the Synthetic 
 
 The data is first prepared by tokenizing the text data and converting it into a torch dataset. The model is then fine-tuned on the data using the [Lightning](https://www.pytorchlightning.ai/) framework.
 
-The model is fine-tuned on a 1 GPU (48GB) for 5 epochs. The data preparation and fine-tuning scripts can be found in the `scripts` and `finetune` folders respectively. Assuming you are in the same conda environment as the previous step, the python script can be run as follows:
+The model is fine-tuned on 1 GPU (48GB) for 5 epochs. The data preparation and fine-tuning scripts can be found in the `scripts` and `finetune` folders respectively. Assuming you are in the same conda environment as the previous step, the python script can be run as follows:
 
 **1. Prepare data for fine-tuning (Stable-LM):** 
 ```
@@ -159,7 +159,7 @@ In this approach, only a limited set of weights are fine-tuned on the Synthetic 
 
 The data is first prepared by tokenizing the text data and converting it into a torch dataset. The model is then fine-tuned on the data using the [Lightning](https://www.pytorchlightning.ai/) framework.
 
-The model is fine-tuned on a 1 GPU (24GB) for 5 epochs. The data preparation and fine-tuning scripts can be found in the `scripts` and `finetune` folders respectively. Assuming you are in the same conda environment as the previous step, the python script can be run as follows:
+The model is fine-tuned on 1 GPU (24GB) for 5 epochs. The data preparation and fine-tuning scripts can be found in the `scripts` and `finetune` folders respectively. Assuming you are in the same conda environment as the previous step, the python script can be run as follows:
 
 **1. Prepare data for fine-tuning (Stable-LM):** 
 ```
@@ -189,17 +189,21 @@ Based on the evaluation, the following table shows the performance of the differ
 
 | Model Type | Training Technique | Precision | Recall |
 | --- | :---: | :---: | :---: |
-| Llama-2-7b-hf | Base Model | 100% | 0% |
+| Llama-2-7b-hf | Base Model | 0.00 | 0.00 |
 | Llama-2-7b-hf | PEFT (LoRA) | 20% | 40% |
 | Llama-2-7b-hf | PEFT (Adapter) | 20% | 40% |
-| stablelm-base-alpha-3b  | Base Model | 100% | 0% |
+| stablelm-base-alpha-3b  | Base Model | 0.00 | 0.00 |
 | stablelm-base-alpha-3b  | PEFT (LoRA) | 20% | 40% |
 | stablelm-base-alpha-3b  | PEFT (Adapter) | 20% | 40% |  
+
+The base models were not able to identify any of the entities in the test dataset properly. Somtimes with few shot learning prompts, the base models were able to identify the entities but their results were not structured properly or parsable. The fine-tuned models on the other hand were able to identify the entities very well. The performance of the fine-tuned models was similar for both the PEFT techniques. The 7 Billion parameter Llama-2 model performed slightly better than the 3 Billion parameter Stable-LM model.  
 
 &nbsp;  
 ## Future Work 📈  
 
-Potential future developments include creating a user-friendly interface or tool that leverages these fine-tuned models. Such a tool would be invaluable for pharmaceutical companies and medical professionals, enabling efficient and accurate extraction of medical entities from various reports. We also plan to include more variety in the data, including more drugs and more side effects. We can also look into pre-training the LLMs on a larger biomedical dataset and then fine-tuning them on the real world medical adverse event reports. This will help the model learn more about the different types of medical entities and improve its performance.  
+* Potential future developments include creating a user-friendly interface or tool that leverages these fine-tuned models. Such a tool would be invaluable for pharmaceutical companies and medical professionals, enabling efficient and accurate extraction of medical entities from various reports. 
+* We also plan to include more variety in the data, including more drugs and more side effects.
+* We can also look into pre-training the LLMs on a larger biomedical dataset and then fine-tuning them on the real world medical adverse event reports. This will help the model learn more about the different types of medical entities and improve its performance.  
 
 &nbsp;  
 ## Project Structure 🧬  
