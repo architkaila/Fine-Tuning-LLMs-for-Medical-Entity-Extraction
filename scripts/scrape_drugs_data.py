@@ -2,31 +2,60 @@ import requests
 from bs4 import BeautifulSoup
 import html2text
 from multiprocessing import Pool
-from config import DRUG_LIST
 
 def extract_section_by_id(soup, section_id):
+    """
+    Extracts the section with the given ID from the HTML content. 
+
+    Args:
+        soup (BeautifulSoup): BeautifulSoup object containing the HTML content
+        section_id (str): ID of the section to be extracted
+
+    Returns:
+        str: HTML content of the section
+    """
+    
+    # Find the section with the given ID
     section = soup.find('h2', id=section_id)
+    
+    # If section is not found, return an error message
     if not section:
         return f"Section with ID '{section_id}' not found."
 
+    # Extract the content of the section
     content = []
     for sibling in section.next_siblings:
+        # Stop at the next section
         if sibling.name == 'h2':
             break
+        # Extract the text if the sibling is a paragraph or list
         if sibling.name in ['p', 'ul', 'ol', 'div']:
             content.append(str(sibling))
     
     return ' '.join(content)
 
 def scrape_website(args):
+    """
+    Scrapes the drugs.com website for the given drug name and saves the extracted text to a file.
+
+    Args:
+        args (tuple): Tuple containing the URL and drug name
+
+    Returns:
+        None
+    """
+    # Unpack the arguments
     url, drug_name = args
     print(f"[INFO] Processing: {drug_name}")
+    
+    # Fetch the HTML content
     try:
         response = requests.get(url)
+        # If the request fails, return an error message
         if response.status_code != 200:
             print(f"[ERROR] Failed to fetch {url} with status code {response.status_code}")
             return
-
+        # Parse the HTML content
         soup = BeautifulSoup(response.content, 'html.parser')
     except Exception as e:
         print(f"[ERROR] Exception while fetching {url}: {e}")
@@ -42,6 +71,7 @@ def scrape_website(args):
 
     # Extract and convert HTML to text for each section
     file_content = ''
+    # Extract the sections one by one
     for section_id in section_ids:
         section_html = extract_section_by_id(soup, section_id)
         section_text = h.handle(section_html)
@@ -55,6 +85,21 @@ def scrape_website(args):
     print(f"[INFO] Processed {drug_name} Successfully")
 
 if __name__ == "__main__":
+    ## List of drugs to be scrape from drugs.com
+    DRUG_LIST = ["abilify", "infliximab", "rituximab", "etanercept",
+                "Humira", "Enbrel", "Remicade", "Rituxan",
+                "Nexium", "Prevacid", "Prilosec", "Protonix",
+                "Crestor", "Lipitor", "Zocor", "Vytorin", 
+                "Victoza", "Byetta", "Januvia", "Onglyza",
+                "Advair", "Symbicort", "Spiriva", "Singulair",
+                "Cialis", "Viagra", "Levitra", "Staxyn",
+                "AndroGel", "Prezista", "Doxycycline", "Cymbalta",
+                "Neupogen", "Epogen", "Aranesp", "Neulasta",
+                "Lunesta", "Ambien", "Provigil", "Nuvigil",
+                "Metoprolol", "Lisinopril", "Amlodipine", "Atorvastatin",
+                "Zoloft", "Lexapro", "Prozac", "Celexa",
+                "Complera", "Atripla"]
+
     # Prepare a list of tuples for the Pool
     tasks = [(f"https://www.drugs.com/{drug}.html", drug) for drug in DRUG_LIST]
 

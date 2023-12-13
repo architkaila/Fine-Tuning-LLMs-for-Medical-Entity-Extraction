@@ -4,12 +4,12 @@ Act as an expert Analyst with 20+ years of experience in Pharma and Healthcare i
         "input": "Nicole Moore
                 moore123nicole@hotmail.com
                 32 McMurray Court, Columbia, SC 41250
-                9840105113, United States 
+                1840105113, United States 
                 
                 Relationship to XYZ Pharma Inc.: Patient or Caregiver
                 Reason for contacting: Adverse Event
                 
-                Message: Yes, I have been taking Mylan’s brand of Metroprolol for two years now and with no problem. I recently had my prescription refilled with the same Mylan Metoprolol and I’m having a hard time sleeping at night along with running nose. Did you possibly change something with the pill...possibly different fillers? The pharmacist at CVS didn’t have any information for me. Thank you, Nicole Moore", 
+                Message: Yes, I have been taking Metroprolol for two years now and with no problem. I recently had my prescription refilled with the same Metoprolol and I’m having a hard time sleeping at night along with running nose. Did you possibly change something with the pill...possibly different fillers? The pharmacist at CVS didn’t have any information for me. Thank you, Nicole Moore", 
         "output": {
             "drug_name":"Metroprolol",
             "adverse_events": ["hard time sleeping at night", "running nose"]
