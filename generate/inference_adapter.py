@@ -21,7 +21,7 @@ import os
 ## Add the lit_gpt folder to the path
 sys.path.insert(0, os.path.abspath('../'))
 
-from generate.base import generate
+from base import generate
 from lit_gpt import Tokenizer
 from lit_gpt.adapter_v2 import GPT, Block, Config
 from lit_gpt.utils import check_valid_checkpoint_dir, get_default_supported_precision, gptq_quantization, lazy_load
@@ -44,15 +44,15 @@ def generate_prediction(model_type, sample):
     # Check which model to use for prediction
     if model_type == "stablelm":
         print("[INFO] Using StableLM-3B Adapter Fine-tuned")
-        adapter_path: Path = Path("../out/adapter_v2/Stable-LM/entity_extraction/lit_model_adapter_finetuned.pth")
-        checkpoint_dir: Path = Path("../checkpoints/stabilityai/stablelm-base-alpha-3b")
-        predictions_file_name = '../data/predictions-stablelm-adapter.json'
+        adapter_path: Path = Path("out/adapter_v2/Stable-LM/entity_extraction/lit_model_adapter_finetuned.pth")
+        checkpoint_dir: Path = Path("checkpoints/stabilityai/stablelm-base-alpha-3b")
+        predictions_file_name = 'data/predictions-stablelm-adapter.json'
 
     if model_type == "llama2":
         print("[INFO] Using LLaMa-2-7B  Adapter Fine-tuned")
-        adapter_path: Path = Path("../out/adapter_v2/Llama-2/entity_extraction/lit_model_adapter_finetuned.pth")
-        checkpoint_dir: Path = Path("../checkpoints/meta-llama/Llama-2-7b-hf")
-        predictions_file_name = '../data/predictions-llama2-adapter.json'
+        adapter_path: Path = Path("out/adapter_v2/Llama-2/entity_extraction/lit_model_adapter_finetuned.pth")
+        checkpoint_dir: Path = Path("checkpoints/meta-llama/Llama-2-7b-hf")
+        predictions_file_name = 'data/predictions-llama2-adapter.json'
 
     # Set the model parameters
     quantize: Optional[Literal["bnb.nf4", "bnb.nf4-dq", "bnb.fp4", "bnb.fp4-dq", "bnb.int8", "gptq.int4"]] = None
@@ -167,7 +167,7 @@ if __name__ == "__main__":
 
     # Parse the arguments
     parser = argparse.ArgumentParser(description="Entity Extraction Script")
-    parser.add_argument('--input-file', type=str, default='..data/entity_extraction/entity-extraction-test-data.json', help="Path to the test JSON file")
+    parser.add_argument('--input-file', type=str, default='data/entity_extraction/entity-extraction-test-data.json', help="Path to the test JSON file")
     parser.add_argument('--model-type', type=str, choices=['stablelm', 'llama2'], default='stablelm', help="Type of model to use (stablelm or llama2)")
     args = parser.parse_args()
 

@@ -17,11 +17,15 @@ import torch
 from lightning.fabric.plugins import BitsandbytesPrecision
 from lightning.fabric.strategies import FSDPStrategy
 
+# support running without installing as a package
+wd = Path(__file__).parent.parent.resolve()
+sys.path.append(str(wd))
+
 import os
 ## Add the lit_gpt folder to the path
 sys.path.insert(0, os.path.abspath('../'))
 
-from generate.base import generate
+from base import generate
 from lit_gpt import Tokenizer
 from lit_gpt.lora import GPT, Block, Config, merge_lora_weights
 from lit_gpt.utils import check_valid_checkpoint_dir, get_default_supported_precision, gptq_quantization, lazy_load
@@ -44,15 +48,15 @@ def generate_prediction(model_type, sample):
     # Set the model type and the paths
     if model_type == "stablelm":
         print("[INFO] Using StableLM-3B LoRA Fine-tuned")
-        lora_path: Path = Path("../out/lora/Stable-LM/entity_extraction/lit_model_lora_finetuned.pth")
-        checkpoint_dir: Path = Path("../checkpoints/stabilityai/stablelm-base-alpha-3b")
-        predictions_file_name = '../data/predictions-stablelm-lora.json'
+        lora_path: Path = Path("out/lora/Stable-LM/entity_extraction/lit_model_lora_finetuned.pth")
+        checkpoint_dir: Path = Path("checkpoints/stabilityai/stablelm-base-alpha-3b")
+        predictions_file_name = 'data/predictions-stablelm-lora.json'
 
     if model_type == "llama2":
         print("[INFO] Using LLaMa-2-7B  LoRA Fine-tuned")
-        lora_path: Path = Path("../out/lora/Llama-2/entity_extraction/lit_model_lora_finetuned.pth")
-        checkpoint_dir: Path = Path("../checkpoints/meta-llama/Llama-2-7b-hf")
-        predictions_file_name = '../data/predictions-llama2-lora.json'
+        lora_path: Path = Path("out/lora/Llama-2/entity_extraction/lit_model_lora_finetuned.pth")
+        checkpoint_dir: Path = Path("checkpoints/meta-llama/Llama-2-7b-hf")
+        predictions_file_name = 'data/predictions-llama2-lora.json'
 
     # Set the default model parameters
     quantize: Optional[Literal["bnb.nf4", "bnb.nf4-dq", "bnb.fp4", "bnb.fp4-dq", "bnb.int8", "gptq.int4"]] = None
@@ -181,7 +185,7 @@ if __name__ == "__main__":
 
     # Parse the arguments
     parser = argparse.ArgumentParser(description="Entity Extraction Script")
-    parser.add_argument('--input-file', type=str, default='..data/entity_extraction/entity-extraction-test-data.json', help="Path to the test JSON file")
+    parser.add_argument('--input-file', type=str, default='data/entity_extraction/entity-extraction-test-data.json', help="Path to the test JSON file")
     parser.add_argument('--model-type', type=str, choices=['stablelm', 'llama2'], default='stablelm', help="Type of model to use (stablelm or llama2)")
     args = parser.parse_args()
 

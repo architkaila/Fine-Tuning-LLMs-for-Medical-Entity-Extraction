@@ -108,6 +108,11 @@ def create_dataset(folder_path):
     Returns:
         None
     """
+
+    # Create the folder if it doesn't exist
+    if not os.path.exists("data/entity_extraction_reports/"):
+        os.makedirs("data/entity_extraction_reports/")
+
     # Iterate through the files in the folder
     for filename in os.listdir(folder_path):
         if filename.endswith('.txt'):
@@ -132,7 +137,7 @@ def create_dataset(folder_path):
             output_list = json.loads(reports)
 
             # Save the generated data as a JSON file
-            with open(f"../data/entity_extraction_reports/{drug_name}.txt", 'w') as text_file:
+            with open(f"data/entity_extraction_reports/{drug_name}.txt", 'w') as text_file:
                 text_file.write(output_list)
 
 
@@ -142,7 +147,11 @@ if __name__ == '__main__':
 
     # Parse the arguments
     parser = argparse.ArgumentParser(description="Data Preparation Script")
-    parser.add_argument('--folder-path', type=str, default='../data/raw_drug_info/', help="Path to the folder containing the raw Drug Information files scraped form web")
+    parser.add_argument('--folder-path', type=str, default='data/raw_drug_info/', help="Path to the folder containing the raw Drug Information files scraped form web")
     args = parser.parse_args()
+
+    # Create the folder if it doesn't exist
+    if not os.path.exists(args.folder_path):
+        os.makedirs(args.folder_path)
 
     create_dataset(args.folder_path)

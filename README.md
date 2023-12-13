@@ -39,7 +39,7 @@ The python script  to scrape text can be found in the `scripts` folder and can b
 
 **1. Create a new conda environment and activate it:** 
 ```
-conda create --name llms python=3.10
+conda create --name llms python=3.10.13
 conda activate llms
 ```
 **2. Install python package requirements:** 
@@ -112,7 +112,24 @@ These scripts will generate a supervised dataset with `input` and `output` pairs
 
 In this project, two Large Language Models (LLMs), `Llama2` and `StableLM`, were fine-tuned using techniques such as `Parameter Efficient Fine-Tuning (PEFT)`, specifically through `Adapter V2` and `LoRA (Low-Rank Adaptation)` methods. PEFT techniques allow for the modification of large models without having to retrain all the parameters, making the fine-tuning process more efficient and resource-friendly. This approach is particularly valuable for tasks that require domain-specific adaptations without losing the broad contextual knowledge the models already possess.
 
-The fine-tuning assess and compares the effectiveness in enhancing the models' performance for medical entity extraction. These approaches were aimed to balance efficiency and precision, ensuring that the models could accurately identify and extract relevant medical information from complex textual data.  
+The fine-tuning assess and compares the effectiveness in enhancing the models' performance for medical entity extraction. These approaches were aimed to balance efficiency and precision, ensuring that the models could accurately identify and extract relevant medical information from complex textual data. 
+
+### **Downloading Pre-trained LLMs**
+Use the following steps to download the pre-trained LLMs from HuggingFace and convert them to a LIT-GPT checkpoint. The checkpoints are stored in the `checkpoints` folder.
+**1. Download the pre-trained LLMs from HuggingFace:** 
+```
+python scripts/download.py --repo_id stabilityai/stablelm-base-alpha-3b
+```  
+```
+python scripts/download.py --repo_id meta-llama/Llama-2-7b-chat-hf --access_token your_hf_token
+```
+**2. Convert the HuggingFace checkpoint to a LIT-GPT checkpoint:** 
+```
+python scripts/convert_hf_checkpoint.py --checkpoint_dir checkpoints/stabilityai/stablelm-base-alpha-3b
+```
+```
+python scripts/convert_hf_checkpoint.py --checkpoint_dir checkpoints/meta-llama/Llama-2-7b-chat-hf
+```
 
 ### **Approach 1: Fine-tuning using LoRA Parameter Efficient Fine-Tuning (PEFT)**
 
@@ -183,12 +200,38 @@ python finetune/adapter_v2.py --checkpoint_dir checkpoints/meta-llama/Llama-2-7b
 ```  
 
 &nbsp;  
+## Model Inference 🧪  
+Once all the models are fine-tuned, the next step is to generate predictions on the test dataset. The predictions of the fine-tuned models can be generated using the following steps:  
+
+**1. Generate predictions for models fine-tuned using Adapter PEFT:** 
+```
+python generate/inference_adapter.py --model-type "stablelm" --input-file "..data/entity_extraction/entity-extraction-test-data.json"
+```
+```
+python generate/inference_adapter.py --model-type "llama2" --input-file "..data/entity_extraction/entity-extraction-test-data.json"
+```  
+
+**2. Generate predictions for models fine-tuned using LoRA PEFT:** 
+```
+python generate/inference_lora.py --model-type "stablelm" --input-file "..data/entity_extraction/entity-extraction-test-data.json"
+```
+```
+python generate/inference_lora.py --model-type "llama2" --input-file "..data/entity_extraction/entity-extraction-test-data.json"
+```  
+
+&nbsp;  
 ## Performance Evaluation and Metrics 📊  
 
 The effectiveness of the fine-tuned models was evaluated based on their precision and recall in identifying medical entities. These metrics provided insights into the models' accuracy and reliability compared to each other when trained using different techniques and to their base versions.
 
 The test dataset which was kept aside during the data generation process was used to evaluate the performance of the fine-tuned models. The test dataset contains 70 samples and the performance of the models was evaluated on precision and recall for the `drug_name` and `adverse_events` entities.
 
+The evaluation script can be found in the `scripts` folder and can be run as follows:  
+```
+python scripts/evaluate.py
+```  
+
+&nbsp;  
 Based on the evaluation, the following table shows the performance of the different models:
 
 | Model Type | Training Technique | Precision | Recall |

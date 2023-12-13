@@ -66,10 +66,10 @@ def calculate_precision_recall(data):
 if __name__ == '__main__':
 
     prediction_files = [
-                '../data/predictions-llama2-adapter.json',   # Llama-2 Adapter
-                '../data/predictions-stablelm-adapter.json', # Stable-LM Adapter
-                '../data/predictions-llama2-lora.json',      # Llama-2 Lora
-                '../data/predictions-stablelm-lora.json',    # Stable-LM Lora
+                'data/predictions-llama2-adapter.json',   # Llama-2 Adapter
+                'data/predictions-stablelm-adapter.json', # Stable-LM Adapter
+                'data/predictions-llama2-lora.json',      # Llama-2 Lora
+                'data/predictions-stablelm-lora.json',    # Stable-LM Lora
                 ]
     
     for filename in prediction_files:

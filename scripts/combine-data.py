@@ -2,7 +2,7 @@ import os
 import json
 import random
 
-def genrate_train_test_data(folder_path = '../data/entity_extraction_reports/'):
+def genrate_train_test_data(folder_path = 'data/entity_extraction_reports/'):
     """
     Generate train and test data from the JSON files in the given folder path.
 
@@ -12,6 +12,11 @@ def genrate_train_test_data(folder_path = '../data/entity_extraction_reports/'):
     Returns:
         None
     """
+
+    # Create the folder if it doesn't exist
+    if not os.path.exists("data/entity_extraction"):
+        os.makedirs("data/entity_extraction")
+    
     # Initialize an empty list to store JSON objects
     json_objects = []
 
@@ -44,16 +49,16 @@ def genrate_train_test_data(folder_path = '../data/entity_extraction_reports/'):
     test_data = json_objects[700:]   # Last 59 objects for testing
 
     # Write the train data to a file
-    with open('../data/entity_extraction/entity-extraction-train-data.json', 'w') as file:
+    with open('data/entity_extraction/entity-extraction-train-data.json', 'w') as file:
         json.dump(train_data, file, indent=4)
 
     # Write the test data to a file
-    with open('../data/entity_extraction/entity-extraction-test-data.json', 'w') as file:
+    with open('data/entity_extraction/entity-extraction-test-data.json', 'w') as file:
         json.dump(test_data, file, indent=4)
 
 if __name__ == '__main__':
     # Replace 'folder_path' with the actual path to your folder containing text files
-    folder_path = '../data/entity_extraction_reports/'
+    folder_path = 'data/entity_extraction_reports/'
 
     # Call the function
     genrate_train_test_data(folder_path)

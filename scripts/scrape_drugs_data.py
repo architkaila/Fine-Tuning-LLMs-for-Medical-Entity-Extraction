@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import html2text
 from multiprocessing import Pool
+import os
 
 def extract_section_by_id(soup, section_id):
     """
@@ -80,7 +81,7 @@ def scrape_website(args):
         file_content += section_text + "\n\n"
 
     # Write the extracted text to a file
-    file_name = f"../data/raw_drug_info/{drug_name}.txt"
+    file_name = f"data/raw_drug_info/{drug_name}.txt"
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(file_content)
 
@@ -101,6 +102,9 @@ if __name__ == "__main__":
                 "Metoprolol", "Lisinopril", "Amlodipine", "Atorvastatin",
                 "Zoloft", "Lexapro", "Prozac", "Celexa",
                 "Complera", "Atripla"]
+    
+    if not os.path.exists("data/raw_drug_info/"):
+        os.makedirs("data/raw_drug_info/")
 
     # Prepare a list of tuples for the Pool
     tasks = [(f"https://www.drugs.com/{drug}.html", drug) for drug in DRUG_LIST]
