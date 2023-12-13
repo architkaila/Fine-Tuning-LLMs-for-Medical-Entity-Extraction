@@ -1,3 +1,5 @@
+## This script scrapes the drugs.com website for the given drug name and saves the extracted text to a file.
+
 import requests
 from bs4 import BeautifulSoup
 import html2text
@@ -78,7 +80,7 @@ def scrape_website(args):
         file_content += section_text + "\n\n"
 
     # Write the extracted text to a file
-    file_name = f"./data/{drug_name}.txt"
+    file_name = f"../data/raw_drug_info/{drug_name}.txt"
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(file_content)
 

@@ -4,6 +4,10 @@
 import json
 import sys
 from pathlib import Path
+## This script is modified from the original script from lit-gpt package from Lightning Ai.
+## The original script is available at https://github.com/Lightning-AI/lit-gpt
+## This script prepares the data for fine-tuning llms on entity extraction task
+
 from typing import Optional
 
 import requests
@@ -97,15 +101,12 @@ def prepare_sample(example: dict, tokenizer: Tokenizer, max_length: int, mask_in
     """Processes a single sample.
 
     Each sample in the dataset consists of:
-    - instruction: A string describing the task
-    - input: A string holding a special input value for the instruction.
-        This only applies to some samples, and in others this is empty.
-    - output: The response string
+    - input: A string containing adverse event description (email)
+    - output: The response string with the entity extracted from the input
 
     This function processes this data to produce a prompt text and a label for
-    supervised training. The prompt text is formed as a single message including both
-    the instruction and the input. The label/target is the same message but with the
-    response attached.
+    supervised training. The prompt text is the input form the sample. The label/target is the same message but with the
+    output attached.
 
     Finally, both the prompt and the label get tokenized. If desired, all tokens
     in the label that correspond to the original input prompt get masked out (default).
@@ -129,7 +130,7 @@ def prepare_sample(example: dict, tokenizer: Tokenizer, max_length: int, mask_in
 
 
 def generate_prompt(example: dict) -> str:
-    """Generates a standardized message to prompt the model with an instruction, optional input and a
+    """Generates a standardized message to prompt the model with an input and a
     'response' field."""
     
     # Prepare the prompt for entity extraction

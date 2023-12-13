@@ -1,3 +1,6 @@
+## This script is adapted from: https://github.com/Lightning-AI/lit-gpt
+## This script is used to convert the HF checkpoint to the LIT checkpoint
+
 import gc
 import json
 import sys

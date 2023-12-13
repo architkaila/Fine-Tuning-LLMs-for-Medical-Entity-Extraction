@@ -1,3 +1,6 @@
+## This script is used to finetune the adapter v2 model on the entity extraction task.
+## This script is adapted from the original script in the LIT repository: https://github.com/Lightning-AI/lit-gpt
+
 import os
 import sys
 import time
@@ -55,6 +58,18 @@ def setup(
     out_dir: Path = Path("out/adapter_v2/Stable-LM/entity_extraction"),
     precision: Optional[str] = None,
 ) -> None:
+    """
+    Finetune the adapter v2 model on the entity extraction task.
+
+    Args:
+        data_dir (Path): Path to the directory containing the dataset.
+        checkpoint_dir (Path): Path to the directory containing the checkpoint.
+        out_dir (Path): Path to the directory to save the finetuned model.
+        precision (str): Precision to use for training. Defaults to None.
+    
+    Returns:
+        None
+    """
     precision = precision or get_default_supported_precision(training=True)
 
     fabric_devices = devices
@@ -76,6 +91,18 @@ def setup(
 
 
 def main(fabric: L.Fabric, data_dir: Path, checkpoint_dir: Path, out_dir: Path) -> None:
+    """
+    Finetune the adapter v2 model on the entity extraction task.
+
+    Args:
+        fabric (Fabric): Fabric object.
+        data_dir (Path): Path to the directory containing the dataset.
+        checkpoint_dir (Path): Path to the directory containing the checkpoint.
+        out_dir (Path): Path to the directory to save the finetuned model.
+
+    Returns:
+        None
+    """
     check_valid_checkpoint_dir(checkpoint_dir)
 
     fabric.seed_everything(1337)  # same seed for every process to init model (FSDP)
@@ -88,6 +115,7 @@ def main(fabric: L.Fabric, data_dir: Path, checkpoint_dir: Path, out_dir: Path) 
 
     config = Config.from_name(name=checkpoint_dir.name)
     checkpoint_path = checkpoint_dir / "lit_model.pth"
+    
     fabric.print(f"Loading model {str(checkpoint_path)!r} with {config.__dict__}")
     with fabric.init_module(empty_init=False):
         model = GPT(config)
@@ -126,6 +154,21 @@ def train(
     checkpoint_dir: Path,
     out_dir: Path,
 ) -> None:
+    """
+    Finetune the adapter v2 model on the entity extraction task. This function trains the model.
+
+    Args:
+        fabric (Fabric): Fabric object.
+        model (GPT): The model to finetune.
+        optimizer (torch.optim.Optimizer): Optimizer to use for training.
+        train_data (List[Dict]): Training data.
+        val_data (List[Dict]): Validation data.
+        checkpoint_dir (Path): Path to the directory containing the checkpoint.
+        out_dir (Path): Path to the directory to save the finetuned model.
+
+    Returns:
+        None
+    """
     tokenizer = Tokenizer(checkpoint_dir)
     longest_seq_length, longest_seq_ix = get_longest_seq_length(train_data)
     model.max_seq_length = min(longest_seq_length, max_seq_length or float("inf"))
@@ -192,8 +235,22 @@ def train(
 # the adapter "kv cache" cannot be initialized under `inference_mode`
 @torch.no_grad()
 def validate(fabric: L.Fabric, model: GPT, val_data: List[Dict], tokenizer: Tokenizer, max_iters: int) -> torch.Tensor:
+    """
+    Finetune the adapter v2 model on the entity extraction task. This function validates the model.
+
+    Args:
+        fabric (Fabric): Fabric object.
+        model (GPT): The model to finetune.
+        val_data (List[Dict]): Validation data.
+        tokenizer (Tokenizer): Tokenizer to use for tokenizing the input.
+        max_iters (int): Maximum number of iterations to run.
+
+    Returns:
+        torch.Tensor: Validation loss.
+    """
     fabric.print("Validating ...")
     model.eval()
+    
     losses = torch.zeros(max_iters)
     for k in range(max_iters):
         input_ids, targets = get_batch(fabric, val_data)
@@ -202,11 +259,10 @@ def validate(fabric: L.Fabric, model: GPT, val_data: List[Dict], tokenizer: Toke
     val_loss = losses.mean()
 
     # produce an example:
-    #instruction = "Recommend a movie for me to watch during the weekend and explain the reason."
-    #fabric.print(instruction)
     sample = {"input": "Robert Johnson\nrobert.johnson@email.com\n789 Maple Lane, Chicago, IL 60601\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Onglyza for a while, and I've noticed that I'm experiencing frequent painful urination. Is this a known side effect?"}
     prompt = generate_prompt(sample)
     encoded = tokenizer.encode(prompt, device=fabric.device)
+    
     with fabric.init_tensor():
         # do not set `max_seq_length=max_returned_token` because memory is not a concern here
         model.set_kv_cache(batch_size=1)
@@ -222,6 +278,17 @@ def validate(fabric: L.Fabric, model: GPT, val_data: List[Dict], tokenizer: Toke
 def get_batch(
     fabric: L.Fabric, data: List[Dict], longest_seq_ix: Optional[int] = None
 ) -> Tuple[torch.Tensor, torch.Tensor]:
+    """
+    This function gets a batch of data.
+
+    Args:
+        fabric (Fabric): Fabric object.
+        data (List[Dict]): Data to get a batch from.
+        longest_seq_ix (Optional[int]): Index of the longest sequence. Defaults to None.
+
+    Returns:
+        Tuple[torch.Tensor, torch.Tensor]: A batch of data.
+    """
     ix = torch.randint(len(data), (micro_batch_size,))
     if longest_seq_ix is not None:
         # force the longest sample at the beginning so potential OOMs happen right away
@@ -254,6 +321,15 @@ def get_batch(
 
 
 def get_longest_seq_length(data: List[Dict]) -> Tuple[int, int]:
+    """
+    This function gets the longest sequence length.
+
+    Args:
+        data (List[Dict]): Data to get the longest sequence length from.
+
+    Returns:
+        Tuple[int, int]: Longest sequence length and index of the longest sequence.
+    """
     # find out the minimum max_seq_length required during fine-tuning (saves memory!)
     lengths = [len(d["input_ids"]) for d in data]
     longest_seq_length = max(lengths)
@@ -262,6 +338,17 @@ def get_longest_seq_length(data: List[Dict]) -> Tuple[int, int]:
 
 
 def save_adapter_v2_checkpoint(fabric: L.Fabric, model: torch.nn.Module, file_path: Path) -> None:
+    """
+    This function saves the adapter v2 checkpoint.
+
+    Args:
+        fabric (Fabric): Fabric object.
+        model (torch.nn.Module): The model to save.
+        file_path (Path): Path to the file to save the model to.
+
+    Returns:
+        None
+    """
     fabric.print(f"Saving adapter v2 weights to {str(file_path)!r}")
     fabric.save(file_path, {"model": model}, filter={"model": adapter_filter})
 

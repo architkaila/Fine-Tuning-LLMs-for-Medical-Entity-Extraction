@@ -1,3 +1,7 @@
+## This script is used to finetune the model on the entity extraction task using LoRA
+## This script is adapted from the original script in the LIT repository: https://github.com/Lightning-AI/lit-gpt
+
+
 import os
 import sys
 import time
@@ -64,6 +68,19 @@ def setup(
     precision: Optional[str] = None,
     quantize: Optional[Literal["bnb.nf4", "bnb.nf4-dq", "bnb.fp4", "bnb.fp4-dq", "bnb.int8-training"]] = None,
 ) -> None:
+    """
+    This script is used to finetune the model on the entity extraction task using LoRA
+
+    Args:
+        data_dir: Path to the data directory containing the train.pt and test.pt files
+        checkpoint_dir: Path to the directory containing the pre-trained model checkpoint
+        out_dir: Path to the directory where the finetuned model will be saved
+        precision: Precision to use for training
+        quantize: Quantization to use for training
+
+    Returns:
+        None
+    """
     precision = precision or get_default_supported_precision(training=True)
 
     plugins = None
@@ -97,6 +114,18 @@ def setup(
 
 
 def main(fabric: L.Fabric, data_dir: Path, checkpoint_dir: Path, out_dir: Path) -> None:
+    """
+    Main function for finetuning the model on the entity extraction task using LoRA
+
+    Args:
+        fabric: Lightning Fabric object
+        data_dir: Path to the data directory containing the train.pt and test.pt files
+        checkpoint_dir: Path to the directory containing the pre-trained model checkpoint
+        out_dir: Path to the directory where the finetuned model will be saved
+
+    Returns:    
+        None
+    """
     check_valid_checkpoint_dir(checkpoint_dir)
 
     fabric.seed_everything(1337)  # same seed for every process to init model (FSDP)
@@ -168,6 +197,22 @@ def train(
     checkpoint_dir: Path,
     out_dir: Path,
 ) -> None:
+    """
+    Function for training the model on the entity extraction task using LoRA
+
+    Args:
+        fabric: Lightning Fabric object
+        model: GPT model
+        optimizer: Optimizer for training
+        scheduler: Learning rate scheduler
+        train_data: Training data
+        val_data: Validation data
+        checkpoint_dir: Path to the directory containing the pre-trained model checkpoint
+        out_dir: Path to the directory where the finetuned model will be saved
+
+    Returns:
+        None
+    """
     tokenizer = Tokenizer(checkpoint_dir)
     longest_seq_length, longest_seq_ix = get_longest_seq_length(train_data)
     model.max_seq_length = min(longest_seq_length, max_seq_length or float("inf"))
@@ -236,8 +281,22 @@ def train(
 # FSDP has issues with `inference_mode`
 @torch.no_grad()
 def validate(fabric: L.Fabric, model: GPT, val_data: List[Dict], tokenizer: Tokenizer, max_iters: int) -> torch.Tensor:
+    """
+    Function for validating the model on the entity extraction task using LoRA
+
+    Args:
+        fabric: Lightning Fabric object
+        model: GPT model
+        val_data: Validation data
+        tokenizer: Tokenizer
+        max_iters: Maximum number of iterations
+
+    Returns:
+        val_loss: Validation loss
+    """
     fabric.print("Validating ...")
     model.eval()
+    
     losses = torch.zeros(max_iters)
     for k in range(max_iters):
         input_ids, targets = get_batch(fabric, val_data)
@@ -246,10 +305,9 @@ def validate(fabric: L.Fabric, model: GPT, val_data: List[Dict], tokenizer: Toke
     val_loss = losses.mean()
 
     # produce an example:
-    #instruction = "Recommend a movie for me to watch during the weekend and explain the reason."
-    #fabric.print(instruction)
     sample = {"input": "Robert Johnson\nrobert.johnson@email.com\n789 Maple Lane, Chicago, IL 60601\n555-234-5678, United States\n\nRelationship to XYZ Pharma Inc.: Patient\nReason for contacting: Adverse Event\n\nMessage: I've been on Onglyza for a while, and I've noticed that I'm experiencing frequent painful urination. Is this a known side effect?"}
     prompt = generate_prompt(sample)
+    
     encoded = tokenizer.encode(prompt, device=fabric.device)
     with fabric.init_tensor():
         # do not set `max_seq_length=max_returned_token` because memory is not a concern here
@@ -266,6 +324,18 @@ def validate(fabric: L.Fabric, model: GPT, val_data: List[Dict], tokenizer: Toke
 def get_batch(
     fabric: L.Fabric, data: List[Dict], longest_seq_ix: Optional[int] = None
 ) -> Tuple[torch.Tensor, torch.Tensor]:
+    """
+    Function for getting a batch of data
+
+    Args:   
+        fabric: Lightning Fabric object
+        data: Data
+        longest_seq_ix: Index of the longest sequence
+
+    Returns:
+        x: Input IDs
+        y: Targets
+    """
     ix = torch.randint(len(data), (micro_batch_size,))
     if longest_seq_ix is not None:
         # force the longest sample at the beginning so potential OOMs happen right away
@@ -298,6 +368,16 @@ def get_batch(
 
 
 def get_longest_seq_length(data: List[Dict]) -> Tuple[int, int]:
+    """
+    Function for getting the longest sequence length
+
+    Args:
+        data: Data
+
+    Returns:
+        longest_seq_length: Longest sequence length
+        longest_seq_ix: Index of the longest sequence
+    """
     # find out the minimum max_seq_length required during fine-tuning (saves memory!)
     lengths = [len(d["input_ids"]) for d in data]
     longest_seq_length = max(lengths)
@@ -306,6 +386,17 @@ def get_longest_seq_length(data: List[Dict]) -> Tuple[int, int]:
 
 
 def save_lora_checkpoint(fabric: L.Fabric, model: torch.nn.Module, file_path: Path) -> None:
+    """
+    Function for saving the LoRA checkpoint
+
+    Args:
+        fabric: Lightning Fabric object
+        model: GPT model
+        file_path: Path to the LoRA checkpoint file
+
+    Returns:
+        None
+    """
     fabric.print(f"Saving LoRA weights to {str(file_path)!r}")
     fabric.save(file_path, {"model": model}, filter={"model": lora_filter})
 

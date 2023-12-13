@@ -92,11 +92,15 @@ Following is an example of the generated data:
 ```  
 The python script to generate synthetic data can be found in the `scripts` folder. Assuming you are in the same conda environment as the previous step, the python script can be run as follows:
 
-**1. Run the data generation for preparing dataset:** 
+**1. Create OpenAI and Save in env file:** 
+```
+Rename the env.example file to .env and add your OpenAI API key to the file
+```
+**2. Run the data generation script for preparing dataset using OpenAI's Chat completion API:** 
 ```
 python scripts/data-prepare.py 
 ```
-**2. Run the data aggregation script to prepare train and test splits:** 
+**3. Run the data aggregation script to prepare train and test splits:** 
 ```
 python scripts/combine-data.py 
 ```
@@ -190,13 +194,13 @@ Based on the evaluation, the following table shows the performance of the differ
 | Model Type | Training Technique | Precision | Recall |
 | --- | :---: | :---: | :---: |
 | Llama-2-7b-hf | Base Model | 0.00 | 0.00 |
-| Llama-2-7b-hf | PEFT (LoRA) | 20% | 40% |
-| Llama-2-7b-hf | PEFT (Adapter) | 20% | 40% |
+| Llama-2-7b-hf | PEFT (LoRA) | 0.87 | 0.85 |
+| **Llama-2-7b-hf** | **PEFT (Adapter)** | **0.88** | **0.89** |
 | stablelm-base-alpha-3b  | Base Model | 0.00 | 0.00 |
-| stablelm-base-alpha-3b  | PEFT (LoRA) | 20% | 40% |
-| stablelm-base-alpha-3b  | PEFT (Adapter) | 20% | 40% |  
+| stablelm-base-alpha-3b  | PEFT (LoRA) | 0.81 | 0.82 |
+| stablelm-base-alpha-3b  | PEFT (Adapter) | 0.85 | 0.83 |  
 
-The base models were not able to identify any of the entities in the test dataset properly. Somtimes with few shot learning prompts, the base models were able to identify the entities but their results were not structured properly or parsable. The fine-tuned models on the other hand were able to identify the entities very well. The performance of the fine-tuned models was similar for both the PEFT techniques. The 7 Billion parameter Llama-2 model performed slightly better than the 3 Billion parameter Stable-LM model.  
+The base models were not able to identify any of the entities in the test dataset properly. Somtimes with few shot learning prompts, the base models were able to identify the entities but their results were not structured properly or parsable. The fine-tuned models on the other hand were able to identify the entities very well. The performance of the fine-tuned models was similar for both the PEFT techniques. The 7 Billion parameter `Llama-2` model fine-tuned with `PEFT (Adapter)` performed slightly better than the 3 Billion parameter Stable-LM model.  
 
 &nbsp;  
 ## Future Work 📈  
@@ -229,9 +233,9 @@ The project structure is as follows:
     ├── adapter_v2.py                           <- script to fine-tune LLMs using Adapter PEFT
     ├── lora.py                                 <- script to fine-tune LLMs using LoRA PEFT
 ├── generate                                    <- directory for inference scripts
-    ├── base.py                                 <- script to generate predictions using base LLMs
-    ├── adapter_v2.py                           <- script to generate predictions using Adapter PEFT
-    ├── lora.py                                 <- script to generate predictions using LoRA PEFT
+    ├── inference_adapter.py                    <- script to generate predictions using Adapter PEFT
+    ├── inference_base.py                       <- script to generate predictions using base LLMs
+    ├── inference_lora.py                       <- script to generate predictions using LoRA PEFT
 ├── lit_gpt                                     <- directory for LIT-GPT Framework code
 ├── notebooks                                   <- directory to store any exploration notebooks used
 ├── performance_testing                         <- directory to store performance testing data
